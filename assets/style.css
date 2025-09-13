@@ -19,7 +19,7 @@ h1 {
   font-family: "Georgia", "Times New Roman", serif; /* Classic serif stack */
   font-size: 2.5em;                                /* Larger title size */
   font-weight: bold;
-  color: rgb(237, 28, 36);                         /* Red for H1 */
+  color: rgb(235, 28, 36);                         /* Red for H1 */
   text-align: center;
   margin: 0;
 }
