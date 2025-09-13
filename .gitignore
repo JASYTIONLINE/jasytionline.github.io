@@ -68,3 +68,13 @@ coverage/
 
 # --- Node modules (only if you later add a toolchain) ---
 node_modules/
+
+# Temporary system files
+*.bak
+*.old
+
+# Editor backups (common on Windows/Linux)
+*~
+
+# Downloaded assets (keep source clean)
+downloads/
