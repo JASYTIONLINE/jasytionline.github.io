@@ -24,7 +24,7 @@ This project demonstrates fundamentals of version control, structured documentat
 ## 🌐 Quick Links
 - **Website (Live Site):** [https://jasytionline.github.io/](https://jasytionline.github.io/)  
 - **Repository:** [https://github.com/JASYTIONLINE/jasytionline.github.io](https://github.com/JASYTIONLINE/jasytionline.github.io)  
-- **Site Structure Reference:** [JASYTI's Digital Portal - Site Map](content/35-workspace/3301-site-structure.html)  
+- **Site Structure Reference:** [JASYTI's Digital Portal - Site Map](content/3301-site-structure.html)  
 
 ---
 
@@ -41,7 +41,7 @@ This project demonstrates fundamentals of version control, structured documentat
 This repository follows a simplified **class standard**:  
 - `index.html` at the root is the public homepage.  
 - `assets/style.css` provides shared styling.  
-- `content/` contains organized academic sections, mapped to G-3 staff roles:  
+- `content/` wll contain organized academic sections, mapped to G-3 staff roles:  
   - `33-deliverables/` → Deliverables (active, required).  
   - `35-workspace/` → Workspace (active, planning and site-structure reference).  
   - `37-knowledge/` → Knowledge (scaffolded).  
@@ -49,7 +49,7 @@ This repository follows a simplified **class standard**:
   - `39-mwr/` → MWR (scaffolded).  
 
 For the **full detailed tree**, see the [JASYTI's Digital Portal to CMPA 3301 -
-Site Structure Map](content/35-workspace/3301-site-structure.html).  
+Site Structure Map](content/3301-site-structure.html).  
 
 ---
 
