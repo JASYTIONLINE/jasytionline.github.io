@@ -1,0 +1,70 @@
+# === Root: Professional Web/KB Repo (.gitignore) =====================
+# Keep the repo lean and rubric-safe. Add more as needed.
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- local only folders - (not to be uploaded to GH) ---
+.obsidian/
+private/
+
+# --- Logs / temp / cache ---
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+~$*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.cache/
+.tmp/
+
+# --- Environments / secrets (if added later) ---
+.env
+.env.*
+.venv/
+venv/
+
+# --- Build artifacts (if any tooling gets added later) ---
+dist/
+build/
+out/
+coverage/
+
+
+# --- Large media (avoid pushing huge binaries) ---
+# If you *need* media on the public site, export web-optimized versions into /assets/img
+# and commit only those. Keep originals outside the repo.
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.flac
+*.aif
+*.aiff
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.iso
+
+# --- System files from syncing tools ---
+*.sync
+*.part
+*.crdownload
+
+# --- Node modules (only if you later add a toolchain) ---
+node_modules/
