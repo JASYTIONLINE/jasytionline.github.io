@@ -1,0 +1,106 @@
+<!--
+---
+title: Site Structure Plan
+description: Full visual map of the repo with comments, for instructor view.
+date: 2025-09-11
+classification: public
+role: reference
+id: site-structure-v3-expanded
+---
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Site Structure – Rubric-Safe (Expanded)</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <main>
+    <h1>JASYTI's Digital Portal to CMPA 3301</h1>
+    <h2 class="subtitle">Site Structure Map</h2>    
+
+    <h2>Visual Tree</h2>
+    <p>
+      This tree will be the basis for all my future educational repos so I am designing it 
+      to be fully expandable without a major re-write.<br>
+      This is the full planned repository layout, including optional sections 
+      (S-35, S-37, S-38, S-39).<br>
+      Only the <strong>S-35 Workspace (specifically this document in S-35)</strong> 
+      is actually published at this time.
+    </p>  
+
+    <!-- Repo Tree Block -->
+    <pre class="repo-tree"><code>
+repo-root/ <span class="tree-comment">                                      &lt;-- Site Root (GitHub Pages root)</span>
+├─ README.md <span class="tree-comment">                                    &lt;-- Project overview + live links</span>
+├─ .gitignore <span class="tree-comment">                                   &lt;-- Ignore .obsidian/, large files</span>
+├─ LICENSE <span class="tree-comment">                                      &lt;-- Optional</span>
+├─ SECURITY.md <span class="tree-comment">                                  &lt;-- Optional</span>
+├─ CONTRIBUTING.md <span class="tree-comment">                              &lt;-- Optional</span>
+├─ .github/ <span class="tree-comment">                                     &lt;-- GitHub automation/templates</span>
+│  ├─ ISSUE_TEMPLATE.md
+│  ├─ PULL_REQUEST_TEMPLATE.md
+│  └─ workflows/ci.yml
+├─ assets/ <span class="tree-comment">                                      &lt;-- Shared static assets</span>
+│  ├─ style.css <span class="tree-comment">                                 &lt;-- Main stylesheet (required)</span>
+│  ├─ img/ <span class="tree-comment">                                      &lt;-- Images (optional, future use)</span>
+│  └─ js/ <span class="tree-comment">                                       &lt;-- Scripts (optional, future use)</span>
+├─ index.html <span class="tree-comment">                                   &lt;-- PUBLIC HOMEPAGE (root, required)</span>
+└─ content/ <span class="tree-comment">                                     &lt;-- Knowledge Base (optional expansion)</span>
+   ├─ index.md <span class="tree-comment">                                  &lt;-- Master navigation (KB)</span>
+   ├─ index.html <span class="tree-comment">                                &lt;-- Github Site homepage (front facing)</span>
+   │
+   ├─ 33-deliverables/ <span class="tree-comment">                          &lt;-- S-33 Deliverables (active now)</span>
+   │  ├─ index.html
+   │  ├─ index.md
+   │  └─ p02/
+   │     ├─ cr-wk5p2-your-professional-project-repository.md
+   │     ├─ readme-p02.md
+   │     └─ submission/
+   │        ├─ live-site-url.txt <span class="tree-comment">                &lt;-- Link to live site</span>
+   │        └─ repo-url.txt <span class="tree-comment">                     &lt;-- Link to GitHub repo</span>
+   │
+   ├─ 35-workspace/ <span class="tree-comment">                             &lt;-- S-35 Workspace (drafts & builds)</span>
+   │  ├─ index.html
+   │  ├─ index.md
+   │  ├─ drafts/
+   │  └─ builds/
+   │
+   ├─ 37-knowledge/ <span class="tree-comment">                             &lt;-- S-37 Knowledge (course references)</span>
+   │  ├─ index.html
+   │  ├─ index.md
+   │  ├─ references.md
+   │  └─ glossary.md
+   │
+   ├─ 38-supporting-docs/ <span class="tree-comment">                       &lt;-- S-38 Supporting Docs (audit trail)</span>
+   │  ├─ index.html
+   │  ├─ index.md
+   │  ├─ decisions/
+   │  │  └─ ADR-0001-init.md
+   │  └─ evidence/
+   │
+   └─ 39-mwr/ <span class="tree-comment">                                   &lt;-- S-39 MWR (personal learning)</span>
+      ├─ index.html
+      ├─ index.md
+      └─ learning-log.md
+
+# Local-only (do NOT commit)
+#   .obsidian/ <span class="tree-comment">                                  &lt;-- Private workspace for Obsidian, add to .gitignore</span>
+    </code></pre>
+
+    <h2>Notes</h2>
+    <ul>
+      <li><strong>Rubric minimum:</strong> Root <code>index.html</code>, 
+        <code>assets/style.css</code>, <code>33-deliverables</code> with Project 02 files, and <code>README.md</code>.
+      </li>
+      <li>All other sections (35, 37, 38, 39) are optional and can be activated later.</li>
+      <li>This tree shows the professional expansion plan but does not add complexity for grading now.</li>
+    </ul>
+
+    <p><a href="../index.html">⟵ Back to Homepage</a></p>
+  </main>
+</body>
+</html>
