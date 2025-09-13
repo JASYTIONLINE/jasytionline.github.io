@@ -40,14 +40,14 @@ This project demonstrates fundamentals of version control, structured documentat
 
 ## 📂 Repository Overview
 This repository will follow a simplified **class standard**:  
-- `index.html` at the root is the public homepage.  
-- `assets/style.css` provides shared styling.  
-- `content/` wll contain organized academic sections, mapped to G-3 staff roles:  
-  - `33-deliverables/` → Deliverables (active, required).  
-  - `35-workspace/` → Workspace (active, planning and site-structure reference).  
-  - `37-knowledge/` → Knowledge (scaffolded).  
-  - `38-supporting-docs/` → Supporting Docs (scaffolded).  
-  - `39-mwr/` → MWR (scaffolded).  
+- `index.html` at the root is the public homepage.  **(published)**
+- `assets/style.css` provides shared styling.   **(published)**
+- `content/` wll contain organized academic sections, mapped to G-3 staff roles:  **(TBP)**
+  - `33-deliverables/` → Deliverables (active, required).  **(TBP)**
+  - `35-workspace/` → Workspace (active, planning and site-structure reference).  **(published)**
+  - `37-knowledge/` → Knowledge (scaffolded).  **(TBP)**
+  - `38-supporting-docs/` → Supporting Docs (scaffolded).  **(TBP)**
+  - `39-mwr/` → MWR (scaffolded).  (TBP)
 
 For the **full detailed tree**, see the [Site Structure Map](content/35-workspace/3301-site-structure.html)
 
