@@ -1,0 +1,199 @@
+/* =====================================================
+   Global Styles
+   MDN CSS Basics: https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps
+===================================================== */
+body {
+  background-color: rgb(9, 9, 9);   /* Dark page background */
+  font-family: Arial, sans-serif;   /* Clean sans-serif font */
+  line-height: 1.6;                 /* Spacing between lines */
+  margin: 20px;
+  color: white;                     /* Default text color */
+}
+
+/* =====================================================
+   Global Heading 1 (H1)
+   Applies to all H1 tags across the site
+   MDN reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
+===================================================== */
+h1 {
+  font-family: "Georgia", "Times New Roman", serif; /* Classic serif stack */
+  font-size: 2.5em;                                /* Larger title size */
+  font-weight: bold;
+  color: rgb(237, 28, 36);                         /* Red for H1 */
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  color: rgb(220, 123, 11); /* Orange for secondary headers */
+}
+
+h3 {
+ color: rgb(100, 235, 24); /* Green just for the skills list */
+}
+
+p {
+  color: rgb(235, 190, 24); /* Yellow-gold for paragraphs */
+}
+
+ul {
+  color: rgb(100, 235, 24); /* Green list items */
+}
+
+a {
+  color: lightblue;          /* Light blue links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* =====================================================
+   Subtitles
+===================================================== */
+.subtitle {
+  text-align: center;
+  font-style: italic;        /* Italicized for first subtitle */
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.subtitle2 {
+  text-align: center;
+  font-style: normal;        /* Normal style for refrain line */
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* =====================================================
+   Banner (Top Header Section)
+   Applies ONLY to the top name/title banner.
+===================================================== */
+.banner {
+  width: 100%;
+  max-width: 1920px;             /* Cap width at 1920px */
+  padding: 20px;
+  margin: 0 auto;                /* Center banner when maxed */
+  border: 4px solid #EBBE18;     /* Gold border */
+  background-color: #4F0007;     /* Deep red background */
+  text-align: center;
+}
+
+/* =====================================================
+   Dragon + Poem Container
+   Fixed max-height so poem + image balance visually
+   Each side locked to 50% width to prevent overlap.
+===================================================== */
+.dragon-block {
+  display: flex;                 
+  gap: 20px;                     
+  justify-content: center;       
+  align-items: stretch;          /* Both columns fill the same height */
+  width: 100%;
+  max-width: 1920px;             /* Cap width to match banner */
+  max-height: 600px;             /* Cap total height for ~18 lines of poem */
+  margin: 20px auto;
+  padding: 20px;
+  border: 4px solid #EBBE18;     
+  background-color: black;       
+  overflow: hidden;              /* Prevent content overflow beyond box */
+}
+
+/* Dragon column (left) */
+.dragon-image {
+  flex: 0 0 50%;                 /* Lock to 50% width */
+  display: flex;
+  justify-content: center;       /* Center image horizontally */
+  align-items: center;           /* Center image vertically */
+}
+
+.dragon-image img {
+  width: 80%;                    /* Default: fill 80% of its 50% column */
+  height: auto;                  /* Maintain aspect ratio */
+  max-height: 90%;               /* Never exceed 90% of container height */
+  object-fit: contain;           /* Prevent cropping or distortion */
+  border: none;                  /* No border */
+}
+
+/* Poem column (right) */
+.dragon-poem {
+  flex: 0 0 50%;                 /* Lock to 50% width */
+  color: yellow;
+  border: none;
+  background: none;
+  overflow-y: auto;              /* Scroll if poem exceeds max-height */
+  margin: auto 0;                /* Vertically center poem block */
+  padding: 0 20px;               /* Breathing room from edges */
+  text-align: left;              /* Keep text left-aligned */
+}
+
+/* =====================================================
+   Content Container
+   Align under banner, not at screen edge.
+===================================================== */
+.content-container {
+  width: 100%;
+  max-width: 1920px;   /* Same as banner/dragon block */
+  margin: 0 auto;      /* Center container */
+  padding: 20px;
+  text-align: left;    /* Left-align content inside */
+}
+
+/* =====================================================
+   Navigation Section
+   Replaces old TOC. Styled for alignment/appearance.
+===================================================== */
+.navigation {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.navigation h3 {
+  color: orange;                 /* Orange heading */
+  margin-bottom: 10px;
+}
+
+.navigation h4 {
+  color: orange;                 /* Orange heading */
+  margin-bottom: 10px;
+}
+.navigation ul {
+  list-style: none;              /* Remove default bullets */
+  padding: 0;
+}
+
+.navigation li {
+  margin: 5px 0;
+}
+
+.navigation a {
+  color: lightblue;              /* Blue links */
+}
+
+.navigation a:hover {
+  text-decoration: underline;    /* Underline on hover */
+}
+
+/* =====================================================
+   Repo Tree Styling (site-structure.html)
+   Matches site theme, highlights inline comments in green
+===================================================== */
+pre.repo-tree {
+  background: black;
+  color: yellow;
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: monospace;
+  white-space: pre;
+}
+
+pre.repo-tree code {
+  color: yellow;
+}
+
+pre.repo-tree .tree-comment {
+  color: limegreen;    /* inline explanations */
+  font-style: italic;  /* optional: makes them look like comments */
+}
