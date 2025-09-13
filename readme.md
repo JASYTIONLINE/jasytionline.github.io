@@ -24,7 +24,8 @@ This project demonstrates fundamentals of version control, structured documentat
 ## 🌐 Quick Links
 - **Website (Live Site):** [https://jasytionline.github.io/](https://jasytionline.github.io/)  
 - **Repository:** [https://github.com/JASYTIONLINE/jasytionline.github.io](https://github.com/JASYTIONLINE/jasytionline.github.io)  
-- **Site Structure Reference:** [JASYTI's Digital Portal - Site Map](content/35-workspace/3301-site-structure.html3301-site-structure.html)  
+- **Site Structure Reference:** [JASYTI's Digital Portal - Site Map](content/35-workspace/3301-site-structure.html)
+
 
 ---
 
@@ -48,7 +49,7 @@ This repository will follow a simplified **class standard**:
   - `38-supporting-docs/` → Supporting Docs (scaffolded).  
   - `39-mwr/` → MWR (scaffolded).  
 
-For the **full detailed tree**, see the [Site Structure Map](content/35-workspace/3301-site-structure.html3301-site-structure.html).  
+For the **full detailed tree**, see the [Site Structure Map](content/35-workspace/3301-site-structure.html)
 
 ---
 
