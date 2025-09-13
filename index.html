@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John E. Barkle IV – Personal Introduction</title>
+
+    <!-- =====================================================
+         Site Notes:
+           - CMPA 3301 Project 02
+           - This page is the natural evolution of Project 01 (Barkle A2).
+           - It demonstrates structure, styling, and navigation.
+           - CSS is located in assets/style.css.
+    ====================================================== -->
+    <link rel="stylesheet" href="assets/style.css">
+  </head>
+
+  <body>
+    <!-- =====================================================
+         Banner Section
+         Purpose:
+           - Displays name prominently at the top of the page.
+           - Styled with .banner (gold border, red background).
+         Notes:
+           - Banner width is capped at 1920px, centered on screen.
+           - H1 font is serif stack, larger and red.
+    ====================================================== -->
+    <div class="banner">
+      <h1>JASYTI's Digital Portal to CMPA 3301</h1>
+    </div>
+
+    <!-- =====================================================
+         Subtitle Section
+         Purpose:
+           - Introduces degree and professional focus.
+         Notes:
+           - .subtitle class = italicized, centered text.
+           - This shows continuity from Barkle A2 assignment.
+    ====================================================== -->
+    <h2 class="subtitle">
+      BS in Computing Applications — Professional Interest:<br>
+      Program/Project Management & AI Integration.
+    </h2>
+
+    <!-- =====================================================
+         Dragon + Poem Block
+         Purpose:
+           - Displays DigiPort Dragon image and the poem side by side.
+         Notes:
+           - Container (.dragon-block) has:
+               * Max-width 1920px (aligned with banner).
+               * Max-height ~600px (fits ~18 lines of poem).
+               * Black background with gold border.
+           - Left half = dragon image (fills ~80% of its column,
+             max 90% of container height).
+           - Right half = poem text (scrolls if longer than container).
+           - Aspect ratio of image preserved; no cropping.
+    ====================================================== -->
+    <div class="dragon-block" id="dragon">
+      <!-- Left half: Dragon image -->
+      <div class="dragon-image">
+        <img src="assets/images/home-screen-dragon.png" alt="image of DigiPort AI Dragon">
+      </div>
+
+      <!-- Right half: Poem text -->
+      <div class="dragon-poem">
+        <p><strong>Beneath the code, in a tangled web, a dragon stirred and raised his head.</strong><br>
+        Confused by paths and broken links, he dreamed of flight — but couldn’t think.</p>
+
+        <p>A student came with gut and grit, and said, “Let’s see how far you’ll get.”<br>
+        With YAML scroll and Markdown blade, they carved through every glitchy shade.</p>
+
+        <p><strong>JASYTI</strong> drove on without a care, a Google here, a Reddit there.<br>
+        Though workflow failed, a lesson in pain, Dragon pulled and pushed again.</p>
+
+        <p>The sidebar twisted, contents broke, dragon fire burned beneath the cloak.<br>
+        With every failed and fixed deploy, the dragon stirred — and grinned with joy.</p>
+
+        <p>He pulled the chains, he made them stretch, his patience put right to the test.<br>
+        Till finally, on push twenty-eight, the code aligned. The page looked great.</p>
+
+        <p>Now at the gate, the splash screen red, he lifts his wings and turns his head.<br>
+        Though bruised and battered by the fight, the DigiPort Dragon has taken flight.</p>
+      </div>
+    </div>
+
+    <!-- =====================================================
+         Secondary Subtitle (Refrain Line)
+         Purpose:
+           - Adds thematic transition after the poem block.
+         Notes:
+           - Uses .subtitle2 (same alignment as .subtitle, but NOT italic).
+           - This is styled intentionally to contrast with the first subtitle.
+    ====================================================== -->
+    <h2 class="subtitle2">It Begins 🐉 Flight of the DigiPort AI Dragon</h2>
+
+    <!-- =====================================================
+         Navigation Section
+         Purpose:
+           - Provides links to other index pages in the site.
+         Notes:
+           - Only the "S-35 Workspace – Site Structure" link is active.
+           - All other links are commented out until those pages exist.
+           - Styled with .navigation (orange header, blue links).
+           - Justified to align with banner left edge.
+    ====================================================== -->
+
+    <div class="content-container">
+      <nav class="navigation">
+        <h2>Navigation</h2>
+        <ul>
+          <!-- <li><a href="content/index.html">Content Root</a></li> -->
+          <!-- <li><a href="content/33-deliverables/index.html">S-33 Deliverables</a></li> -->
+          <li><a href="content/35-workspace/3301-site-structure.html">S-35 Workspace – Site Structure</a></li>
+          <!-- <li><a href="content/35-workspace/index.html">S-35 Workspace</a></li> -->
+          <!-- <li><a href="content/37-knowledge/index.html">S-37 Knowledge</a></li> -->
+          <!-- <li><a href="content/38-supporting-docs/index.html">S-38 Supporting Docs</a></li> -->
+          <!-- <li><a href="content/39-mwr/index.html">S-39 MWR</a></li> -->
+        </ul>
+      </nav>
+    </div>
+
+    <!-- =====================================================
+         About Me + Skills Section
+         Purpose:
+           - Provides personal context, transition text, and skills list.
+         Notes:
+           - Wrapped in .content-container to align under banner.
+           - Text is left-justified for readability.
+           - Skills presented as unordered list with green bullets.
+    ====================================================== -->
+    <div class="content-container">
+      <p id="bio">
+        One thing about me is that I tend to overengineer everything I do. I was going to keep this simple.
+      </p>
+
+      <h2>But Now:</h2>
+      
+      <p>
+        The boss gave us permission to make this our own page, so I am ramping things up a bit.
+      </p>
+
+      <p>
+        Looking ahead, I plan to leverage my leadership and operations experience in the<br>
+        Texas Army National Guard to transition into IT and program management roles focused<br>
+        on AI integration, cybersecurity-aware operations, and risk reduction.
+      </p>
+        <h3>
+          My Primary Skill Set Includes, but is not limited to:
+        </h3>
+      <ul id="skills">
+        <li>AI integration and automation projects</li>
+        <li>Electronics and communications systems troubleshooting</li>
+        <li>Training, mentoring, and team development</li>
+      </ul>
+    </div>
+  </body>
+</html>
