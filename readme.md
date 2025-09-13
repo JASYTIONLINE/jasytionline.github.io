@@ -13,7 +13,7 @@ tags:
   - site-structure
 ---
 
-# CMPA 3301 – Professional Project Repository
+# CMPA 3301 – Professional Project Repository.
 *Professional overview of the project at a glance.*
 
 A structured repository for **CMPA 3301 – Fundamentals of Computing Applications**.  
@@ -38,7 +38,7 @@ This project demonstrates fundamentals of version control, structured documentat
 ---
 
 ## 📂 Repository Overview
-This repository follows a simplified **class standard**:  
+This repository will follow a simplified **class standard**:  
 - `index.html` at the root is the public homepage.  
 - `assets/style.css` provides shared styling.  
 - `content/` wll contain organized academic sections, mapped to G-3 staff roles:  
@@ -48,8 +48,7 @@ This repository follows a simplified **class standard**:
   - `38-supporting-docs/` → Supporting Docs (scaffolded).  
   - `39-mwr/` → MWR (scaffolded).  
 
-For the **full detailed tree**, see the [JASYTI's Digital Portal to CMPA 3301 -
-Site Structure Map](content/3301-site-structure.html).  
+For the **full detailed tree**, see the [Site Structure Map](content/3301-site-structure.html).  
 
 ---
 
