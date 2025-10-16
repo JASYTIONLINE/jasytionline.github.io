@@ -175,3 +175,18 @@ body.show-hero {
 .navigation button:hover {
   background-color: #444;
 }
+
+.skip-message {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1rem;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.85);
+  color: #000;
+  border-radius: 6px;
+  font-weight: bold;
+  z-index: 1001;
+  text-align: center;
+}
