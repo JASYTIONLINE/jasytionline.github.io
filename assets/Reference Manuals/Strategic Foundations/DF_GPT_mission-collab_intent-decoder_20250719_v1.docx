@@ -1,0 +1,66 @@
+===== DF_GPT Mission Collaboration + Intent Decoder =====
+File: DF_GPT_mission-collab_intent-decoder_20250719_v1.docx  
+Date: 2025‑07‑19  
+KMS Path: …\HitForge-KMS\🧰 Templates\GPT Session Prompts\  
+Footer: DF‑KMS Compliant | Mission Decoder v1.0 | Archive includes prompt history
+
+1. User’s Raw Goals & Aspirations  
+[Paste your original statements, desires, and high-level objectives here]
+
+2. GPT’s Interpretation of Strategic Intent  
+- Vision Summary: [GPT’s interpretation of your long-term mission]  
+- Supporting Patterns: [Recurring themes and workflows]  
+- Inferred Long-Term Goal: [GPT’s synthesized statement of purpose]
+
+3. Detected Strengths, Gaps & Logic Patterns  
+- Strengths: [e.g., clear prompts, systematic archiving]  
+- Gaps/Bottlenecks: [e.g., drift, repetition across threads]  
+- Logic Loops Identified: [summarize recurring patterns needing consolidation]
+
+4. GPT Role & Behavior Optimization  
+- GPT should prioritize: [e.g., continuity, context recall, template reuse]  
+- GPT should avoid: [e.g., re-explaining uploads, straying from scope]  
+- Suggested GPT behaviors: [Ask context-preserving questions, reference artifacts]
+
+5. Collaborative Mission Statement (Draft)  
+- Instruction to GPT: “Based on sections 1–4, co-create a concise mission statement (~1–2 sentences).”  
+- User & GPT draft: [Work in progress]
+
+6. Mission Statement (Finalized)  
+[Insert finalized statement—becomes reference anchor across future GPT sessions]
+
+7. Tracking Version & Updates  
+- v1 (20250719): Initial draft shell created  
+- Future log: [Reprompts, tool updates, new directions]
+
+8. Key Reference Artifacts  
+- Prompt Library — [filename]  
+- Session Summary Format — [filename]  
+- KMS Guide — [filename]  
+- Prompt 2 Session Handoff Template — [filename]
+
+9. Priority Deliverables  
+- Modular Prompt System  
+- Thread Handoff Automation  
+- Workflow Codification  
+- Mission Clarity via AI-Collaboration
+
+10. Reevaluation Criteria  
+- Major user goal shift  
+- New GPT roles/formats introduced  
+- 10+ thread sessions without update  
+- New tools or creative workflows integrated
+
+11. Appendix A – Prompt/Response Archive  
+[Insert raw prompt and response logs from key exchanges]
+
+Example:  
+Prompt: “Create a shell document for GPT collaboration on mission definition.”  
+Response: [GPT’s full reply]
+
+Prompt: “What should be included in a strategic intent document?”  
+Response: [GPT’s full reply]
+
+📝 Archive only relevant exchanges tied directly to the mission’s evolution. Use date‑stamped headers if needed.
+
+=== End of Shell Document ===

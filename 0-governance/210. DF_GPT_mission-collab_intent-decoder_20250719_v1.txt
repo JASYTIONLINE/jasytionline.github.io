@@ -1,0 +1,51 @@
+from docx import Document
+from datetime import datetime
+
+# Create a new document
+doc = Document()
+doc.add_heading('HF_GPT Mission Collaboration + Intent Decoder', level=1)
+doc.add_paragraph(f"File: HF_GPT_mission-collab_intent-decoder_{datetime.today().strftime('%Y%m%d')}_v1.docx")
+doc.add_paragraph("Date: 2025‑07‑19")
+doc.add_paragraph("KMS Path: …\\Templates\\Strategic Documents\\")
+doc.add_paragraph("Footer: HF‑KMS Compliant | Mission Decoder v1.0 | Archive includes prompt history")
+doc.add_paragraph(" ")
+
+# Section titles and placeholders
+sections = [
+    "1. User’s Raw Goals & Aspirations",
+    "2. GPT’s Interpretation of Strategic Intent",
+    "3. Detected Strengths, Gaps & Logic Patterns",
+    "4. GPT Role & Behavior Optimization",
+    "5. Collaborative Mission Statement (Draft)",
+    "6. Mission Statement (Finalized)",
+    "7. Tracking Version & Updates",
+    "8. Key Reference Artifacts",
+    "9. Priority Deliverables",
+    "10. Reevaluation Criteria",
+    "11. Appendix A – Prompt/Response Archive"
+]
+
+placeholders = [
+    "[Paste your original statements, desires, and high-level objectives here]",
+    "- Vision Summary: [GPT’s interpretation of your long-term mission]\n- Supporting Patterns: [Recurring themes and workflows]\n- Inferred Long-Term Goal: [Synthesized purpose]",
+    "- Strengths: [...]\n- Gaps/Bottlenecks: [...]\n- Logic Loops Identified: [...]",
+    "- GPT should prioritize: [...]\n- GPT should avoid: [...]\n- Suggested GPT behaviors: [...]",
+    "- Instruction to GPT: “Based on sections 1–4, co-create a concise mission statement (~1–2 sentences).”\n- User & GPT draft: [In progress]",
+    "[Final mission statement goes here]",
+    "- v1 (20250719): Initial draft shell created\n- Future log: [Reprompts, tool updates, etc.]",
+    "- Prompt Library — [filename]\n- Session Summary Format — [filename]\n- KMS Guide — [filename]",
+    "- Modular Prompt System\n- Thread Handoff Automation\n- Workflow Codification",
+    "- Major scope change\n- New GPT roles introduced\n- 10+ sessions w/o update\n- New tools added",
+    "Example:\nPrompt: “Create a shell document...”\nResponse: [Full reply]\n\nPrompt: “What should be included...”\nResponse: [Full reply]\n\n📝 Archive only key logic-shaping exchanges."
+]
+
+# Add all sections
+for title, body in zip(sections, placeholders):
+    doc.add_heading(title, level=2)
+    doc.add_paragraph(body)
+    doc.add_paragraph(" ")
+
+# Save document
+filename = f"HF_GPT_mission-collab_intent-decoder_{datetime.today().strftime('%Y%m%d')}_v1.docx"
+doc.save(filename)
+print(f"Document saved as {filename}")

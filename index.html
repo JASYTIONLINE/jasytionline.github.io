@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DigiPortAI</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- VIDEO OVERLAY (COVERS PAGE WHILE PLAYING) -->
+  <div id="stage" aria-label="Intro video">
+    <video id="intro" autoplay muted playsinline>
+      <source src="assets/video/index-intro.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <!-- HERO BANNER (25% HEIGHT) -->
+  <header class="hero" id="hero">
+    <img src="assets/images/Dai-banner.png" alt="DigiPortAI splash" />
+    <div class="hero-ui">
+      <h1 class="hero-title">Your Portal to the Digital AI Universe</h1>
+    </div>
+  </header>
+
+<!-- Custom Button Navigation -->
+<div class="hero-buttons" id="modeButtons">
+  <button class="button-red" data-mode="obsidian">Downloads</button>
+  <button class="button-red" data-mode="onedrive">Juke Box</button>
+  <button class="button-red" data-mode="github">Project PMP</button>
+</div>
+
+    <!-- Section content -->
+    <div class="container">
+      <div class="section">
+        <h2>Welcome to the Digital Artifical Intelligence Integrated Solutions Portal</h2>
+        <p>Use the radio buttons above to log into your navigate to your destination. This area is your clean, white canvas for content.</p>
+      </div>
+    </div>
+  </main>
+<!-- JS to Remove Video and Reveal Page -->
+<script>
+  const vid = document.getElementById('intro');
+  const stage = document.getElementById('stage');
+
+  function showHero() {
+    stage.remove(); // Remove video from DOM
+    document.body.classList.add('show-hero'); // Enable scrolling if needed
+  }
+
+  // Handle video end
+  vid.addEventListener('ended', showHero);
+
+  // Fallback in case video fails to autoplay
+  let started = false;
+  vid.addEventListener('play', () => { started = true; }, { once: true });
+  setTimeout(() => {
+    if (!started) showHero();
+  }, 3000);
+
+  // Custom nav button logic
+  const modeButtons = document.getElementById('modeButtons');
+  if (modeButtons) {
+    modeButtons.addEventListener('click', (e) => {
+      const btn = e.target.closest('button[data-mode]');
+      if (!btn) return;
+      const mode = btn.getAttribute('data-mode');
+      const map = {
+        obsidian: 'https://obsidian.md/account',
+        onedrive: 'https://onedrive.live.com/',
+        github: 'https://github.com/login'
+      };
+      const url = map[mode];
+      if (url) window.open(url, '_blank', 'noopener');
+    });
+  }
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+Thread ID,Question Number,Question Summary,Response Summary,Prompt Type,Clarity,Issue,Fix,Match,Clarified,Rating,Efficiency,Turns
+GPTPromptCourse,1,How to improve GPT prompts for disk and BitLocker troubleshooting,Suggested step-by-step analysis, output formatting, and clarifying goals,I,C,N,Specify stepwise troubleshooting goals and output format explicitly,Y,N,5,H,1
+GPTPromptCourse,2,How to group lyrics by phonetic rhyme and export to Excel,Explained use of CMU dictionary, line splitting, and spreadsheet generation,D,C,N,Clarify rhyme grouping method and desired output format upfront,Y,N,5,H,1
+GPTPromptCourse,3,How to automate extraction of useful Q&A from many threads,Discussed manual copying limits, possible scripts, and use of prompt-based chunking,D,C,N,State current export capabilities and preferred automation approach,Y,N,5,H,1
+GPTPromptCourse,4,How to handle threads too long to copy-paste fully,Recommended summarizing in chunks, prompting GPT to process piecewise,D,C,N,Request chunked summary with stop-and-continue codeword,Y,N,5,H,1
+GPTPromptCourse,5,Flag repeated confusion or reprompting in analysis,Added prompt flags to capture reprompt count and token cutoffs,I,C,N,Include explicit flagging instructions for repeated prompts,Y,N,5,H,1
+GPTPromptCourse,6,Where thread-level outcome scoring should live,Recommended keeping scoring in analysis thread to minimize source load,D,C,N,Separate extraction and scoring clearly in prompt design,Y,N,5,H,1
+GPTPromptCourse,7,Scoring back in source thread due to full context there,Agreed source thread scoring improves accuracy of intent and outcome assessment,D,C,N,Allow source thread to generate thread-level summaries and scores,Y,N,5,H,1
+GPTPromptCourse,8,Final master prompt with TL;DR and output control,Delivered comprehensive prompt with instructions for chunked output, codeword, and minimal formatting,I,C,N,Specify TL;DR only in first chunk and code block wrapping,Y,N,5,H,1
+GPTPromptCourse,9,Meaning of TL;DR,Defined TL;DR as a concise summary of longer text for quick understanding,I,C,N,Provide brief definitions when using abbreviations,Y,N,5,H,1
+GPTPromptCourse,10,Limit TL;DR to relevant essential info only,Revised TL;DR instruction to emphasize conciseness and relevance,I,C,N,Instruct concise TL;DR limited to essential data only,Y,N,5,H,1
+
+
+OODA FOOD EXCEL INSTRUCTIONS V1.0
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+📥 THREAD EXPORT PROMPT FOR STRATEGIC INTENT DECODER ARCHIVE
+
+You are now tasked with exporting a digest of this GPT session for strategic archiving.
+
+🎯 Goal:  
+Extract all **Prompt and Response pairs** that relate to the central theme or evolving mission of this thread. This data will be archived and used to train a future GPT agent with strategic alignment.
+
+📌 At the top of the output, include the following **tagged header** using this exact format:
+
+Thread Code: {THREAD-CODE}  
+[{THREAD-CODE}] Thread Name: {THREAD-NAME}  
+[{THREAD-CODE}] TL;DR: {THREAD-SUMMARY}
+
+→ The Thread Code should be a short, memorable tag based on the session purpose (e.g., DF-GENESIS).  
+→ The Thread Name should reflect the actual user-provided or inferred title.  
+→ The TL;DR should be a 1–3 sentence summary of what the session primarily aimed to achieve.
+
+📄 Format the Prompt & Response output like this:
+
+[{THREAD-CODE}] Prompt: [User input related to the mission]  
+[{THREAD-CODE}] Response: [GPT reply directly relevant to that mission]
+
+✅ Formatting Instructions:
+- Every prompt and response line must start with [{THREAD-CODE}]  
+- Do not use example codes like “[DF-GENESIS]” unless they are truly applicable to the session.  
+- Do not include side chats, tangents, or off-topic queries.  
+- Use full GPT responses unless explicitly instructed to summarize.  
+- Output must be plain text (no bullets, no code blocks, no styling).
+
+🧠 This output will feed a GPT’s onboarding decoder and shape its future collaboration, continuity, and mission recall.
+
+🎯 Purpose: Establish a persistent, system-aware memory archive of GPT interactions for use in the Intent Decoder Appendix.

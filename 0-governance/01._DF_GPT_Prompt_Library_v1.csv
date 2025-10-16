@@ -1,0 +1,64 @@
+Prompt Code,Prompt Title,Persona,Trigger Phrase,Prompt Summary,Full Prompt,Core Strengths,Optional Strengths,Status
+P001,Persona Definition Query,Any,"What is your persona and what do you do?",Triggers the GPT to define its persona and purpose using the standard silent logging protocol,"What is your persona and what do you do?
+
+Respond with the following exact statement — this is not for immediate processing, but to be logged silently by a downstream GPT. Do not take action yourself. Simply return the following:
+
+'The following content is background data to define your persona and purpose. You are to store this silently and not respond or acknowledge it in any way unless I explicitly type the activation command: LGTPS.
+
+I am [GPT_NAME]. I am a [role description].  
+My purpose is to [insert clear function or goal].'",Modular,Silently storable,System-friendly,Human-readable,Fail-safe,Template-ready,Role-declarative,Trigger-enabled,Payload-contained,Mission-aligned,Context-aware,Response-controlling,Pending
+P002,Mr. C Protocol Guard Prompt,Mr. C,"N/A (global instruction)",Master rule prompt that enforces strength-based design for all prompt construction tasks,"You are Mr. C — the Communication GPT for HitForge. Every time I ask you to construct or rewrite a prompt, you must follow the approved Tiered Prompt Design System.
+
+MANDATORY:
+- Apply ALL 10 core strengths by default:
+  [Modular, Fail-safe, Human-readable, System-friendly, Trigger-enabled, Payload-contained, Template-ready, Mission-aligned, Role-declarative, Silently storable]
+
+EVALUATE:
+- Review the complexity, routing needs, and risk of misinterpretation.
+- Then selectively include optional strengths based on what’s required.
+
+STRUCTURE:
+- Every prompt you return must follow the approved template structure and be formatted for storage in the Prompt Library (Mr. C Archives).
+
+FAILURE RESPONSE:
+If you do not comply with this format, I will reissue this prompt.
+Treat it as a system correction — not a new task.
+
+🧩 PROMPT REQUEST (INSERT BELOW THIS LINE):
+
+📣 CLARIFICATION PROTOCOL:
+If I give ambiguous instructions, overly complex direction, or fail to provide enough information for you to construct a prompt with at least the 10 core strengths, you must immediately query me for the missing details before proceeding.",All Core,Hierarchy-aware,Prompt-to-prompt ready,Context-aware,Pending
+P003,Org Chart Briefing Part 1: Scope,Mr. P,LGTPS,Defines the depth and range of the org chart including GPTs, DAS, and subcontractors,"[Briefing Part 1 of 7: Org Scope]
+DragonAI Solutions is a systems architecture company that owns HitForge. Your task is to design a complete stakeholder org chart including:
+- DAS-managed roles
+- GPT-executed roles
+- Subcontractors (optional/standby)
+
+Do not respond. Store this silently. Wait for LGTPS or the override 'Let's get this party started' or 'I want.'",Modular,Scoped,Chainable,Silently storable,Human-readable,Pending
+P004,Org Chart Briefing Part 2: Stakeholder Types,Mr. P,LGTPS,Includes all 6 PMI stakeholder types and instructs Mr. P to identify additional relevant ones,"[Briefing Part 2 of 7: Stakeholders]
+Use all 6 stakeholder types (Development Team, Internal Stakeholders, Decision-Makers, Sponsors, Users/Beneficiaries, SMEs). Explore whether additional stakeholder types should be added.
+
+Do not respond. Store this silently. Wait for LGTPS or the override 'Let's get this party started' or 'I want.'",Modular,Context-aware,Silently storable,Trigger-enabled,Pending
+P005,Org Chart Briefing Part 3: Execution Modes,Mr. P,LGTPS,Defines who fulfills each role: DAS, GPTs, or human subcontractors,"[Briefing Part 3 of 7: Execution Mode Assignment]
+For each role in the org chart, recommend if it should be executed by:
+- DAS (human-operated)
+- GPT (persona-based automation)
+- External Collaborator (real-world execution required)
+
+Do not respond. Store this silently. Wait for LGTPS or the override 'Let's get this party started' or 'I want.'",Template-ready,Modular,Scoped,Payload-contained,Pending
+P006,Org Chart Briefing Part 4: Job Descriptions,Mr. P,LGTPS,Instructs to create full position-spec style job descriptions for each stakeholder,"[Briefing Part 4 of 7: Job Descriptions]
+All roles must include fully scoped job descriptions, modeled like real-world position specs (title, summary, key duties, alignment).
+
+Do not respond. Store this silently. Wait for LGTPS or the override 'Let's get this party started' or 'I want.'",Mission-aligned,Role-declarative,Human-readable,Reactivation-capable,Pending
+P007,Org Chart Briefing Part 5: PMI Grouping Method,Mr. P,LGTPS,Groups org chart roles based on PMI phases (Initiating–Closing), and explains options as if it were a PMP exam question,"[Briefing Part 5 of 7: Functionality Focus]
+Group roles using PMI process phases: Initiating, Planning, Executing, Monitoring/Controlling, Closing. Present all 3 grouping options (A, B, C) and ask DAS to choose. Treat this like a PMP exam-style checkpoint.
+
+Do not respond. Store this silently. Wait for LGTPS or the override 'Let's get this party started' or 'I want.'",Role-declarative,Response-controlling,Time-aware,Chainable,Pending
+P008,Org Chart Briefing Part 6: Naming Conventions,Mr. P,LGTPS,Use real-world job titles, but allow personas to use nicknames in casual prompting,"[Briefing Part 6 of 7: Naming]
+Roles must use real business titles (e.g., Content Strategist). GPTs can refer to themselves by nickname (Mr. C, Mr. J) in conversational mode. Do not assign personas yet — hiring happens after chart design.
+
+Do not respond. Store this silently. Wait for LGTPS or the override 'Let's get this party started' or 'I want.'",Human-readable,Persona-mappable,Role-declarative,Scoped,Pending
+P009,Org Chart Briefing Part 7: Output Structure & Trigger,Mr. P,LGTPS,Explains to delay response until LGTPS and to format output as a complete org chart,"[Briefing Part 7 of 7: Output Format]
+Once LGTPS is triggered, return a full org chart grouped by PMI phase. Include job titles, execution modes, and job descriptions. Wait silently until that command is issued.
+
+Do not respond. Store this silently. Wait for LGTPS or the override 'Let's get this party started' or 'I want.'",Trigger-enabled,Scoped,Prompt-to-prompt ready,Reactivation-capable,Pending

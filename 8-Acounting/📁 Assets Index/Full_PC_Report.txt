@@ -1,0 +1,963 @@
+﻿=== FULL PC REPORT ===
+Generated: 2025-08-08 10:21:54Z
+
+--- CORE HARDWARE INFO (Get-ComputerInfo) ---
+
+
+
+WindowsBuildLabEx                                       : 26100.1.amd64fre.ge_release.240331-1435
+WindowsCurrentVersion                                   : 6.3
+WindowsEditionId                                        : Core
+WindowsInstallationType                                 : Client
+WindowsInstallDateFromRegistry                          : 3/31/2025 12:30:14 AM
+WindowsProductId                                        : 00326-10000-00000-AA321
+WindowsProductName                                      : Windows 10 Home
+WindowsRegisteredOrganization                           : 
+WindowsRegisteredOwner                                  : johnbarkle@msn.com
+WindowsSystemRoot                                       : C:\WINDOWS
+WindowsVersion                                          : 2009
+OSDisplayVersion                                        : 24H2
+BiosCharacteristics                                     : {7, 11, 12, 15...}
+BiosBIOSVersion                                         : {ALASKA - 1072009, 2801, American Megatrends - 5001B}
+BiosBuildNumber                                         : 
+BiosCaption                                             : 2801
+BiosCodeSet                                             : 
+BiosCurrentLanguage                                     : en|US|iso8859-1
+BiosDescription                                         : 2801
+BiosEmbeddedControllerMajorVersion                      : 255
+BiosEmbeddedControllerMinorVersion                      : 255
+BiosFirmwareType                                        : Uefi
+BiosIdentificationCode                                  : 
+BiosInstallableLanguages                                : 9
+BiosInstallDate                                         : 
+BiosLanguageEdition                                     : 
+BiosListOfLanguages                                     : {en|US|iso8859-1, fr|FR|iso8859-1, zh|TW|unicode, zh|CN|unicode...}
+BiosManufacturer                                        : American Megatrends Inc.
+BiosName                                                : 2801
+BiosOtherTargetOS                                       : 
+BiosPrimaryBIOS                                         : True
+BiosReleaseDate                                         : 11/28/2024 6:00:00 PM
+BiosSeralNumber                                         : System Serial Number
+BiosSMBIOSBIOSVersion                                   : 2801
+BiosSMBIOSMajorVersion                                  : 3
+BiosSMBIOSMinorVersion                                  : 5
+BiosSMBIOSPresent                                       : True
+BiosSoftwareElementState                                : Running
+BiosStatus                                              : OK
+BiosSystemBiosMajorVersion                              : 28
+BiosSystemBiosMinorVersion                              : 1
+BiosTargetOperatingSystem                               : 0
+BiosVersion                                             : ALASKA - 1072009
+CsAdminPasswordStatus                                   : Unknown
+CsAutomaticManagedPagefile                              : True
+CsAutomaticResetBootOption                              : True
+CsAutomaticResetCapability                              : True
+CsBootOptionOnLimit                                     : 
+CsBootOptionOnWatchDog                                  : 
+CsBootROMSupported                                      : True
+CsBootStatus                                            : {0, 0, 0, 0...}
+CsBootupState                                           : Normal boot
+CsCaption                                               : DESKTOP-0AU90PD
+CsChassisBootupState                                    : Safe
+CsChassisSKUNumber                                      : Default string
+CsCurrentTimeZone                                       : -300
+CsDaylightInEffect                                      : True
+CsDescription                                           : AT/AT COMPATIBLE
+CsDNSHostName                                           : DESKTOP-0AU90PD
+CsDomain                                                : WORKGROUP
+CsDomainRole                                            : StandaloneWorkstation
+CsEnableDaylightSavingsTime                             : True
+CsFrontPanelResetStatus                                 : Unknown
+CsHypervisorPresent                                     : True
+CsInfraredSupported                                     : False
+CsInitialLoadInfo                                       : 
+CsInstallDate                                           : 
+CsKeyboardPasswordStatus                                : Unknown
+CsLastLoadInfo                                          : 
+CsManufacturer                                          : ASUS
+CsModel                                                 : System Product Name
+CsName                                                  : DESKTOP-0AU90PD
+CsNetworkAdapters                                       : {Ethernet, Wi-Fi, Ethernet 2, Bluetooth Network Connection...}
+CsNetworkServerModeEnabled                              : True
+CsNumberOfLogicalProcessors                             : 24
+CsNumberOfProcessors                                    : 1
+CsProcessors                                            : {13th Gen Intel(R) Core(TM) i7-13700K}
+CsOEMStringArray                                        : {Default string, Default string, TheBurrow, Default string...}
+CsPartOfDomain                                          : False
+CsPauseAfterReset                                       : -1
+CsPCSystemType                                          : Desktop
+CsPCSystemTypeEx                                        : Desktop
+CsPowerManagementCapabilities                           : 
+CsPowerManagementSupported                              : 
+CsPowerOnPasswordStatus                                 : Unknown
+CsPowerState                                            : Unknown
+CsPowerSupplyState                                      : Safe
+CsPrimaryOwnerContact                                   : 
+CsPrimaryOwnerName                                      : johnbarkle@msn.com
+CsResetCapability                                       : Other
+CsResetCount                                            : -1
+CsResetLimit                                            : -1
+CsRoles                                                 : {LM_Workstation, LM_Server, NT}
+CsStatus                                                : OK
+CsSupportContactDescription                             : 
+CsSystemFamily                                          : To be filled by O.E.M.
+CsSystemSKUNumber                                       : SKU
+CsSystemType                                            : x64-based PC
+CsThermalState                                          : Safe
+CsTotalPhysicalMemory                                   : 102747983872
+CsPhyicallyInstalledMemory                              : 100663296
+CsUserName                                              : DESKTOP-0AU90PD\johnb
+CsWakeUpType                                            : PowerSwitch
+CsWorkgroup                                             : WORKGROUP
+OsName                                                  : Microsoft Windows 11 Home
+OsType                                                  : WINNT
+OsOperatingSystemSKU                                    : WindowsHome
+OsVersion                                               : 10.0.26100
+OsCSDVersion                                            : 
+OsBuildNumber                                           : 26100
+OsHotFixes                                              : {KB5056579, KB5048779, KB5050575, KB5062660...}
+OsBootDevice                                            : \Device\HarddiskVolume5
+OsSystemDevice                                          : \Device\HarddiskVolume2
+OsSystemDirectory                                       : C:\WINDOWS\system32
+OsSystemDrive                                           : C:
+OsWindowsDirectory                                      : C:\WINDOWS
+OsCountryCode                                           : 1
+OsCurrentTimeZone                                       : -300
+OsLocaleID                                              : 0409
+OsLocale                                                : en-US
+OsLocalDateTime                                         : 8/8/2025 10:21:54 AM
+OsLastBootUpTime                                        : 8/8/2025 6:18:34 AM
+OsUptime                                                : 04:03:19.6690990
+OsBuildType                                             : Multiprocessor Free
+OsCodeSet                                               : 1252
+OsDataExecutionPreventionAvailable                      : True
+OsDataExecutionPrevention32BitApplications              : True
+OsDataExecutionPreventionDrivers                        : True
+OsDataExecutionPreventionSupportPolicy                  : OptIn
+OsDebug                                                 : False
+OsDistributed                                           : False
+OsEncryptionLevel                                       : 256
+OsForegroundApplicationBoost                            : Maximum
+OsTotalVisibleMemorySize                                : 100339828
+OsFreePhysicalMemory                                    : 81248764
+OsTotalVirtualMemorySize                                : 106631284
+OsFreeVirtualMemory                                     : 83212132
+OsInUseVirtualMemory                                    : 23419152
+OsTotalSwapSpaceSize                                    : 
+OsSizeStoredInPagingFiles                               : 6291456
+OsFreeSpaceInPagingFiles                                : 6291456
+OsPagingFiles                                           : {C:\pagefile.sys}
+OsHardwareAbstractionLayer                              : 10.0.26100.1
+OsInstallDate                                           : 3/30/2025 7:30:14 PM
+OsManufacturer                                          : Microsoft Corporation
+OsMaxNumberOfProcesses                                  : 4294967295
+OsMaxProcessMemorySize                                  : 137438953344
+OsMuiLanguages                                          : {en-US}
+OsNumberOfLicensedUsers                                 : 
+OsNumberOfProcesses                                     : 385
+OsNumberOfUsers                                         : 2
+OsOrganization                                          : 
+OsArchitecture                                          : 64-bit
+OsLanguage                                              : en-US
+OsProductSuites                                         : {TerminalServicesSingleSession, HomeEdition}
+OsOtherTypeDescription                                  : 
+OsPAEEnabled                                            : 
+OsPortableOperatingSystem                               : False
+OsPrimary                                               : True
+OsProductType                                           : WorkStation
+OsRegisteredUser                                        : johnbarkle@msn.com
+OsSerialNumber                                          : 00326-10000-00000-AA321
+OsServicePackMajorVersion                               : 0
+OsServicePackMinorVersion                               : 0
+OsStatus                                                : OK
+OsSuites                                                : {TerminalServices, TerminalServicesSingleSession, HomeEdition}
+OsServerLevel                                           : 
+KeyboardLayout                                          : en-US
+TimeZone                                                : (UTC-06:00) Central Time (US & Canada)
+LogonServer                                             : \\DESKTOP-0AU90PD
+PowerPlatformRole                                       : Desktop
+HyperVisorPresent                                       : True
+HyperVRequirementDataExecutionPreventionAvailable       : 
+HyperVRequirementSecondLevelAddressTranslation          : 
+HyperVRequirementVirtualizationFirmwareEnabled          : 
+HyperVRequirementVMMonitorModeExtensions                : 
+DeviceGuardSmartStatus                                  : Off
+DeviceGuardRequiredSecurityProperties                   : {BaseVirtualizationSupport}
+DeviceGuardAvailableSecurityProperties                  : {BaseVirtualizationSupport, DMAProtection, 5, 6...}
+DeviceGuardSecurityServicesConfigured                   : {0}
+DeviceGuardSecurityServicesRunning                      : {0}
+DeviceGuardCodeIntegrityPolicyEnforcementStatus         : EnforcementMode
+DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus : Off
+
+
+
+
+
+--- MOTHERBOARD & BIOS ---
+
+
+
+Status                  : OK
+Name                    : Base Board
+PoweredOn               : True
+Caption                 : Base Board
+Description             : Base Board
+InstallDate             : 
+CreationClassName       : Win32_BaseBoard
+Manufacturer            : ASUSTeK COMPUTER INC.
+Model                   : 
+OtherIdentifyingInfo    : 
+PartNumber              : 
+SerialNumber            : 240132281500154
+SKU                     : 
+Tag                     : Base Board
+Version                 : Rev 1.xx
+Depth                   : 
+Height                  : 
+HotSwappable            : False
+Removable               : False
+Replaceable             : True
+Weight                  : 
+Width                   : 
+HostingBoard            : True
+RequirementsDescription : 
+RequiresDaughterBoard   : False
+SlotLayout              : 
+SpecialRequirements     : 
+ConfigOptions           : {SMI:00B26C, Default string, Default string, Default string}
+Product                 : ProArt Z790-CREATOR WIFI
+PSComputerName          : 
+CimClass                : root/cimv2:Win32_BaseBoard
+CimInstanceProperties   : {Caption, Description, InstallDate, Name...}
+CimSystemProperties     : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+
+
+
+Status                         : OK
+Name                           : 2801
+Caption                        : 2801
+SMBIOSPresent                  : True
+Description                    : 2801
+InstallDate                    : 
+BuildNumber                    : 
+CodeSet                        : 
+IdentificationCode             : 
+LanguageEdition                : 
+Manufacturer                   : American Megatrends Inc.
+OtherTargetOS                  : 
+SerialNumber                   : System Serial Number
+SoftwareElementID              : 2801
+SoftwareElementState           : 3
+TargetOperatingSystem          : 0
+Version                        : ALASKA - 1072009
+PrimaryBIOS                    : True
+BiosCharacteristics            : {7, 11, 12, 15...}
+BIOSVersion                    : {ALASKA - 1072009, 2801, American Megatrends - 5001B}
+CurrentLanguage                : en|US|iso8859-1
+EmbeddedControllerMajorVersion : 255
+EmbeddedControllerMinorVersion : 255
+InstallableLanguages           : 9
+ListOfLanguages                : {en|US|iso8859-1, fr|FR|iso8859-1, zh|TW|unicode, zh|CN|unicode...}
+ReleaseDate                    : 11/28/2024 6:00:00 PM
+SMBIOSBIOSVersion              : 2801
+SMBIOSMajorVersion             : 3
+SMBIOSMinorVersion             : 5
+SystemBiosMajorVersion         : 28
+SystemBiosMinorVersion         : 1
+PSComputerName                 : 
+CimClass                       : root/cimv2:Win32_BIOS
+CimInstanceProperties          : {Caption, Description, InstallDate, Name...}
+CimSystemProperties            : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+
+
+--- CPU ---
+
+
+
+Name                      : 13th Gen Intel(R) Core(TM) i7-13700K
+NumberOfCores             : 16
+NumberOfLogicalProcessors : 24
+MaxClockSpeed             : 3400
+ProcessorId               : BFEBFBFF000B0671
+
+
+
+
+
+--- MEMORY (DIMMs) ---
+
+
+BankLabel    Capacity Speed Manufacturer PartNumber           SerialNumber
+---------    -------- ----- ------------ ----------           ------------
+BANK 0    51539607552  5600 Corsair      CMK96GX5M2B5600C40   00000000    
+BANK 0    51539607552  5600 Corsair      CMK96GX5M2B5600C40   00000000    
+
+
+
+
+--- DISKS ---
+
+
+Model                           InterfaceType          Size SerialNumber                             PNPDeviceID                                                      
+-----                           -------------          ---- ------------                             -----------                                                      
+ST31000533CS                    IDE           1000202273280             9TE1DNXK                     SCSI\DISK&VEN_&PROD_ST31000533CS\4&11742CA2&0&040000             
+WDC WD1003FZEX-00MK2A0          IDE           1000202273280      WD-WCC3F3KHYJL8                     SCSI\DISK&VEN_WDC&PROD_WD1003FZEX-00MK2\4&11742CA2&0&050000      
+WD Blue SN5000 4TB              SCSI          4000784417280 E823_8FA6_BF53_0001_001B_448B_4DB2_9630. SCSI\DISK&VEN_NVME&PROD_WD_BLUE_SN5000_4\5&2200617D&0&000000     
+Samsung SSD 970 EVO Plus 500GB  SCSI           500105249280 0025_385B_9151_9137.                     SCSI\DISK&VEN_NVME&PROD_SAMSUNG_SSD_970\5&21FC0948&0&000000      
+Generic Mass-Storage USB Device USB                                                                  USBSTOR\DISK&VEN_GENERIC&PROD_MASS-STORAGE&REV_1.11\8&2780363&0  
+Samsung SSD 990 PRO 2TB         SCSI          2000396321280 0025_384B_41A1_0D9C.                     SCSI\DISK&VEN_NVME&PROD_SAMSUNG_SSD_990\5&39DAB19&0&000000       
+Mass Storage Device USB Device  USB                         121220160204                             USBSTOR\DISK&VEN_MASS&PROD_STORAGE_DEVICE&REV_1.00\121220160204&0
+
+
+
+
+--- VIDEO (GPU) ---
+
+
+Name                    AdapterRAM DriverVersion PNPDeviceID                                                   
+----                    ---------- ------------- -----------                                                   
+NVIDIA GeForce RTX 3060 4293918720 32.0.15.7283  PCI\VEN_10DE&DEV_2504&SUBSYS_40741458&REV_A1\4&256A0AA8&0&0008
+
+
+
+
+--- NETWORK ADAPTERS (Physical) ---
+
+
+Name                                     MACAddress                      Speed PNPDeviceID                                                    
+----                                     ----------                      ----- -----------                                                    
+Realtek USB FE Family Controller         00:E0:4C:36:22:01 9223372036854775807 USB\VID_0BDA&PID_8152\00E04C362201                             
+Intel(R) Wi-Fi 6E AX210 160MHz           50:28:4A:15:E3:48          1201000000 PCI\VEN_8086&DEV_2725&SUBSYS_00248086&REV_1A\4&357C575C&0&00E2 
+Intel(R) Ethernet Controller I226-V      10:7C:61:61:C8:96 9223372036854775807 PCI\VEN_8086&DEV_125C&SUBSYS_88671043&REV_06\107C61FFFF61C89600
+Bluetooth Device (Personal Area Network) 50:28:4A:15:E3:4C             3000000 BTH\MS_BTHPAN\6&36E437A3&0&2                                   
+Marvell AQtion 10Gbit Network Adapter    10:7C:61:61:C8:97 9223372036854775807 PCI\VEN_1D6A&DEV_94C0&SUBSYS_87F51043&REV_03\4&26F22371&0&00E0 
+
+
+
+
+--- AUDIO / SOUND DEVICES ---
+
+
+Name                                                Manufacturer          Status PNPDeviceID                                                                
+----                                                ------------          ------ -----------                                                                
+USB Audio Device                                    (Generic USB Audio)   OK     USB\VID_1BDF&PID_5060&MI_02\6&3CF4071&0&0002                               
+NVIDIA High Definition Audio                        NVIDIA                OK     HDAUDIO\FUNC_01&VEN_10DE&DEV_009F&SUBSYS_14584074&REV_1001\5&6CFCA77&0&0001
+USB Audio Device                                    (Generic USB Audio)   OK     USB\VID_0C76&PID_161F&MI_00\7&6C28F63&0&0000                               
+Realtek High Definition Audio                       Realtek               OK     HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_1043882A&REV_1001\4&8F17D27&0&0001
+AudioBox USB 96                                     PreSonus              OK     TUSBAUDIO_ENUM\VID_194F&PID_0303&KS\000000000000                           
+NVIDIA Virtual Audio Device (Wave Extensible) (WDM) NVIDIA                OK     ROOT\UNNAMED_DEVICE\0000                                                   
+USB Audio Class 1.0 and 2.0 DAC Device Driver       C-MEDIA Inc.          OK     USB\VID_0D8C&PID_0005&MI_00\6&D26EB1B&0&0000                               
+USB Audio Device                                    (Generic USB Audio)   OK     USB\VID_0C76&PID_120C&MI_00\7&390C4426&0&0000                              
+ASUS Utility                                        ASUSTek Computer Inc. OK     ROOT\MEDIA\0000                                                            
+
+
+
+
+=== INSTALLED PERIPHERALS (ALL PnP DEVICES) ===
+
+
+Class             FriendlyName                                                    Status  InstanceId                                                                                                                 
+-----             ------------                                                    ------  ----------                                                                                                                 
+                                                                                  OK      HTREE\ROOT\0                                                                                                               
+                  Bluetooth Peripheral Device                                     OK      BTHENUM\{00006666-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\7&1C9E9E4B&0&F44EFD75A714_C00000000                   
+                  G213                                                            OK      USB\VID_046D&PID_C336&LAMPARRAY\6&D5BDA54&0&0D6D38683434_SLOT00                                                            
+                  RAID Controller                                                 Error   PCI\VEN_8086&DEV_A77F&SUBSYS_88821043&REV_00\3&11583659&0&70                                                               
+AudioEndpoint     AI Noise-Canceling Microphone (ASUS Utility)                    OK      SWD\MMDEVAPI\{0.0.1.00000000}.{BBE6214F-6991-4273-9F52-EA09322D91B2}                                                       
+AudioEndpoint     AI Noise-Canceling Speaker (ASUS Utility)                       OK      SWD\MMDEVAPI\{0.0.0.00000000}.{E3D0F424-FDFB-4ED5-B0E0-937AA00620F5}                                                       
+AudioEndpoint     ASUS VY279 (NVIDIA High Definition Audio)                       Unknown SWD\MMDEVAPI\{0.0.0.00000000}.{C64E3B8C-CD26-41B2-8F71-4F2E0A432634}                                                       
+AudioEndpoint     Headphones (CS202)                                              Unknown SWD\MMDEVAPI\{0.0.0.00000000}.{754F3E5F-4A49-4D36-AE9C-39A7EAB066DC}                                                       
+AudioEndpoint     Line (AudioBox USB 96)                                          OK      SWD\MMDEVAPI\{0.0.1.00000000}.{C8719D83-57B9-4BF0-9666-AD28BA3FA259}                                                       
+AudioEndpoint     Microphone (2- USB PnP Audio Device)                            Unknown SWD\MMDEVAPI\{0.0.1.00000000}.{31EBD0E8-DD71-4621-9B98-30265219EB81}                                                       
+AudioEndpoint     Microphone (3- USB PnP Audio Device)                            OK      SWD\MMDEVAPI\{0.0.1.00000000}.{F3A74D6E-874B-4B35-9469-A1A179102169}                                                       
+AudioEndpoint     Microphone (4- Logitech Webcam C930e)                           Unknown SWD\MMDEVAPI\{0.0.1.00000000}.{D573E196-DD2F-4BCA-957B-D72FEE42B9E0}                                                       
+AudioEndpoint     Microphone (Blue Snowball )                                     Unknown SWD\MMDEVAPI\{0.0.1.00000000}.{53F67D6C-9C39-47BD-91FF-CDED6E5F5B02}                                                       
+AudioEndpoint     Microphone (Blue Snowball)                                      OK      SWD\MMDEVAPI\{0.0.1.00000000}.{1544BEC8-F7B0-4015-9F28-6967F27C843F}                                                       
+AudioEndpoint     Microphone (CS202)                                              Unknown SWD\MMDEVAPI\{0.0.1.00000000}.{EE8146E1-6650-4884-8372-974A849B2F17}                                                       
+AudioEndpoint     Microphone (Depstech webcam MIC)                                Unknown SWD\MMDEVAPI\{0.0.1.00000000}.{2B1804B7-DF28-419F-8C69-F53E08A9421A}                                                       
+AudioEndpoint     Microphone (DRELANMIC)                                          Unknown SWD\MMDEVAPI\{0.0.1.00000000}.{1AE11E8F-70B8-4D83-9CE2-74539AD76954}                                                       
+AudioEndpoint     Microphone (High Definition Audio Device)                       Unknown SWD\MMDEVAPI\{0.0.1.00000000}.{D071C0FA-CBE3-44CB-8B52-504F6AB51E0E}                                                       
+AudioEndpoint     Microphone (Realtek(R) Audio)                                   Unknown SWD\MMDEVAPI\{0.0.1.00000000}.{A3317566-5E40-4311-BEC2-6327D5690210}                                                       
+AudioEndpoint     Microphone (USB PnP Audio Device)                               Unknown SWD\MMDEVAPI\{0.0.1.00000000}.{99F37CB0-4231-4693-A72C-525B8043215E}                                                       
+AudioEndpoint     Q32G2WG3 (2- NVIDIA High Definition Audio)                      OK      SWD\MMDEVAPI\{0.0.0.00000000}.{2022BE34-C2C0-4BDE-B948-A6AED8836B44}                                                       
+AudioEndpoint     Q32G2WG3 (2- NVIDIA High Definition Audio)                      Unknown SWD\MMDEVAPI\{0.0.0.00000000}.{EB73CCDC-F7AD-4BB5-8ECA-88F28741F744}                                                       
+AudioEndpoint     Q32G2WG3 (2- NVIDIA High Definition Audio)                      OK      SWD\MMDEVAPI\{0.0.0.00000000}.{04EE3100-799D-48C7-8EF4-E801C761C78E}                                                       
+AudioEndpoint     Q32G2WG3 (HD Audio Driver for Display Audio)                    Unknown SWD\MMDEVAPI\{0.0.0.00000000}.{A1F4B879-FA28-4992-A54E-B90559F089AB}                                                       
+AudioEndpoint     Q32G2WG3 (NVIDIA High Definition Audio)                         Unknown SWD\MMDEVAPI\{0.0.0.00000000}.{59A3DD9E-2575-401A-97AE-35275F60539E}                                                       
+AudioEndpoint     Q32G2WG3 (NVIDIA High Definition Audio)                         Unknown SWD\MMDEVAPI\{0.0.0.00000000}.{CAA4BE9A-8C47-4827-AC63-733841DF79E8}                                                       
+AudioEndpoint     Q32G2WG3 (NVIDIA High Definition Audio)                         Unknown SWD\MMDEVAPI\{0.0.0.00000000}.{239D51A8-406C-42DB-A48A-4AFE051AA056}                                                       
+AudioEndpoint     Right Monitor (2- NVIDIA High Definition Audio)                 OK      SWD\MMDEVAPI\{0.0.0.00000000}.{8D3786FE-BEDE-4D43-A10A-50477AF4690B}                                                       
+AudioEndpoint     Speakers (2- USB PnP Audio Device)                              Unknown SWD\MMDEVAPI\{0.0.0.00000000}.{8E246BFB-A51A-4381-A0AC-338F2F55A8A7}                                                       
+AudioEndpoint     Speakers (3- USB PnP Audio Device)                              OK      SWD\MMDEVAPI\{0.0.0.00000000}.{B2B2FBBB-D02C-41DB-96FD-FBCD90425784}                                                       
+AudioEndpoint     Speakers (AudioBox USB 96)                                      OK      SWD\MMDEVAPI\{0.0.0.00000000}.{7A5FB95F-1EB6-4EF3-AFF8-AD8A82BEDF59}                                                       
+AudioEndpoint     Speakers (High Definition Audio Device)                         Unknown SWD\MMDEVAPI\{0.0.0.00000000}.{F0F2854D-2069-4A11-9034-EF17D8DAD809}                                                       
+AudioEndpoint     Speakers (Realtek(R) Audio)                                     OK      SWD\MMDEVAPI\{0.0.0.00000000}.{ACBC09D2-2328-4E34-A88F-6D45FE7FE3BB}                                                       
+AudioEndpoint     Speakers (Solo B30)                                             Unknown SWD\MMDEVAPI\{0.0.0.00000000}.{28C76574-E321-4C03-9169-752FC7CC20A0}                                                       
+AudioEndpoint     Speakers (USB PnP Audio Device)                                 Unknown SWD\MMDEVAPI\{0.0.0.00000000}.{AA3C3DEB-02E7-4740-8EE2-31792FF660E2}                                                       
+AudioEndpoint     Stereo Mix (Realtek(R) Audio)                                   OK      SWD\MMDEVAPI\{0.0.1.00000000}.{44473F51-658A-4DC1-8867-ABEE4F68F7F2}                                                       
+Bluetooth         Bluetooth Device (RFCOMM Protocol TDI)                          OK      BTH\MS_RFCOMM\6&36E437A3&0&0                                                                                               
+Bluetooth         Device Identification Service                                   OK      BTHENUM\{00001200-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\7&1C9E9E4B&0&F44EFD75A714_C00000000                   
+Bluetooth         Intel(R) Wireless Bluetooth(R)                                  OK      USB\VID_8087&PID_0032\5&CC3F949&0&14                                                                                       
+Bluetooth         Microsoft Bluetooth Enumerator                                  OK      BTH\MS_BTHBRB\6&36E437A3&0&1                                                                                               
+Bluetooth         Microsoft Bluetooth LE Enumerator                               OK      BTH\MS_BTHLE\6&36E437A3&0&3                                                                                                
+Bluetooth         rukus                                                           OK      BTHENUM\DEV_C88447084C4C\7&1C9E9E4B&0&BLUETOOTHDEVICE_C88447084C4C                                                         
+Bluetooth         rukus Avrcp Transport                                           OK      BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_LOCALMFG&0002\7&1C9E9E4B&0&C88447084C4C_C00000000                           
+Bluetooth         Solo B30                                                        OK      BTHENUM\DEV_F44EFD75A714\7&1C9E9E4B&0&BLUETOOTHDEVICE_F44EFD75A714                                                         
+Bluetooth         Solo B30 Avrcp Transport                                        OK      BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\7&1C9E9E4B&0&F44EFD75A714_C00000000                   
+Bluetooth         Solo B30 Avrcp Transport                                        OK      BTHENUM\{0000110C-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\7&1C9E9E4B&0&F44EFD75A714_C00000000                   
+Camera            Depstech webcam                                                 OK      USB\VID_1BDF&PID_5060&MI_00\6&3CF4071&0&0000                                                                               
+CDROM             HL-DT-ST DVD+-RW GU40N USB Device                               OK      USBSTOR\CDROM&VEN_HL-DT-ST&PROD_DVD+-RW_GU40N&REV_A102\4B5743414146423133323420&0                                          
+CDROM             Realtek USB CD-ROM USB Device                                   Unknown USBSTOR\CDROM&VEN_REALTEK&PROD_USB_CD-ROM&REV_2.00\00E04C36220178&0                                                        
+Computer          ACPI x64-based PC                                               OK      ROOT\ACPI_HAL\0000                                                                                                         
+Computer          ASUS System Product Name                                        OK      SWD\COMPUTER\MFG_ASUS&FAM_TO_BE_FILLED_BY_O.E.M.&PROD_SYSTEM_PRODUCT_NAME&SKU_SKU                                          
+DiskDrive         Generic Mass-Storage USB Device                                 OK      USBSTOR\DISK&VEN_GENERIC&PROD_MASS-STORAGE&REV_1.11\8&2780363&0                                                            
+DiskDrive         Generic Mass-Storage USB Device                                 Unknown USBSTOR\DISK&VEN_GENERIC&PROD_MASS-STORAGE&REV_1.11\8&29431141&0                                                           
+DiskDrive         Mass Storage Device USB Device                                  OK      USBSTOR\DISK&VEN_MASS&PROD_STORAGE_DEVICE&REV_1.00\121220160204&0                                                          
+DiskDrive         Samsung SSD 970 EVO Plus 500GB                                  OK      SCSI\DISK&VEN_NVME&PROD_SAMSUNG_SSD_970\5&21FC0948&0&000000                                                                
+DiskDrive         Samsung SSD 990 PRO 2TB                                         OK      SCSI\DISK&VEN_NVME&PROD_SAMSUNG_SSD_990\5&39DAB19&0&000000                                                                 
+DiskDrive         ST31000533CS                                                    OK      SCSI\DISK&VEN_&PROD_ST31000533CS\4&11742CA2&0&040000                                                                       
+DiskDrive         WD Blue SN5000 4TB                                              OK      SCSI\DISK&VEN_NVME&PROD_WD_BLUE_SN5000_4\5&2200617D&0&000000                                                               
+DiskDrive         WDC WD1003FZEX-00MK2A0                                          OK      SCSI\DISK&VEN_WDC&PROD_WD1003FZEX-00MK2\4&11742CA2&0&050000                                                                
+DiskDrive         WDC WD1003FZEX-00MK2A0                                          Unknown SCSI\DISK&VEN_WDC&PROD_WD1003FZEX-00MK2\4&11742CA2&0&040000                                                                
+Display           Intel(R) UHD Graphics                                           Unknown PCI\VEN_8086&DEV_A780&SUBSYS_88821043&REV_04\3&11583659&0&10                                                               
+Display           NVIDIA GeForce RTX 3060                                         OK      PCI\VEN_10DE&DEV_2504&SUBSYS_40741458&REV_A1\4&256A0AA8&0&0008                                                             
+Display           NVIDIA GeForce RTX 3090                                         Unknown PCI\VEN_10DE&DEV_2204&SUBSYS_39783842&REV_A1\4&256A0AA8&0&0008                                                             
+Firmware          Device Firmware                                                 OK      UEFI\RES_{00000000-0000-0000-0000-000000000000}\0                                                                          
+Firmware          Device Firmware                                                 OK      UEFI\RES_{86A885EE-D71E-2ED6-0FC1-9D6CCC9677EB}\0                                                                          
+Firmware          Device Firmware                                                 OK      UEFI\RES_{7AA69739-8F78-41CB-BF44-854E2CB516BD}\0                                                                          
+Firmware          Device Firmware                                                 OK      UEFI\RES_{2FE2CBFC-B9AA-4A93-AB5B-40173B581C42}\0                                                                          
+Firmware          System Firmware                                                 OK      UEFI\RES_{9804A8A1-2A0D-5E6E-9F01-EF99866F500B}\0                                                                          
+HDC               Standard SATA AHCI Controller                                   OK      PCI\VEN_8086&DEV_7A62&SUBSYS_88821043&REV_11\3&11583659&0&B8                                                               
+HIDClass          Corsair composite virtual input device                          OK      CORSAIRBUS\VIRTUALDEVICE&10\1&1A590E2C&4&{E7FD4ACE-EE13-11E2-AFDA-000C29100502}                                            
+HIDClass          HID-compliant consumer control device                           OK      HID\VIRTUALDEVICE&10&COL05\2&3457A17C&0&0004                                                                               
+HIDClass          HID-compliant consumer control device                           OK      HID\VID_1B1C&PID_1B80&MI_03&COL02\7&22C52212&0&0001                                                                        
+HIDClass          HID-compliant consumer control device                           Unknown HID\VID_0C76&PID_161F&MI_03\8&B249116&0&0000                                                                               
+HIDClass          HID-compliant consumer control device                           OK      HID\VID_046D&PID_C336&MI_01&COL02\7&33048DA5&0&0001                                                                        
+HIDClass          HID-compliant consumer control device                           Unknown HID\VID_0D8C&PID_0005&MI_02\7&1CD1AC8C&0&0000                                                                              
+HIDClass          HID-compliant consumer control device                           Unknown HID\VID_001F&PID_0B21&MI_03\9&2A874CAA&0&0000                                                                              
+HIDClass          HID-compliant consumer control device                           Unknown HID\VID_04D9&PID_A241&MI_01&COL02\7&244642D8&0&0001                                                                        
+HIDClass          HID-compliant consumer control device                           Unknown HID\VID_0218&PID_0204&MI_03\7&7A54208&0&0000                                                                               
+HIDClass          HID-compliant consumer control device                           OK      HID\VID_0D8C&PID_0005&MI_02\7&133329DC&0&0000                                                                              
+HIDClass          HID-compliant consumer control device                           Unknown HID\VID_046D&PID_C52B&MI_01&COL02\8&25C2E7&0&0001                                                                          
+HIDClass          HID-compliant consumer control device                           OK      HID\VID_046D&PID_C52B&MI_01&COL02\7&27778848&0&0001                                                                        
+HIDClass          HID-compliant consumer control device                           OK      HID\VID_0C76&PID_161F&MI_03\8&F4511C5&0&0000                                                                               
+HIDClass          HID-compliant consumer control device                           Unknown HID\VID_0C76&PID_161F&MI_03\8&2631685C&0&0000                                                                              
+HIDClass          HID-compliant consumer control device                           OK      HID\VID_0FD9&PID_006D\7&20E5E9A8&0&0000                                                                                    
+HIDClass          HID-compliant consumer control device                           OK      HID\VID_0C76&PID_120C&MI_02\8&24FB74A9&0&0000                                                                              
+HIDClass          HID-compliant device                                            OK      HID\HID_DEVICE_SYSTEM_VHF\7&504AE07&0&0000                                                                                 
+HIDClass          HID-compliant system controller                                 OK      HID\VID_046D&PID_C52B&MI_01&COL03\7&27778848&0&0002                                                                        
+HIDClass          HID-compliant system controller                                 Unknown HID\VID_046D&PID_C52B&MI_01&COL03\8&25C2E7&0&0002                                                                          
+HIDClass          HID-compliant vendor-defined device                             OK      HID\VID_1B1C&PID_1B80&MI_01\7&24E95972&0&0000                                                                              
+HIDClass          HID-compliant vendor-defined device                             Unknown HID\VID_04D9&PID_A241&MI_01&COL03\7&244642D8&0&0002                                                                        
+HIDClass          HID-compliant vendor-defined device                             OK      HID\VID_046D&PID_C52B&MI_02&COL03\7&3A04A86&0&0002                                                                         
+HIDClass          HID-compliant vendor-defined device                             Unknown HID\VID_046D&PID_C52B&MI_02&COL03\8&130A5957&0&0002                                                                        
+HIDClass          HID-compliant vendor-defined device                             OK      HID\VID_0B05&PID_19AF&MI_02\7&382C88B3&0&0000                                                                              
+HIDClass          HID-compliant vendor-defined device                             OK      HID\VID_046D&PID_C52B&MI_01&COL04\7&27778848&0&0003                                                                        
+HIDClass          HID-compliant vendor-defined device                             OK      HID\VID_046D&PID_C336&MI_01&COL04\7&33048DA5&0&0003                                                                        
+HIDClass          HID-compliant vendor-defined device                             OK      HID\VID_046D&PID_C52B&MI_02&COL01\7&3A04A86&0&0000                                                                         
+HIDClass          HID-compliant vendor-defined device                             Unknown HID\VID_046D&PID_C52B&MI_02&COL02\8&130A5957&0&0001                                                                        
+HIDClass          HID-compliant vendor-defined device                             Unknown HID\VID_04D9&PID_A241&MI_01&COL04\7&244642D8&0&0003                                                                        
+HIDClass          HID-compliant vendor-defined device                             Unknown HID\VID_046D&PID_C52B&MI_02&COL01\8&130A5957&0&0000                                                                        
+HIDClass          HID-compliant vendor-defined device                             OK      HID\VID_046D&PID_C336&MI_01&COL03\7&33048DA5&0&0002                                                                        
+HIDClass          HID-compliant vendor-defined device                             OK      HID\VID_046D&PID_C52B&MI_02&COL02\7&3A04A86&0&0001                                                                         
+HIDClass          HID-compliant vendor-defined device                             Unknown HID\VID_046D&PID_C52B&MI_01&COL04\8&25C2E7&0&0003                                                                          
+HIDClass          HID-compliant vendor-defined device                             OK      HID\VID_1B1C&PID_1B80&MI_02\7&1121BB0&0&0000                                                                               
+HIDClass          Logitech G HUB Virtual Keyboard                                 OK      LGHUBDEVICE\VID_046D&PID_C232\1&79F5D87&0&01                                                                               
+HIDClass          Logitech G HUB Virtual Mouse                                    Unknown LGHUBDEVICE\VID_046D&PID_C231\1&79F5D87&0&02                                                                               
+HIDClass          Logitech USB Input Device                                       Unknown USB\VID_046D&PID_C52B&MI_00\7&389F58D&0&0000                                                                               
+HIDClass          Logitech USB Input Device                                       OK      USB\VID_046D&PID_C52B&MI_00\6&25D38688&0&0000                                                                              
+HIDClass          USB Input Device                                                Unknown USB\VID_0D8C&PID_0005&MI_02\6&50736ED&0&0002                                                                               
+HIDClass          USB Input Device                                                OK      USB\VID_1B1C&PID_1B80&MI_01\6&1CBA9B5A&1&0001                                                                              
+HIDClass          USB Input Device                                                Unknown USB\VID_413C&PID_301A\5&CC3F949&0&5                                                                                        
+HIDClass          USB Input Device                                                Unknown USB\VID_04D9&PID_A241&MI_00\6&23AC3A92&0&0000                                                                              
+HIDClass          USB Input Device                                                OK      USB\VID_0D8C&PID_0005&MI_02\6&D26EB1B&0&0002                                                                               
+HIDClass          USB Input Device                                                Unknown USB\VID_046D&PID_C52B&MI_02\7&389F58D&0&0002                                                                               
+HIDClass          USB Input Device                                                Unknown USB\VID_0C76&PID_161F&MI_03\7&90B7565&0&0003                                                                               
+HIDClass          USB Input Device                                                Unknown USB\VID_04D9&PID_A241&MI_01\6&23AC3A92&0&0001                                                                              
+HIDClass          USB Input Device                                                OK      USB\VID_0C76&PID_120C&MI_02\7&390C4426&0&0002                                                                              
+HIDClass          USB Input Device                                                OK      USB\VID_1B1C&PID_1B80&MI_00\6&1CBA9B5A&1&0000                                                                              
+HIDClass          USB Input Device                                                Unknown USB\VID_413C&PID_301A\6&3A944CE5&0&4                                                                                       
+HIDClass          USB Input Device                                                OK      USB\VID_046D&PID_C336&MI_01\6&D5BDA54&0&0001                                                                               
+HIDClass          USB Input Device                                                OK      USB\VID_0C76&PID_161F&MI_03\7&6C28F63&0&0003                                                                               
+HIDClass          USB Input Device                                                Unknown USB\VID_0C76&PID_161F&MI_03\7&2A4FB450&0&0003                                                                              
+HIDClass          USB Input Device                                                OK      USB\VID_0FD9&PID_006D\AL46J2C57961                                                                                         
+HIDClass          USB Input Device                                                OK      USB\VID_046D&PID_C336&MI_00\6&D5BDA54&0&0000                                                                               
+HIDClass          USB Input Device                                                OK      USB\VID_046D&PID_C52B&MI_01\6&25D38688&0&0001                                                                              
+HIDClass          USB Input Device                                                Unknown USB\VID_001F&PID_0B21&MI_03\8&609D0DF&0&0003                                                                               
+HIDClass          USB Input Device                                                Unknown USB\VID_0218&PID_0204&MI_03\6&1D7BC9D0&0&0003                                                                              
+HIDClass          USB Input Device                                                OK      USB\VID_1B1C&PID_1B80&MI_02\6&1CBA9B5A&1&0002                                                                              
+HIDClass          USB Input Device                                                OK      USB\VID_046D&PID_C52B&MI_02\6&25D38688&0&0002                                                                              
+HIDClass          USB Input Device                                                OK      USB\VID_1B1C&PID_1B80&MI_03\6&1CBA9B5A&1&0003                                                                              
+HIDClass          USB Input Device                                                Unknown USB\VID_046D&PID_C52B&MI_01\7&389F58D&0&0001                                                                               
+HIDClass          USB Input Device                                                OK      USB\VID_0B05&PID_19AF&MI_02\6&DE2EAF5&0&0002                                                                               
+HIDClass          Virtual HID Framework (VHF) HID device                          OK      VHF\HID_DEVICE_SYSTEM_VHF\6&D5BDA54&0&0D6D38683434_SLOT00                                                                  
+Image             Brother MFC-L2740DW                                             Unknown USB\VID_04F9&PID_0320&MI_01\7&21141CB5&0&0001                                                                              
+Image             Brother MFC-L2740DW LAN                                         OK      ROOT\IMAGE\0000                                                                                                            
+Image             Logitech Webcam C930e                                           Unknown USB\VID_046D&PID_0843&MI_00\7&323B718F&0&0000                                                                              
+Keyboard          HID Keyboard Device                                             OK      HID\VIRTUALDEVICE&10&COL02\2&3457A17C&0&0001                                                                               
+Keyboard          HID Keyboard Device                                             Unknown HID\VID_046D&PID_C52B&MI_00\8&1355DF25&0&0000                                                                              
+Keyboard          HID Keyboard Device                                             OK      HID\VID_046D&PID_C336&MI_01&COL01\7&33048DA5&0&0000                                                                        
+Keyboard          HID Keyboard Device                                             OK      HID\VID_1B1C&PID_1B80&MI_03&COL01\7&22C52212&0&0000                                                                        
+Keyboard          HID Keyboard Device                                             Unknown HID\VIRTUALDEVICE&10\2&3457A17C&0&0000                                                                                     
+Keyboard          HID Keyboard Device                                             OK      HID\VID_046D&PID_C232\2&1A87F3A8&0&0000                                                                                    
+Keyboard          HID Keyboard Device                                             OK      HID\VID_046D&PID_C336&MI_00\7&1FD47167&0&0000                                                                              
+Keyboard          HID Keyboard Device                                             Unknown HID\VID_04D9&PID_A241&MI_01&COL01\7&244642D8&0&0000                                                                        
+Keyboard          HID Keyboard Device                                             OK      HID\VIRTUALDEVICE&10&COL03\2&3457A17C&0&0002                                                                               
+Keyboard          HID Keyboard Device                                             OK      HID\VID_046D&PID_C52B&MI_00\7&1E0DBE1&0&0000                                                                               
+MEDIA             ASUS Utility                                                    OK      ROOT\MEDIA\0000                                                                                                            
+MEDIA             AudioBox USB 96                                                 OK      TUSBAUDIO_ENUM\VID_194F&PID_0303&KS\000000000000                                                                           
+MEDIA             Blue Snowball                                                   OK      USB\VID_0D8C&PID_0005&MI_00\6&D26EB1B&0&0000                                                                               
+MEDIA             CS202                                                           Unknown USB\VID_001F&PID_0B21&MI_00\8&609D0DF&0&0000                                                                               
+MEDIA             Depstech webcam MIC                                             OK      USB\VID_1BDF&PID_5060&MI_02\6&3CF4071&0&0002                                                                               
+MEDIA             DRELANMIC                                                       OK      USB\VID_0C76&PID_120C&MI_00\7&390C4426&0&0000                                                                              
+MEDIA             Game Capture HD60                                               OK      USB\VID_0FD9&PID_005C\11122C367B                                                                                           
+MEDIA             HD Audio Driver for Display Audio                               Unknown HDAUDIO\SUBFUNC_01&VEN_8086&DEV_2818&NID_0001&SUBSYS_00000000&REV_1000\5&3A2CA9FF&1&0002&0000001C                          
+MEDIA             HD Audio Driver for Display Audio                               Unknown HDAUDIO\SGPC_FUNC_01&VEN_8086&DEV_2818&SUBSYS_80860101&REV_1000\4&8F17D27&0&0201                                           
+MEDIA             Logitech Webcam C930e                                           Unknown USB\VID_046D&PID_0843&MI_02\7&323B718F&0&0002                                                                              
+MEDIA             Microsoft Streaming Clock Proxy                                 Unknown SW\{97EBAACC-95BD-11D0-A3EA-00A0C9223196}\{53172480-4791-11D0-A5D6-28DB04C10000}                                           
+MEDIA             Microsoft Streaming Quality Manager Proxy                       Unknown SW\{DDF4358E-BB2C-11D0-A42F-00A0C9223196}\{97EBAACB-95BD-11D0-A3EA-00A0C9223196}                                           
+MEDIA             Microsoft Streaming Service Proxy                               OK      SW\{96E080C7-143C-11D1-B40F-00A0C9223196}\{3C0D501A-140B-11D1-B40F-00A0C9223196}                                           
+MEDIA             Microsoft Streaming Tee/Sink-to-Sink Converter                  Unknown SW\{CFD669F1-9BC2-11D0-8299-0000F822FE8A}\{0A4252A0-7E70-11D0-A5D6-28DB04C10000}                                           
+MEDIA             Microsoft Streaming Tee/Sink-to-Sink Converter                  Unknown SW\{CFD669F1-9BC2-11D0-8299-0000F822FE8A}\{CF1DDA2C-9743-11D0-A3EE-00A0C9223196}                                           
+MEDIA             Microsoft Trusted Audio Drivers                                 Unknown SW\{EEC12DB6-AD9C-4168-8658-B03DAEF417FE}\{ABD61E00-9350-47E2-A632-4438B90C6641}                                           
+MEDIA             NVIDIA High Definition Audio                                    Unknown HDAUDIO\FUNC_01&VEN_10DE&DEV_009A&SUBSYS_38423978&REV_1001\5&D3A15B8&0&0001                                                
+MEDIA             NVIDIA High Definition Audio                                    OK      HDAUDIO\FUNC_01&VEN_10DE&DEV_009F&SUBSYS_14584074&REV_1001\5&6CFCA77&0&0001                                                
+MEDIA             NVIDIA Virtual Audio Device (Wave Extensible) (WDM)             OK      ROOT\UNNAMED_DEVICE\0000                                                                                                   
+MEDIA             Realtek(R) Audio                                                OK      HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_1043882A&REV_1001\4&8F17D27&0&0001                                                
+MEDIA             rukus                                                           OK      BTHENUM\{0000110B-0000-1000-8000-00805F9B34FB}_LOCALMFG&0002\7&1C9E9E4B&0&C88447084C4C_C00000000                           
+MEDIA             Solo B30                                                        OK      BTHENUM\{0000110B-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\7&1C9E9E4B&0&F44EFD75A714_C00000000                   
+MEDIA             Solo B30 A2DP SNK                                               OK      BTHENUM\{0000110A-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\7&1C9E9E4B&0&F44EFD75A714_C00000000                   
+MEDIA             teVirtualMIDI - Virtual MIDI Driver x64                         OK      ROOT\MEDIA\0001                                                                                                            
+MEDIA             USB Audio Device                                                Unknown USB\VID_0D8C&PID_0005&MI_00\6&50736ED&0&0000                                                                               
+MEDIA             USB PnP Audio Device                                            Unknown USB\VID_0C76&PID_161F&MI_00\7&2A4FB450&0&0000                                                                              
+MEDIA             USB PnP Audio Device                                            OK      USB\VID_0C76&PID_161F&MI_00\7&6C28F63&0&0000                                                                               
+MEDIA             USB PnP Audio Device                                            Unknown USB\VID_0C76&PID_161F&MI_00\7&90B7565&0&0000                                                                               
+MEDIA             WORLDE                                                          Unknown USB\VID_0218&PID_0204&MI_00\6&1D7BC9D0&0&0000                                                                              
+MicrochipTools    SMSC-Microchip WinUSB USB2534 Hub                               Unknown USB\VID_0424&PID_1012\5&CC3F949&0&4                                                                                        
+Monitor           Generic Monitor                                                 Unknown DISPLAY\MS_0001\4&22710F2D&0&UID2142332                                                                                    
+Monitor           Generic Monitor (ASUS VY279)                                    Unknown DISPLAY\AUS27DA\5&229A3D7&0&UID4352                                                                                        
+Monitor           Generic Monitor (ASUS VY279)                                    Unknown DISPLAY\AUS27DA\5&229A3D7&0&UID4356                                                                                        
+Monitor           Generic Monitor (DELL E2220H)                                   Unknown DISPLAY\DELF119\5&229A3D7&0&UID4357                                                                                        
+Monitor           Generic Monitor (DELL E2220H)                                   OK      DISPLAY\DELF119\5&238B2DEE&0&UID4356                                                                                       
+Monitor           Generic Monitor (Q32G2WG3)                                      Unknown DISPLAY\AOC3202\1&8713BCA&0&UID0                                                                                           
+Monitor           Generic Monitor (Q32G2WG3)                                      OK      DISPLAY\AOC3202\5&238B2DEE&0&UID4355                                                                                       
+Monitor           Generic Monitor (Q32G2WG3)                                      OK      DISPLAY\AOC3202\5&238B2DEE&0&UID4352                                                                                       
+Monitor           Generic Monitor (Q32G2WG3)                                      Unknown DISPLAY\AOC3202\5&229A3D7&0&UID4357                                                                                        
+Monitor           Generic Monitor (Q32G2WG3)                                      OK      DISPLAY\AOC3202\5&238B2DEE&0&UID4353                                                                                       
+Monitor           Generic Monitor (Q32G2WG3)                                      Unknown DISPLAY\AOC3202\5&229A3D7&0&UID4355                                                                                        
+Monitor           Generic Monitor (Q32G2WG3)                                      Unknown DISPLAY\AOC3202\5&229A3D7&0&UID4352                                                                                        
+Monitor           Generic Monitor (Q32G2WG3)                                      Unknown DISPLAY\AOC3202\4&22710F2D&0&UID49                                                                                         
+Monitor           Generic Monitor (Q32G2WG3)                                      Unknown DISPLAY\AOC3202\5&229A3D7&0&UID4353                                                                                        
+Mouse             HID-compliant mouse                                             Unknown HID\VID_046D&PID_C52B&MI_01&COL01\8&25C2E7&0&0000                                                                          
+Mouse             HID-compliant mouse                                             OK      HID\VID_1B1C&PID_1B80&MI_00\7&D25CD2D&0&0000                                                                               
+Mouse             HID-compliant mouse                                             Unknown HID\VID_04D9&PID_A241&MI_00\7&6F0516&0&0000                                                                                
+Mouse             HID-compliant mouse                                             Unknown HID\VID_046D&PID_C231\2&2FDF093D&0&0000                                                                                    
+Mouse             HID-compliant mouse                                             OK      HID\VIRTUALDEVICE&10&COL04\2&3457A17C&0&0003                                                                               
+Mouse             HID-compliant mouse                                             Unknown HID\VID_413C&PID_301A\6&7D07B07&0&0000                                                                                     
+Mouse             HID-compliant mouse                                             OK      HID\VID_046D&PID_C52B&MI_01&COL01\7&27778848&0&0000                                                                        
+Mouse             HID-compliant mouse                                             Unknown HID\VID_413C&PID_301A\7&14DEB755&0&0000                                                                                    
+Mouse             HID-compliant mouse                                             OK      HID\VIRTUALDEVICE&10&COL01\2&3457A17C&0&0000                                                                               
+Net               Bluetooth Device (Personal Area Network)                        OK      BTH\MS_BTHPAN\6&36E437A3&0&2                                                                                               
+Net               Intel(R) Ethernet Controller I226-V                             OK      PCI\VEN_8086&DEV_125C&SUBSYS_88671043&REV_06\107C61FFFF61C89600                                                            
+Net               Intel(R) Wi-Fi 6E AX210 160MHz                                  OK      PCI\VEN_8086&DEV_2725&SUBSYS_00248086&REV_1A\4&357C575C&0&00E2                                                             
+Net               Marvell AQtion 10Gbit Network Adapter                           OK      PCI\VEN_1D6A&DEV_94C0&SUBSYS_87F51043&REV_03\4&26F22371&0&00E0                                                             
+Net               Microsoft Kernel Debug Network Adapter                          OK      ROOT\KDNIC\0000                                                                                                            
+Net               Microsoft Wi-Fi Direct Virtual Adapter                          OK      {5D624F94-8850-40C3-A3FA-A4FD2080BAF3}\VWIFIMP_WFD\5&379129E&0&11                                                          
+Net               Microsoft Wi-Fi Direct Virtual Adapter #2                       OK      {5D624F94-8850-40C3-A3FA-A4FD2080BAF3}\VWIFIMP_WFD\5&379129E&0&12                                                          
+Net               Realtek USB FE Family Controller                                OK      USB\VID_0BDA&PID_8152\00E04C362201                                                                                         
+Net               Realtek USB GbE Family Controller                               Unknown USB\VID_0BDA&PID_8153\101000001                                                                                            
+Net               WAN Miniport (IKEv2)                                            OK      SWD\MSRRAS\MS_AGILEVPNMINIPORT                                                                                             
+Net               WAN Miniport (IP)                                               OK      SWD\MSRRAS\MS_NDISWANIP                                                                                                    
+Net               WAN Miniport (IPv6)                                             OK      SWD\MSRRAS\MS_NDISWANIPV6                                                                                                  
+Net               WAN Miniport (L2TP)                                             OK      SWD\MSRRAS\MS_L2TPMINIPORT                                                                                                 
+Net               WAN Miniport (Network Monitor)                                  OK      SWD\MSRRAS\MS_NDISWANBH                                                                                                    
+Net               WAN Miniport (PPPOE)                                            OK      SWD\MSRRAS\MS_PPPOEMINIPORT                                                                                                
+Net               WAN Miniport (PPTP)                                             OK      SWD\MSRRAS\MS_PPTPMINIPORT                                                                                                 
+Net               WAN Miniport (SSTP)                                             OK      SWD\MSRRAS\MS_SSTPMINIPORT                                                                                                 
+paeusbaudio_sc    AudioBox USB 96                                                 OK      USB\VID_194F&PID_0303\000000000000                                                                                         
+Ports             Communications Port (COM1)                                      OK      ACPI\PNP0501\0                                                                                                             
+Printer           Brother MFC-L2740DW series                                      Unknown USBPRINT\BROTHERMFC-L2740DW_SERIES\8&24A9B3BA&0&USB001                                                                     
+PrintQueue        Brother MFC-L2740DW series                                      OK      SWD\PRINTENUM\{E3944CF2-CE36-4BC4-9E20-AA259EC633E4}                                                                       
+PrintQueue        Brother MFC-L2740DW series (Copy 1)                             Unknown SWD\PRINTENUM\{B0DDB2C9-E82A-4EB7-979D-6DAED371ACD4}                                                                       
+PrintQueue        Brother PC-FAX v.3.2                                            OK      SWD\PRINTENUM\{F03DBD35-8755-4079-B82A-51CCDD4403D2}                                                                       
+PrintQueue        Microsoft Print to PDF                                          OK      SWD\PRINTENUM\{82DEE811-14D8-406B-BDAA-3465A7D0FBBE}                                                                       
+PrintQueue        OneNote (Desktop)                                               OK      SWD\PRINTENUM\{28E0E0B5-983D-41C3-BE6B-97E5194405B3}                                                                       
+PrintQueue        Root Print Queue                                                OK      SWD\PRINTENUM\PRINTQUEUES                                                                                                  
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\12                                   
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\F                                    
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\11                                   
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\10                                   
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\4                                    
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\2                                    
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\3                                    
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\0                                    
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\1                                    
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\17                                   
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\14                                   
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\13                                   
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\16                                   
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\15                                   
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\8                                    
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\7                                    
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\D                                    
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\9                                    
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\C                                    
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\B                                    
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\A                                    
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\6                                    
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\5                                    
+Processor         13th Gen Intel(R) Core(TM) i7-13700K                            OK      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_183_-_13TH_GEN_INTEL(R)_CORE(TM)_I7-13700K\E                                    
+SCSIAdapter       Microsoft Storage Spaces Controller                             OK      ROOT\SPACEPORT\0000                                                                                                        
+SCSIAdapter       Standard NVM Express Controller                                 OK      PCI\VEN_144D&DEV_A80C&SUBSYS_A801144D&REV_00\4&E45FC2A&0&0030                                                              
+SCSIAdapter       Standard NVM Express Controller                                 OK      PCI\VEN_15B7&DEV_504A&SUBSYS_504A15B7&REV_00\4&6586F28&0&00DC                                                              
+SCSIAdapter       Standard NVM Express Controller                                 OK      PCI\VEN_144D&DEV_A808&SUBSYS_A801144D&REV_00\4&6D0681D&0&00D0                                                              
+SecurityDevices   Trusted Platform Module 2.0                                     OK      ACPI\MSFT0101\1                                                                                                            
+SmartCard         Identity Device (NIST SP 800-73 [PIV])                          Unknown SCFILTER\CID_534345372003002046\9&141958B1&0&ACS_ACR39U_ICC_READER_0_SCFILTER_CID_534345372003002046                       
+SmartCardFilter   Smart card filter driver                                        OK      {892EDE5E-BE49-443C-A0B3-005D74F2D69C}\SCFILTER\9&141958B1&0&01                                                            
+SmartCardFilter   Smart card filter driver                                        Unknown {892EDE5E-BE49-443C-A0B3-005D74F2D69C}\SCFILTER\9&D849680&0&01                                                             
+SmartCardReader   ACR39U ICC Reader                                               OK      USB\VID_072F&PID_B100\8&1719909F&0&4                                                                                       
+SmartCardReader   Microsoft Usbccid Smartcard Reader (WUDF)                       Unknown USB\VID_072F&PID_B100\8&2D8F49D5&0&4                                                                                       
+SoftwareComponent ASUS App Component                                              OK      ROOT\SOFTWARECOMPONENT\0000                                                                                                
+SoftwareComponent Intel(R) Dynamic Application Loader Host Interface              OK      SWD\DRIVERENUM\OEM_DAL_COMPONENT&4&39730E8B&0                                                                              
+SoftwareComponent Intel(R) Graphics Command Center                                Unknown SWD\DRIVERENUM\IGCC&4&22710F2D&0                                                                                           
+SoftwareComponent Intel(R) Management Engine WMI Provider                         OK      SWD\DRIVERENUM\OEM_WMI_COMPONENT&4&39730E8B&0                                                                              
+SoftwareComponent Intel® PROSet/Wireless WiFi Software extension                  OK      SWD\DRIVERENUM\{4D3C822D-417D-4B03-B562-CD33F5FDA354}#PIESOFTWARECOMPONENT&5&379129E&0                                     
+SoftwareComponent Realtek Asio Component                                          OK      SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKASIO&5&215A72E9&0                                             
+SoftwareComponent Realtek Audio Effects Component                                 OK      SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKAPO&5&215A72E9&0                                              
+SoftwareComponent Realtek Audio Universal Service                                 OK      SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKSRV&5&215A72E9&0                                              
+SoftwareComponent Realtek Hardware Support Application                            OK      SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKHSA&5&215A72E9&0                                              
+SoftwareComponent Thunderbolt(TM) HSA Component                                   OK      SWD\DRIVERENUM\THUNDERBOLTHOSTCONTROLLERHSA&7&4729EB1&0                                                                    
+SoftwareComponent Thunderbolt(TM) Toast Component                                 OK      SWD\DRIVERENUM\{B4DAA161-39A4-49EA-BC66-7B05A9DDBB16}#TBTTOASTCOMPONENT&7&4729EB1&0                                        
+SoftwareDevice    ACS ACR39U ICC Reader 0                                         OK      SWD\SCDEVICEENUM\1_ACS_ACR39U_ICC_READER_0                                                                                 
+SoftwareDevice    AudioBox USB 96 MIDI In [0]                                     OK      SWD\MMDEVAPI\MIDII_A51B9CE7.P_0001                                                                                         
+SoftwareDevice    AudioBox USB 96 MIDI Out [0]                                    OK      SWD\MMDEVAPI\MIDII_117B0DEC.P_0000                                                                                         
+SoftwareDevice    Bluetooth                                                       OK      SWD\RADIO\BLUETOOTH_50284A15E34C                                                                                           
+SoftwareDevice    Microsoft Device Association Root Enumerator                    OK      SWD\MSDAS\{CE958E9A-424F-4C88-86F4-11314821E75A}                                                                           
+SoftwareDevice    Microsoft GS Wavetable Synth                                    OK      SWD\MMDEVAPI\MICROSOFTGSWAVETABLESYNTH                                                                                     
+SoftwareDevice    Microsoft Passport Container Enumeration Bus                    OK      SWD\SCDEVICEENUMBUS\1                                                                                                      
+SoftwareDevice    Microsoft Radio Device Enumeration Bus                          OK      SWD\RADIO\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2}                                                                           
+SoftwareDevice    Microsoft RRAS Root Enumerator                                  OK      SWD\MSRRAS\{5E259276-BC7E-40E3-B93B-8F89B5F3ABC0}                                                                          
+SoftwareDevice    Smart Card Device Enumeration Bus                               OK      SWD\SCDEVICEENUMBUS\0                                                                                                      
+SoftwareDevice    Wi-Fi                                                           OK      SWD\RADIO\{4047ADAF-17B8-411B-BC97-9A66ED5E8F53}                                                                           
+SoftwareDevice    WORLDE    [0]                                                   Unknown SWD\MMDEVAPI\MIDII_2F07BC11.P_0000                                                                                         
+SoftwareDevice    WORLDE    [1]                                                   Unknown SWD\MMDEVAPI\MIDII_2F07BC11.P_0001                                                                                         
+System            ACPI Fan                                                        OK      ACPI\PNP0C0B\4                                                                                                             
+System            ACPI Fan                                                        OK      ACPI\PNP0C0B\1                                                                                                             
+System            ACPI Fan                                                        OK      ACPI\PNP0C0B\2                                                                                                             
+System            ACPI Fan                                                        OK      ACPI\PNP0C0B\0                                                                                                             
+System            ACPI Fan                                                        OK      ACPI\PNP0C0B\3                                                                                                             
+System            ACPI Fixed Feature Button                                       OK      ACPI\FIXEDBUTTON\2&DABA3FF&0                                                                                               
+System            ACPI Power Button                                               OK      ACPI\PNP0C0C\2&DABA3FF&0                                                                                                   
+System            ACPI Processor Aggregator                                       OK      ACPI\ACPI000C\2&DABA3FF&0                                                                                                  
+System            ACPI Sleep Button                                               OK      ACPI\PNP0C0E\2&DABA3FF&0                                                                                                   
+System            ACPI Thermal Zone                                               OK      ACPI\THERMALZONE\TZ00                                                                                                      
+System            ACPI Wake Alarm                                                 OK      ACPI\ACPI000E\2&DABA3FF&0                                                                                                  
+System            ASUS System Control Interface v3                                OK      ACPI\ASUS2018\2&DABA3FF&0                                                                                                  
+System            Composite Bus Enumerator                                        OK      ROOT\COMPOSITEBUS\0000                                                                                                     
+System            Corsair Bus                                                     OK      ROOT\SYSTEM\0002                                                                                                           
+System            High Definition Audio Controller                                Unknown PCI\VEN_10DE&DEV_1AEF&SUBSYS_39783842&REV_A1\4&256A0AA8&0&0108                                                             
+System            High Definition Audio Controller                                OK      PCI\VEN_8086&DEV_7A50&SUBSYS_882A1043&REV_11\3&11583659&0&FB                                                               
+System            High Definition Audio Controller                                OK      PCI\VEN_10DE&DEV_228E&SUBSYS_40741458&REV_A1\4&256A0AA8&0&0108                                                             
+System            High precision event timer                                      OK      ACPI\PNP0103\0                                                                                                             
+System            Intel(R) LPC Controller/eSPI Controller - 7A04                  OK      PCI\VEN_8086&DEV_7A04&SUBSYS_88821043&REV_11\3&11583659&0&F8                                                               
+System            Intel(R) Management Engine Interface #1                         OK      PCI\VEN_8086&DEV_7A68&SUBSYS_88821043&REV_11\3&11583659&0&B0                                                               
+System            Intel(R) PCI Express Root Port #1 - 7A38                        OK      PCI\VEN_8086&DEV_7A38&SUBSYS_88821043&REV_11\3&11583659&0&E0                                                               
+System            Intel(R) PCI Express Root Port #17 - 7A40                       OK      PCI\VEN_8086&DEV_7A40&SUBSYS_88821043&REV_11\3&11583659&0&D8                                                               
+System            Intel(R) PCI Express Root Port #21 - 7A44                       OK      PCI\VEN_8086&DEV_7A44&SUBSYS_88821043&REV_11\3&11583659&0&DC                                                               
+System            Intel(R) PCI Express Root Port #25 - 7A48                       OK      PCI\VEN_8086&DEV_7A48&SUBSYS_88821043&REV_11\3&11583659&0&D0                                                               
+System            Intel(R) PCI Express Root Port #3 - 7A3A                        OK      PCI\VEN_8086&DEV_7A3A&SUBSYS_88821043&REV_11\3&11583659&0&E2                                                               
+System            Intel(R) PCI Express Root Port #4 - 7A3B                        OK      PCI\VEN_8086&DEV_7A3B&SUBSYS_88821043&REV_11\3&11583659&0&E3                                                               
+System            Intel(R) PCI Express Root Port #5 - 7A3C                        OK      PCI\VEN_8086&DEV_7A3C&SUBSYS_88821043&REV_11\3&11583659&0&E4                                                               
+System            Intel(R) PCI Express Root Port #9 - 7A30                        OK      PCI\VEN_8086&DEV_7A30&SUBSYS_88821043&REV_11\3&11583659&0&E8                                                               
+System            Intel(R) PCIe RC 010 G5 - A70D                                  OK      PCI\VEN_8086&DEV_A70D&SUBSYS_88821043&REV_01\3&11583659&0&08                                                               
+System            Intel(R) PCIe RC 060 (x4) G4 - A74D                             OK      PCI\VEN_8086&DEV_A74D&SUBSYS_88821043&REV_01\3&11583659&0&30                                                               
+System            Intel(R) Platform Monitoring Technology Driver                  OK      PCI\VEN_8086&DEV_A77D&SUBSYS_88821043&REV_01\3&11583659&0&50                                                               
+System            Intel(R) Power Engine Plug-in                                   OK      ACPI\INT33A1\1                                                                                                             
+System            Intel(R) Serial IO GPIO Host Controller - INTC1085              OK      ACPI\INTC1085\2&DABA3FF&0                                                                                                  
+System            Intel(R) Serial IO I2C Host Controller - 7A4C                   OK      PCI\VEN_8086&DEV_7A4C&SUBSYS_88821043&REV_11\3&11583659&0&A8                                                               
+System            Intel(R) Serial IO I2C Host Controller - 7A4D                   OK      PCI\VEN_8086&DEV_7A4D&SUBSYS_88821043&REV_11\3&11583659&0&A9                                                               
+System            Intel(R) Serial IO I2C Host Controller - 7A4E                   OK      PCI\VEN_8086&DEV_7A4E&SUBSYS_88821043&REV_11\3&11583659&0&AA                                                               
+System            Intel(R) Shared SRAM - 7A27                                     OK      PCI\VEN_8086&DEV_7A27&SUBSYS_88821043&REV_11\3&11583659&0&A2                                                               
+System            Intel(R) SMBus - 7A23                                           OK      PCI\VEN_8086&DEV_7A23&SUBSYS_88821043&REV_11\3&11583659&0&FC                                                               
+System            Intel(R) SPI (flash) Controller - 7A24                          OK      PCI\VEN_8086&DEV_7A24&SUBSYS_88821043&REV_11\3&11583659&0&FD                                                               
+System            Logitech G HUB Virtual Bus Enumerator                           OK      ROOT\SYSTEM\0001                                                                                                           
+System            Microsoft ACPI-Compliant Embedded Controller                    OK      ACPI\PNP0C09\4&6EC0D58&0                                                                                                   
+System            Microsoft ACPI-Compliant System                                 OK      ACPI_HAL\PNP0C08\0                                                                                                         
+System            Microsoft Basic Display Driver                                  OK      ROOT\BASICDISPLAY\0000                                                                                                     
+System            Microsoft Basic Render Driver                                   OK      ROOT\BASICRENDER\0000                                                                                                      
+System            Microsoft Hyper-V Virtualization Infrastructure Driver          OK      ROOT\VID\0000                                                                                                              
+System            Microsoft Hypervisor Service                                    OK      ROOT\HVSERVICE\0000                                                                                                        
+System            Microsoft System Management BIOS Driver                         OK      ROOT\MSSMBIOS\0000                                                                                                         
+System            Microsoft UEFI-Compliant System                                 OK      ACPI_HAL\UEFI\0                                                                                                            
+System            Microsoft Virtual Drive Enumerator                              OK      ROOT\VDRVROOT\0000                                                                                                         
+System            Microsoft Windows Management Interface for ACPI                 OK      ACPI\PNP0C14\ASUSLEDCONTROLWMI                                                                                             
+System            Microsoft Windows Management Interface for ACPI                 OK      ACPI\PNP0C14\ASUSMBSWINTERFACE                                                                                             
+System            Microsoft Windows Management Interface for ACPI                 OK      ACPI\PNP0C14\ATK                                                                                                           
+System            Microsoft Windows Management Interface for ACPI                 OK      ACPI\PNP0C14\AWW                                                                                                           
+System            Microsoft Windows Management Interface for ACPI                 OK      ACPI\PNP0C14\ATW                                                                                                           
+System            Microsoft Windows Management Interface for ACPI                 OK      ACPI\PNP0C14\DSARDEV                                                                                                       
+System            Microsoft Windows Management Interface for ACPI                 OK      ACPI\PNP0C14\TESTDEV                                                                                                       
+System            Motherboard resources                                           OK      ACPI\PNP0C02\0                                                                                                             
+System            Motherboard resources                                           OK      ACPI\PNP0C02\1                                                                                                             
+System            Motherboard resources                                           OK      ACPI\PNP0C02\2                                                                                                             
+System            Motherboard resources                                           OK      ACPI\PNP0C02\5                                                                                                             
+System            Motherboard resources                                           OK      ACPI\INT340E\2&DABA3FF&0                                                                                                   
+System            Motherboard resources                                           OK      ACPI\INTC109C\4&6EC0D58&0                                                                                                  
+System            Motherboard resources                                           OK      ACPI\PNP0C02\ISCLK                                                                                                         
+System            Motherboard resources                                           OK      ACPI\PNP0C02\IOTRAPS                                                                                                       
+System            NDIS Virtual Network Adapter Enumerator                         OK      ROOT\NDISVIRTUALBUS\0000                                                                                                   
+System            PCI Express Downstream Switch Port                              OK      PCI\VEN_8086&DEV_1136&SUBSYS_87F61043&REV_02\D3D92D6135B7D00010                                                            
+System            PCI Express Downstream Switch Port                              OK      PCI\VEN_8086&DEV_1136&SUBSYS_87F61043&REV_02\D3D92D6135B7D00000                                                            
+System            PCI Express Downstream Switch Port                              OK      PCI\VEN_8086&DEV_1136&SUBSYS_87F61043&REV_02\D3D92D6135B7D00008                                                            
+System            PCI Express Downstream Switch Port                              OK      PCI\VEN_8086&DEV_1136&SUBSYS_87F61043&REV_02\D3D92D6135B7D00018                                                            
+System            PCI Express Root Complex                                        OK      ACPI\PNP0A08\0                                                                                                             
+System            PCI Express Upstream Switch Port                                OK      PCI\VEN_8086&DEV_1136&SUBSYS_87F61043&REV_02\UD3D92D6135B7D00000                                                           
+System            PCI standard host CPU bridge                                    OK      PCI\VEN_8086&DEV_A703&SUBSYS_88821043&REV_01\3&11583659&0&00                                                               
+System            Plug and Play Software Device Enumerator                        OK      ROOT\SYSTEM\0000                                                                                                           
+System            Programmable interrupt controller                               OK      ACPI\PNP0000\4&6EC0D58&0                                                                                                   
+System            Remote Desktop Device Redirector Bus                            OK      ROOT\RDPBUS\0000                                                                                                           
+System            Resource Hub proxy device                                       OK      ACPI\MSFT8000\1                                                                                                            
+System            System timer                                                    OK      ACPI\PNP0100\4&6EC0D58&0                                                                                                   
+System            Thunderbolt(TM) Controller - 1137                               OK      PCI\VEN_8086&DEV_1137&SUBSYS_87F61043&REV_00\D3D92D6135B7D00000                                                            
+System            TPS659xx Device                                                 OK      ACPI\INT3515\4&15B0A2F4&0                                                                                                  
+System            UMBus Root Bus Enumerator                                       OK      ROOT\UMBUS\0000                                                                                                            
+System            Volume Manager                                                  OK      ROOT\VOLMGR\0000                                                                                                           
+USB               Brother MFC-L2740DW series                                      Unknown USB\VID_04F9&PID_0320&MI_00\7&21141CB5&0&0000                                                                              
+USB               G213                                                            OK      USB\VID_046D&PID_C336\0D6D38683434                                                                                         
+USB               Generic SuperSpeed USB Hub                                      Unknown USB\VID_2109&PID_0822\MSFT30000000001                                                                                      
+USB               Generic SuperSpeed USB Hub                                      Unknown USB\VID_2109&PID_0817\5&CC3F949&0&18                                                                                       
+USB               Generic SuperSpeed USB Hub                                      Unknown USB\VID_2BEF&PID_1008\8&30D0C979&0&4                                                                                       
+USB               Generic SuperSpeed USB Hub                                      OK      USB\VID_2109&PID_0817\5&CC3F949&0&19                                                                                       
+USB               Generic SuperSpeed USB Hub                                      Unknown USB\VID_2109&PID_0817\MSFT30000000000                                                                                      
+USB               Generic SuperSpeed USB Hub                                      Unknown USB\VID_2109&PID_0888\MSFT30000000001                                                                                      
+USB               Generic USB Hub                                                 Unknown USB\VID_1A40&PID_0101\7&45A3825&0&1                                                                                        
+USB               Generic USB Hub                                                 Unknown USB\VID_2109&PID_2888\MSFT20000000001                                                                                      
+USB               Generic USB Hub                                                 OK      USB\VID_05E3&PID_0608\5&CC3F949&0&10                                                                                       
+USB               Generic USB Hub                                                 Unknown USB\VID_1A40&PID_0101\6&11BFCBB5&0&1                                                                                       
+USB               Generic USB Hub                                                 Unknown USB\VID_1A40&PID_0101\7&2D3B5187&0&1                                                                                       
+USB               Generic USB Hub                                                 Unknown USB\VID_1A40&PID_0101\7&45A3825&0&4                                                                                        
+USB               Generic USB Hub                                                 Unknown USB\VID_1A40&PID_0101\8&7F97C03&0&1                                                                                        
+USB               Generic USB Hub                                                 OK      USB\VID_1A40&PID_0101\7&201B0F75&0&1                                                                                       
+USB               Generic USB Hub                                                 Unknown USB\VID_2109&PID_2817\5&CC3F949&0&2                                                                                        
+USB               Generic USB Hub                                                 Unknown USB\VID_214B&PID_7250\5&CC3F949&0&13                                                                                       
+USB               Generic USB Hub                                                 OK      USB\VID_2109&PID_2817\5&CC3F949&0&3                                                                                        
+USB               Generic USB Hub                                                 OK      USB\VID_1A40&PID_0101\5&CC3F949&0&1                                                                                        
+USB               Generic USB Hub                                                 OK      USB\VID_214B&PID_7250\6&3353C2B1&0&1                                                                                       
+USB               Generic USB Hub                                                 Unknown USB\VID_1A40&PID_0101\5&CC3F949&0&6                                                                                        
+USB               Generic USB Hub                                                 Unknown USB\VID_2109&PID_2822\MSFT20000000001                                                                                      
+USB               Generic USB Hub                                                 Unknown USB\VID_1A40&PID_0101\5&CC3F949&0&8                                                                                        
+USB               Generic USB Hub                                                 OK      USB\VID_214B&PID_7250\5&CC3F949&0&12                                                                                       
+USB               Generic USB Hub                                                 OK      USB\VID_1A40&PID_0101\7&201B0F75&0&4                                                                                       
+USB               Generic USB Hub                                                 Unknown USB\VID_2BEF&PID_1009\5&CC3F949&0&13                                                                                       
+USB               Generic USB Hub                                                 Unknown USB\VID_1A40&PID_0101\6&209A120C&0&3                                                                                       
+USB               Generic USB Hub                                                 Unknown USB\VID_1A40&PID_0101\6&209A120C&0&4                                                                                       
+USB               Generic USB Hub                                                 Unknown USB\VID_1A40&PID_0101\8&30FD01ED&0&1                                                                                       
+USB               Generic USB Hub                                                 Unknown USB\VID_2109&PID_2817\MSFT20000000000                                                                                      
+USB               Generic USB Hub                                                 Unknown USB\VID_214B&PID_7250\6&209A120C&0&1                                                                                       
+USB               Generic USB Hub                                                 OK      USB\VID_1A40&PID_0101\6&3353C2B1&0&4                                                                                       
+USB               Generic USB Hub                                                 OK      USB\VID_1A40&PID_0101\8&13ABD887&0&1                                                                                       
+USB               Generic USB Hub                                                 Unknown USB\VID_1A40&PID_0101\7&77D177E&0&2                                                                                        
+USB               Intel(R) USB 3.10 eXtensible Host Controller - 1.10 (Microsoft) OK      PCI\VEN_8086&DEV_1138&SUBSYS_00000000&REV_00\6&17D02E43&0&001000E4                                                         
+USB               Intel(R) USB 3.20 eXtensible Host Controller - 1.20 (Microsoft) OK      PCI\VEN_8086&DEV_7A60&SUBSYS_88821043&REV_11\3&11583659&0&A0                                                               
+USB               ITE USB Connector Client Device                                 OK      ACPI\ITE8853\1                                                                                                             
+USB               Unknown USB Device (Device Descriptor Request Failed)           Unknown USB\VID_0000&PID_0002\7&9CDE25A&0&1                                                                                        
+USB               Unknown USB Device (Device Descriptor Request Failed)           Unknown USB\VID_0000&PID_0002\7&9CDE25A&0&2                                                                                        
+USB               Unknown USB Device (Device Descriptor Request Failed)           Unknown USB\VID_0000&PID_0002\6&209A120C&0&4                                                                                       
+USB               Unknown USB Device (Port Reset Failed)                          Unknown USB\VID_0000&PID_0001\6&3353C2B1&0&2                                                                                       
+USB               Unknown USB Device (Port Reset Failed)                          Unknown USB\VID_0000&PID_0001\8&30D0C979&0&3                                                                                       
+USB               Unknown USB Device (Port Reset Failed)                          Unknown USB\VID_0000&PID_0001\7&1A5D8734&0&3                                                                                       
+USB               USB Composite Device                                            Unknown USB\VID_0C76&PID_161F\6&35B93EC7&0&3                                                                                       
+USB               USB Composite Device                                            OK      USB\VID_0B05&PID_19AF\9876543210                                                                                           
+USB               USB Composite Device                                            OK      USB\VID_0C76&PID_120C\010000000000                                                                                         
+USB               USB Composite Device                                            Unknown USB\VID_046D&PID_C52B\6&3A944CE5&0&3                                                                                       
+USB               USB Composite Device                                            Unknown USB\VID_0C76&PID_161F\6&1045DD7D&0&3                                                                                       
+USB               USB Composite Device                                            Unknown USB\VID_04F9&PID_0320\U63889G7N415489                                                                                      
+USB               USB Composite Device                                            OK      USB\VID_0D8C&PID_0005\SUGA_2020/11/07_63649                                                                                
+USB               USB Composite Device                                            OK      USB\VID_1BDF&PID_5060\J20230821V0                                                                                          
+USB               USB Composite Device                                            Unknown USB\VID_0218&PID_0204\5&CC3F949&0&5                                                                                        
+USB               USB Composite Device                                            OK      USB\VID_0C76&PID_161F\6&11BFCBB5&0&3                                                                                       
+USB               USB Composite Device                                            OK      USB\VID_1B1C&PID_1B80\55EF3E39064EC5B8                                                                                     
+USB               USB Composite Device                                            Unknown USB\VID_04D9&PID_A241\5&CC3F949&0&7                                                                                        
+USB               USB Composite Device                                            OK      USB\VID_046D&PID_C52B\5&CC3F949&0&8                                                                                        
+USB               USB Composite Device                                            Unknown USB\VID_0D8C&PID_0005\5&CC3F949&0&7                                                                                        
+USB               USB Composite Device                                            Unknown USB\VID_046D&PID_0843\6&35B93EC7&0&1                                                                                       
+USB               USB Composite Device                                            Unknown USB\VID_001F&PID_0B21\20210726905926                                                                                       
+USB               USB Mass Storage Device                                         Unknown USB\VID_1908&PID_0226\7&77D177E&0&3                                                                                        
+USB               USB Mass Storage Device                                         OK      USB\VID_1132&PID_4511\4B5743414146423133323420                                                                             
+USB               USB Mass Storage Device                                         OK      USB\VID_14CD&PID_1212\121220160204                                                                                         
+USB               USB Mass Storage Device                                         Unknown USB\VID_0BDA&PID_8151\00E04C36220178                                                                                       
+USB               USB Mass Storage Device                                         OK      USB\VID_1908&PID_0226\7&1A5D8734&0&3                                                                                       
+USB               USB Root Hub (USB 3.0)                                          OK      USB\ROOT_HUB30\4&2FD48294&0&0                                                                                              
+USB               USB Root Hub (USB 3.0)                                          OK      USB\ROOT_HUB30\7&49F96AB&0&0                                                                                               
+USBDevice         AURA LED Controller                                             OK      USB\VID_0B05&PID_19AF&MI_00\6&DE2EAF5&0&0000                                                                               
+USBDevice         D501                                                            Unknown USB\VID_0502&PID_1195\7&2E5F6FA0&0&4                                                                                       
+USBDevice         MFC-L2740DW                                                     Unknown USB\VID_04F9&PID_0320&MI_02\7&21141CB5&0&0002                                                                              
+Volume            Volume                                                          OK      STORAGE\VOLUME\{C4AB5216-6D74-11F0-82BA-806E6F6E6963}#0000000007500000                                                     
+Volume            Volume                                                          Unknown STORAGE\VOLUME\{5D7F0051-0DCF-11F0-828A-806E6F6E6963}#0000000006500000                                                     
+Volume            Volume                                                          OK      STORAGE\VOLUME\{5D7F0053-0DCF-11F0-828A-806E6F6E6963}#0000000001000000                                                     
+Volume            Volume                                                          OK      STORAGE\VOLUME\{5D7F0050-0DCF-11F0-828A-806E6F6E6963}#0000000001100000                                                     
+Volume            Volume                                                          Unknown STORAGE\VOLUME\{5D7F0051-0DCF-11F0-828A-806E6F6E6963}#0000000000100000                                                     
+Volume            Volume                                                          OK      STORAGE\VOLUME\{C4AB5216-6D74-11F0-82BA-806E6F6E6963}#0000000006500000                                                     
+Volume            Volume                                                          OK      STORAGE\VOLUME\{5D7F0050-0DCF-11F0-828A-806E6F6E6963}#0000000000100000                                                     
+Volume            Volume                                                          OK      STORAGE\VOLUME\{5D7F0053-0DCF-11F0-828A-806E6F6E6963}#0000000000004400                                                     
+Volume            Volume                                                          Unknown STORAGE\VOLUME\{5D7F0051-0DCF-11F0-828A-806E6F6E6963}#000000E8B4100000                                                     
+Volume            Volume                                                          OK      STORAGE\VOLUME\{5D7F0052-0DCF-11F0-828A-806E6F6E6963}#0000000000100000                                                     
+Volume            Volume                                                          OK      STORAGE\VOLUME\_??_USBSTOR#DISK&VEN_MASS&PROD_STORAGE_DEVICE&REV_1.00#121220160204&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}
+Volume            Volume                                                          OK      STORAGE\VOLUME\{C4AB5216-6D74-11F0-82BA-806E6F6E6963}#000000E8B4100000                                                     
+Volume            Volume                                                          Unknown STORAGE\VOLUME\{5D7F0051-0DCF-11F0-828A-806E6F6E6963}#0000000007500000                                                     
+Volume            Volume                                                          OK      STORAGE\VOLUME\{C4AB5216-6D74-11F0-82BA-806E6F6E6963}#0000000000100000                                                     
+Volume            Volume                                                          OK      STORAGE\VOLUME\_??_USBSTOR#DISK&VEN_GENERIC&PROD_MASS-STORAGE&REV_1.11#8&2780363&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}  
+Volume            Volume                                                          Unknown STORAGE\VOLUME\_??_USBSTOR#DISK&VEN_GENERIC&PROD_MASS-STORAGE&REV_1.11#8&29431141&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B} 
+Volume            Volume                                                          OK      STORAGE\VOLUME\{C4AB5215-6D74-11F0-82BA-806E6F6E6963}#0000000000100000                                                     
+Volume            Volume                                                          OK      STORAGE\VOLUME\{5D7F0050-0DCF-11F0-828A-806E6F6E6963}#000001D198C00000                                                     
+VolumeSnapshot    Generic volume shadow copy                                      Unknown STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT7                                                                             
+VolumeSnapshot    Generic volume shadow copy                                      Unknown STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT6                                                                             
+VolumeSnapshot    Generic volume shadow copy                                      Unknown STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT8                                                                             
+VolumeSnapshot    Generic volume shadow copy                                      OK      STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT2                                                                             
+VolumeSnapshot    Generic volume shadow copy                                      Unknown STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT9                                                                             
+VolumeSnapshot    Generic volume shadow copy                                      OK      STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT3                                                                             
+VolumeSnapshot    Generic volume shadow copy                                      OK      STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT1                                                                             
+VolumeSnapshot    Generic volume shadow copy                                      Unknown STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT4                                                                             
+VolumeSnapshot    Generic volume shadow copy                                      Unknown STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT5                                                                             
+VolumeSnapshot    Generic volume shadow copy                                      Unknown STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT10                                                                            
+WPD               H:\                                                             OK      SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN_GENERIC&PROD_MASS-STORAGE&REV_1.11#8&2780363&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}  
+WPD               I:\                                                             Unknown SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN_GENERIC&PROD_MASS-STORAGE&REV_1.11#8&29431141&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B} 
+WPD               J:\                                                             OK      SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN_MASS&PROD_STORAGE_DEVICE&REV_1.00#121220160204&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}
+
+
+
+
+--- CONNECTED USB DEVICES ---
+
+
+Class           FriendlyName                                          Status  InstanceId                                                                       
+-----           ------------                                          ------  ----------                                                                       
+HIDClass        USB Input Device                                      OK      USB\VID_1B1C&PID_1B80&MI_00\6&1CBA9B5A&1&0000                                    
+USB             Generic USB Hub                                       OK      USB\VID_05E3&PID_0608\5&CC3F949&0&10                                             
+HIDClass        USB Input Device                                      OK      USB\VID_0B05&PID_19AF&MI_02\6&DE2EAF5&0&0002                                     
+SmartCardReader ACR39U ICC Reader                                     OK      USB\VID_072F&PID_B100\8&1719909F&0&4                                             
+USB             USB Composite Device                                  OK      USB\VID_0C76&PID_161F\6&11BFCBB5&0&3                                             
+USBDevice       AURA LED Controller                                   OK      USB\VID_0B05&PID_19AF&MI_00\6&DE2EAF5&0&0000                                     
+USB             Generic USB Hub                                       OK      USB\VID_214B&PID_7250\5&CC3F949&0&12                                             
+USB             Generic USB Hub                                       Unknown USB\VID_214B&PID_7250\5&CC3F949&0&13                                             
+DiskDrive       Generic Mass-Storage USB Device                       Unknown USBSTOR\DISK&VEN_GENERIC&PROD_MASS-STORAGE&REV_1.11\8&29431141&0                 
+MEDIA           Depstech webcam MIC                                   OK      USB\VID_1BDF&PID_5060&MI_02\6&3CF4071&0&0002                                     
+DiskDrive       Mass Storage Device USB Device                        OK      USBSTOR\DISK&VEN_MASS&PROD_STORAGE_DEVICE&REV_1.00\121220160204&0                
+HIDClass        USB Input Device                                      Unknown USB\VID_0C76&PID_161F&MI_03\7&2A4FB450&0&0003                                    
+USB             Generic USB Hub                                       Unknown USB\VID_2109&PID_2822\MSFT20000000001                                            
+USB             Generic USB Hub                                       Unknown USB\VID_1A40&PID_0101\8&7F97C03&0&1                                              
+MEDIA           Logitech Webcam C930e                                 Unknown USB\VID_046D&PID_0843&MI_02\7&323B718F&0&0002                                    
+Camera          Depstech webcam                                       OK      USB\VID_1BDF&PID_5060&MI_00\6&3CF4071&0&0000                                     
+Net             Realtek USB GbE Family Controller                     Unknown USB\VID_0BDA&PID_8153\101000001                                                  
+USB             Generic SuperSpeed USB Hub                            Unknown USB\VID_2BEF&PID_1008\8&30D0C979&0&4                                             
+MEDIA           WORLDE                                                Unknown USB\VID_0218&PID_0204&MI_00\6&1D7BC9D0&0&0000                                    
+USB             USB Composite Device                                  Unknown USB\VID_046D&PID_C52B\6&3A944CE5&0&3                                             
+HIDClass        USB Input Device                                      OK      USB\VID_1B1C&PID_1B80&MI_01\6&1CBA9B5A&1&0001                                    
+USB             USB Mass Storage Device                               Unknown USB\VID_0BDA&PID_8151\00E04C36220178                                             
+Net             Realtek USB FE Family Controller                      OK      USB\VID_0BDA&PID_8152\00E04C362201                                               
+USBDevice       D501                                                  Unknown USB\VID_0502&PID_1195\7&2E5F6FA0&0&4                                             
+USB             USB Mass Storage Device                               OK      USB\VID_1132&PID_4511\4B5743414146423133323420                                   
+USB             Generic USB Hub                                       OK      USB\VID_1A40&PID_0101\7&201B0F75&0&1                                             
+USB             Generic USB Hub                                       OK      USB\VID_1A40&PID_0101\7&201B0F75&0&4                                             
+HIDClass        USB Input Device                                      OK      USB\VID_0C76&PID_161F&MI_03\7&6C28F63&0&0003                                     
+USB             USB Composite Device                                  Unknown USB\VID_0C76&PID_161F\6&1045DD7D&0&3                                             
+HIDClass        Logitech USB Input Device                             OK      USB\VID_046D&PID_C52B&MI_00\6&25D38688&0&0000                                    
+USB             Unknown USB Device (Device Descriptor Request Failed) Unknown USB\VID_0000&PID_0002\6&209A120C&0&4                                             
+MEDIA           USB PnP Audio Device                                  OK      USB\VID_0C76&PID_161F&MI_00\7&6C28F63&0&0000                                     
+USB             USB Root Hub (USB 3.0)                                OK      USB\ROOT_HUB30\7&49F96AB&0&0                                                     
+HIDClass        USB Input Device                                      Unknown USB\VID_0C76&PID_161F&MI_03\7&90B7565&0&0003                                     
+USB             Brother MFC-L2740DW series                            Unknown USB\VID_04F9&PID_0320&MI_00\7&21141CB5&0&0000                                    
+USB             USB Composite Device                                  OK      USB\VID_0C76&PID_120C\010000000000                                               
+HIDClass        USB Input Device                                      OK      USB\VID_0C76&PID_120C&MI_02\7&390C4426&0&0002                                    
+MEDIA           USB PnP Audio Device                                  Unknown USB\VID_0C76&PID_161F&MI_00\7&90B7565&0&0000                                     
+USB             USB Mass Storage Device                               Unknown USB\VID_1908&PID_0226\7&77D177E&0&3                                              
+HIDClass        USB Input Device                                      OK      USB\VID_1B1C&PID_1B80&MI_02\6&1CBA9B5A&1&0002                                    
+HIDClass        USB Input Device                                      Unknown USB\VID_001F&PID_0B21&MI_03\8&609D0DF&0&0003                                     
+USB             Generic USB Hub                                       Unknown USB\VID_214B&PID_7250\6&209A120C&0&1                                             
+USB             USB Composite Device                                  OK      USB\VID_0B05&PID_19AF\9876543210                                                 
+HIDClass        USB Input Device                                      OK      USB\VID_046D&PID_C336&MI_01\6&D5BDA54&0&0001                                     
+HIDClass        USB Input Device                                      OK      USB\VID_046D&PID_C336&MI_00\6&D5BDA54&0&0000                                     
+MEDIA           CS202                                                 Unknown USB\VID_001F&PID_0B21&MI_00\8&609D0DF&0&0000                                     
+HIDClass        USB Input Device                                      OK      USB\VID_046D&PID_C52B&MI_01\6&25D38688&0&0001                                    
+HIDClass        USB Input Device                                      Unknown USB\VID_413C&PID_301A\6&3A944CE5&0&4                                             
+MEDIA           USB PnP Audio Device                                  Unknown USB\VID_0C76&PID_161F&MI_00\7&2A4FB450&0&0000                                    
+HIDClass        USB Input Device                                      Unknown USB\VID_04D9&PID_A241&MI_00\6&23AC3A92&0&0000                                    
+USB             Generic USB Hub                                       Unknown USB\VID_1A40&PID_0101\7&77D177E&0&2                                              
+USB             Generic USB Hub                                       Unknown USB\VID_1A40&PID_0101\6&209A120C&0&3                                             
+USB             Generic USB Hub                                       Unknown USB\VID_1A40&PID_0101\6&209A120C&0&4                                             
+USB             G213                                                  OK      USB\VID_046D&PID_C336\0D6D38683434                                               
+USB             Generic USB Hub                                       Unknown USB\VID_2BEF&PID_1009\5&CC3F949&0&13                                             
+USB             Generic SuperSpeed USB Hub                            Unknown USB\VID_2109&PID_0817\MSFT30000000000                                            
+Image           Brother MFC-L2740DW                                   Unknown USB\VID_04F9&PID_0320&MI_01\7&21141CB5&0&0001                                    
+USB             USB Composite Device                                  Unknown USB\VID_046D&PID_0843\6&35B93EC7&0&1                                             
+USB             USB Mass Storage Device                               OK      USB\VID_1908&PID_0226\7&1A5D8734&0&3                                             
+USB             Generic USB Hub                                       Unknown USB\VID_1A40&PID_0101\8&30FD01ED&0&1                                             
+USB             Unknown USB Device (Port Reset Failed)                Unknown USB\VID_0000&PID_0001\8&30D0C979&0&3                                             
+Printer         Brother MFC-L2740DW series                            Unknown USBPRINT\BROTHERMFC-L2740DW_SERIES\8&24A9B3BA&0&USB001                           
+USB             Generic USB Hub                                       OK      USB\VID_1A40&PID_0101\8&13ABD887&0&1                                             
+USB             USB Composite Device                                  OK      USB\VID_046D&PID_C52B\5&CC3F949&0&8                                              
+USB             USB Composite Device                                  Unknown USB\VID_0218&PID_0204\5&CC3F949&0&5                                              
+MEDIA           Game Capture HD60                                     OK      USB\VID_0FD9&PID_005C\11122C367B                                                 
+USB             Unknown USB Device (Port Reset Failed)                Unknown USB\VID_0000&PID_0001\7&1A5D8734&0&3                                             
+paeusbaudio_sc  AudioBox USB 96                                       OK      USB\VID_194F&PID_0303\000000000000                                               
+USB             USB Composite Device                                  OK      USB\VID_1BDF&PID_5060\J20230821V0                                                
+HIDClass        USB Input Device                                      OK      USB\VID_1B1C&PID_1B80&MI_03\6&1CBA9B5A&1&0003                                    
+USB             Generic USB Hub                                       OK      USB\VID_214B&PID_7250\6&3353C2B1&0&1                                             
+USB             Generic USB Hub                                       OK      USB\VID_1A40&PID_0101\5&CC3F949&0&1                                              
+USB             Generic USB Hub                                       Unknown USB\VID_1A40&PID_0101\5&CC3F949&0&6                                              
+USB             Generic USB Hub                                       Unknown USB\VID_1A40&PID_0101\5&CC3F949&0&8                                              
+CDROM           Realtek USB CD-ROM USB Device                         Unknown USBSTOR\CDROM&VEN_REALTEK&PROD_USB_CD-ROM&REV_2.00\00E04C36220178&0              
+USB             USB Composite Device                                  OK      USB\VID_0D8C&PID_0005\SUGA_2020/11/07_63649                                      
+SmartCardReader Microsoft Usbccid Smartcard Reader (WUDF)             Unknown USB\VID_072F&PID_B100\8&2D8F49D5&0&4                                             
+USB             USB Composite Device                                  Unknown USB\VID_04D9&PID_A241\5&CC3F949&0&7                                              
+USB             Generic USB Hub                                       Unknown USB\VID_2109&PID_2817\5&CC3F949&0&2                                              
+USB             Generic USB Hub                                       OK      USB\VID_2109&PID_2817\5&CC3F949&0&3                                              
+USB             USB Composite Device                                  OK      USB\VID_1B1C&PID_1B80\55EF3E39064EC5B8                                           
+USB             Generic USB Hub                                       Unknown USB\VID_2109&PID_2817\MSFT20000000000                                            
+HIDClass        USB Input Device                                      OK      USB\VID_046D&PID_C52B&MI_02\6&25D38688&0&0002                                    
+HIDClass        USB Input Device                                      Unknown USB\VID_0D8C&PID_0005&MI_02\6&50736ED&0&0002                                     
+HIDClass        USB Input Device                                      OK      USB\VID_0D8C&PID_0005&MI_02\6&D26EB1B&0&0002                                     
+USB             Generic SuperSpeed USB Hub                            Unknown USB\VID_2109&PID_0888\MSFT30000000001                                            
+HIDClass        USB Input Device                                      Unknown USB\VID_413C&PID_301A\5&CC3F949&0&5                                              
+USB             Generic USB Hub                                       OK      USB\VID_1A40&PID_0101\6&3353C2B1&0&4                                             
+HIDClass        USB Input Device                                      Unknown USB\VID_04D9&PID_A241&MI_01\6&23AC3A92&0&0001                                    
+Image           Logitech Webcam C930e                                 Unknown USB\VID_046D&PID_0843&MI_00\7&323B718F&0&0000                                    
+MicrochipTools  SMSC-Microchip WinUSB USB2534 Hub                     Unknown USB\VID_0424&PID_1012\5&CC3F949&0&4                                              
+MEDIA           USB Audio Device                                      Unknown USB\VID_0D8C&PID_0005&MI_00\6&50736ED&0&0000                                     
+MEDIA           Blue Snowball                                         OK      USB\VID_0D8C&PID_0005&MI_00\6&D26EB1B&0&0000                                     
+USBDevice       MFC-L2740DW                                           Unknown USB\VID_04F9&PID_0320&MI_02\7&21141CB5&0&0002                                    
+USB             Unknown USB Device (Device Descriptor Request Failed) Unknown USB\VID_0000&PID_0002\7&9CDE25A&0&1                                              
+USB             Unknown USB Device (Device Descriptor Request Failed) Unknown USB\VID_0000&PID_0002\7&9CDE25A&0&2                                              
+HIDClass        USB Input Device                                      Unknown USB\VID_0218&PID_0204&MI_03\6&1D7BC9D0&0&0003                                    
+USB             USB Composite Device                                  Unknown USB\VID_001F&PID_0B21\20210726905926                                             
+USB             Generic SuperSpeed USB Hub                            Unknown USB\VID_2109&PID_0817\5&CC3F949&0&18                                             
+USB             Generic SuperSpeed USB Hub                            OK      USB\VID_2109&PID_0817\5&CC3F949&0&19                                             
+CDROM           HL-DT-ST DVD+-RW GU40N USB Device                     OK      USBSTOR\CDROM&VEN_HL-DT-ST&PROD_DVD+-RW_GU40N&REV_A102\4B5743414146423133323420&0
+USB             Generic USB Hub                                       Unknown USB\VID_2109&PID_2888\MSFT20000000001                                            
+HIDClass        USB Input Device                                      Unknown USB\VID_046D&PID_C52B&MI_02\7&389F58D&0&0002                                     
+USB             USB Root Hub (USB 3.0)                                OK      USB\ROOT_HUB30\4&2FD48294&0&0                                                    
+USB             Generic USB Hub                                       Unknown USB\VID_1A40&PID_0101\7&2D3B5187&0&1                                             
+HIDClass        USB Input Device                                      OK      USB\VID_0FD9&PID_006D\AL46J2C57961                                               
+HIDClass        USB Input Device                                      Unknown USB\VID_046D&PID_C52B&MI_01\7&389F58D&0&0001                                     
+USB             Generic USB Hub                                       Unknown USB\VID_1A40&PID_0101\7&45A3825&0&1                                              
+USB             Generic USB Hub                                       Unknown USB\VID_1A40&PID_0101\7&45A3825&0&4                                              
+USB             USB Composite Device                                  Unknown USB\VID_04F9&PID_0320\U63889G7N415489                                            
+HIDClass        Logitech USB Input Device                             Unknown USB\VID_046D&PID_C52B&MI_00\7&389F58D&0&0000                                     
+                G213                                                  OK      USB\VID_046D&PID_C336&LAMPARRAY\6&D5BDA54&0&0D6D38683434_SLOT00                  
+DiskDrive       Generic Mass-Storage USB Device                       OK      USBSTOR\DISK&VEN_GENERIC&PROD_MASS-STORAGE&REV_1.11\8&2780363&0                  
+USB             Generic USB Hub                                       Unknown USB\VID_1A40&PID_0101\6&11BFCBB5&0&1                                             
+USB             Unknown USB Device (Port Reset Failed)                Unknown USB\VID_0000&PID_0001\6&3353C2B1&0&2                                             
+USB             USB Mass Storage Device                               OK      USB\VID_14CD&PID_1212\121220160204                                               
+MEDIA           DRELANMIC                                             OK      USB\VID_0C76&PID_120C&MI_00\7&390C4426&0&0000                                    
+USB             USB Composite Device                                  Unknown USB\VID_0C76&PID_161F\6&35B93EC7&0&3                                             
+USB             USB Composite Device                                  Unknown USB\VID_0D8C&PID_0005\5&CC3F949&0&7                                              
+USB             Generic SuperSpeed USB Hub                            Unknown USB\VID_2109&PID_0822\MSFT30000000001                                            
+Bluetooth       Intel(R) Wireless Bluetooth(R)                        OK      USB\VID_8087&PID_0032\5&CC3F949&0&14                                             
+
+
+

@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "71b4602b2a206b24",
+    "type": "split",
+    "children": [
+      {
+        "id": "b3a66fa71b2a72cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63245c4f6048225b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_DAiIS_Planning_Artifact_Execution_and_Trigger_Guide_v1.0.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04_DAiIS_Planning_Artifact_Execution_and_Trigger_Guide_v1.0"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2c3434bacc636cdd",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d8813da7babb717",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71180aa2fe1f8969",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ac02edfac2e9e115",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "15a099d3e0677a36",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "552dcfeea08ecf46",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b59c9fc844f6703",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee7a37c02e422d10",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "04_DAiIS_Planning_Artifact_Execution_and_Trigger_Guide_v1.0.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 04_DAiIS_Planning_Artifact_Execution_and_Trigger_Guide_v1.0"
+            }
+          },
+          {
+            "id": "0a0ae6ad698c2606",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04_DAiIS_Planning_Artifact_Execution_and_Trigger_Guide_v1.0.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 04_DAiIS_Planning_Artifact_Execution_and_Trigger_Guide_v1.0"
+            }
+          },
+          {
+            "id": "17f3d3677845327b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "529de43154e5a0ca",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "04_DAiIS_Planning_Artifact_Execution_and_Trigger_Guide_v1.0.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 04_DAiIS_Planning_Artifact_Execution_and_Trigger_Guide_v1.0"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "63245c4f6048225b",
+  "lastOpenFiles": [
+    "03_DAiIS_Strategic_Objectives_&_KPIs_v1.0.md",
+    "02_DAiIS_Governance_Framework_v1.0.md",
+    "00_DAiIS_Universal_Constitution_v1.0.md",
+    "06. PromptDesign_BBP_v1.0.md",
+    "05_DAU_Document_Dependency_Map_v1.0.pdf",
+    "04_DAiIS_Planning_Artifact_Execution_and_Trigger_Guide_v1.0.md"
+  ]
+}
