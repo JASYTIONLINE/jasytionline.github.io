@@ -31,7 +31,7 @@
 
     <!-- Custom Button Navigation -->
     <div class="hero-buttons" id="modeButtons">
-      <button class="button-red" data-mode="downloads">Downloads</button>
+      <!--<button class="button-red" data-mode="downloads">Downloads</button>-->
       <button class="button-red" data-mode="juke">Juke Box</button>
       <button class="button-red" data-mode="pmp">Project PMP</button>
       <button class="button-red" data-mode="ghost">JASYTI's Ghost Kitchen</button>
@@ -87,9 +87,10 @@
         if (!btn) return;
         const mode = btn.getAttribute('data-mode');
         const map = {
-          downloads: 'https://jasytionline.github.io/r61-fullstack/web-sites/downoads/',
+         /*downloads: 'https://jasytionline.github.io/r61-fullstack/web-sites/downoads/', */
           juke: 'https://jasytionline.github.io/r61-fullstack/web-sites/juke/', 
-          pmp: 'https://jasytionline.github.io/r30-project-pass-pmp/',          ghost: 'https://jasytionline.github.io/r61-fullstack/web-sites/jasytis-ghost-kitchen/'
+          pmp: 'https://jasytionline.github.io/r32-project-pass-pmp/',          
+          ghost: 'https://jasytionline.github.io/r61-fullstack/web-sites/jasytis-ghost-kitchen/'
         };
         const url = map[mode];
         if (url) window.open(url, '_blank', 'noopener');
