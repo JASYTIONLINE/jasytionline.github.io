@@ -1,3 +1,257 @@
+/* ============================================================================
+   DigiPort Home Page – Index.CSS
+   ----------------------------------------------------------------------------
+   This file contains the core custom theme styles for the DigiPort Web Site.
+   It is used in combination with Bootstrap 5 and applies consistent visual styling
+   across every page of the website. All inline and page-specific styles have been 
+   removed in favor of reusable class-based styling.
+
+   Sections:
+     1. Design Tokens
+     2. Global Layout
+     3. Components & Cards
+     4. Shared Partials (Header/Footer)
+     5. Media Styling
+     6. Utilities (colors, borders, buttons)
+
+   This file is production-safe and includes complete instructional comments to
+   support future editing, onboarding, or educational reference.
+============================================================================ */
+
+
+/* ============================================================================
+   1. DESIGN TOKENS – Site-Wide Color Variables
+   ----------------------------------------------------------------------------
+   We define all brand colors here using CSS custom properties (:root variables).
+   These tokens are referenced consistently across the rest of the stylesheet.
+   This ensures that color changes in one place affect the whole site.
+============================================================================ */
+:root {
+  /*base colors*/
+  --lt-backgound: #ffffff;
+  --dk-background: #000000;
+  --dk-background-2: #222222;
+  --dk-background-hover: #444444;
+  --lt-text: #ffffff;
+  --text-shadow: rgba(0, 0, 0, 0.7);
+  --box-shadow: rgba(0, 0, 0, 0.1);
+  /* Main dark red used for cards, nav, and hero backgrounds */
+  --jukebox-gold: #FFD700;
+  --jukebox-gold-2: #ffe066;
+  --jukebox-gold-bg: #e5c100;
+  /* Accent gold used for borders, headers, buttons */
+  --jukebox-black: #0d1117;
+  /* Deep black for background and contrast areas */
+  --text-light: #fdf6e3;
+  /* Standard text on dark backgrounds */
+  --text-muted: #e5c97d;
+  /* Secondary text color used for subtitles or helper text */
+  --color-red-button: #d92323;
+  --color-red-button-2: #aa1a1a;
+  --jukebox-red: #5c1a14;
+
+}
+
+/* ============================================================================
+   2. GLOBAL LAYOUT – Base Styles for Body and Site Width
+   ----------------------------------------------------------------------------
+   These styles apply to the entire body of the document. The font stack, max width,
+   and overall background color are set here. Content is centered and constrained
+   within a reasonable width for readability and consistency.
+============================================================================ */
+body {
+  background-color: var(--jukebox-black);
+  color: var(--text-light);
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+
+/* ============================================================================
+   3. COMPONENTS & CARDS – Reusable Layout Blocks
+   ----------------------------------------------------------------------------
+   These styles define the appearance of layout blocks reused across the site:
+   hero sections, portal cards, feature banners, etc. They all share consistent
+   padding, background color, border, and rounding behavior.
+============================================================================ */
+
+/* Main top-of-page feature blocks. Used for intros on landing pages. */
+.hero-section {
+  background-color: var(--jukebox-red);
+  border: 2px solid var(--jukebox-gold);
+  border-radius: 0.5rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Primary layout container for standalone sections. Used for featured songs, 
+   about pages, under construction notices, and more. */
+.section-card {
+  background-color: var(--jukebox-red);
+  border: 2px solid var(--jukebox-gold);
+  border-radius: 0.5rem;
+  margin: 2rem 0;
+  padding: 2rem;
+}
+
+/* Wrapper around portal grids like the 4 cards on the homepage. Provides
+   background framing and consistent spacing for multi-column layouts. */
+.portal-wrapper {
+  background-color: var(--jukebox-black);
+  border: 2px solid var(--jukebox-gold);
+  border-radius: 0.5rem;
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+}
+
+/* Cards used in portal grids, such as Music Videos / Audio Library links.
+   These cards use full-height layout to vertically center content and allow
+   a consistent user experience across screen sizes. */
+.portal-card {
+  background-color: var(--jukebox-red);
+  border: 2px solid var(--jukebox-gold);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--text-light);
+}
+
+/* Used specifically on the sitemap and similar pages where we want card-style
+   layout but without navigation or CTA inside. Similar in function to section-card. */
+.jukebox-card {
+  background-color: var(--jukebox-red);
+  border: 2px solid var(--jukebox-gold);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+/* ============================================================================
+   4. SHARED PARTIALS – Navigation & Footer Styles
+   ----------------------------------------------------------------------------
+   These styles are scoped specifically to the nav bar and footer. They are
+   injected via JavaScript into every page. These classes ensure that the header
+   and footer are styled consistently and do not conflict with other elements.
+============================================================================ */
+
+/* Ensures that the nav bar stays at the top of the viewport while scrolling.
+   We use position: sticky here to maintain layout without forcing overlays. */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+/* Applies gold border, red background, and padding to the navigation bar.
+   Used in conjunction with Bootstrap's navbar components. */
+.navbar-primary {
+  background-color: var(--jukebox-red);
+  border: 2px solid var(--jukebox-gold);
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+/* Adjusts link visibility inside nav bar. Ensures high contrast text
+   on dark red background and adds hover behavior for accessibility. */
+.navbar-primary .nav-link {
+  color: var(--jukebox-gold) !important;
+  font-weight: 500;
+  text-shadow: 0 0 2px var(--dk-background);
+}
+
+.navbar-primary .nav-link:hover {
+  color: var(--jukebox-gold-2);
+  text-decoration: underline;
+}
+
+/* Styles the shared footer with red background, gold border, and top margin.
+   Ensures consistency across all footer instances, including site map and CTA links. */
+.site-footer {
+  background-color: var(--jukebox-red);
+  border: 2px solid var(--jukebox-gold);
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  color: var(--text-light);
+}
+
+
+/* ============================================================================
+   5. MEDIA STYLING – Images, Audio Players, Video Containers
+   ----------------------------------------------------------------------------
+   This section styles standalone media content such as profile pictures,
+   album artwork, and audio players. These styles ensure alignment, size
+   consistency, and responsive behavior across all devices.
+============================================================================ */
+
+/* Used for circular profile images like JASYTI’s photo on the homepage.
+   Ensures fixed size and object-fit cropping while maintaining responsive layout. */
+.hero-profile-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Used on featured album artwork. Applies consistent max width for alignment. */
+.album-art {
+  max-width: 300px;
+}
+
+/* Audio players should never exceed 400px in width and should always be centered.
+   This ensures consistent layout across mobile and desktop devices. */
+audio {
+  width: 100%;
+  max-width: 400px;
+  margin: 1rem auto 0 auto;
+  display: block;
+}
+
+
+/* ============================================================================
+   6. UTILITIES – Text Colors, Borders, Button Overrides
+   ----------------------------------------------------------------------------
+   These utility classes are used throughout the site for quick styling of elements
+   without creating extra component classes. They help maintain design language
+   without bloating the markup or CSS.
+============================================================================ */
+
+/* Gold text for primary headings and feature titles. Often paired with .fw-bold. */
+.text-gold {
+  color: var(--jukebox-gold) !important;
+}
+
+/* Muted gold used for subtitles and explanatory text. Slightly softer than gold. */
+.text-muted {
+  color: var(--text-muted) !important;
+}
+
+/* Border utility for images, cards, or any container that needs a gold border. */
+.border-gold {
+  border-color: var(--jukebox-gold) !important;
+}
+
+/* Adjusts Bootstrap's .btn-warning to fit the DigiPort theme.
+   Bright gold background, black text, and bold font for maximum contrast.
+   Includes hover effect for interaction feedback. */
+.btn-warning {
+  background-color: var(--jukebox-gold);
+  color: var(--jukebox-black);
+  font-weight: bold;
+  border: 1px solid var(--jukebox-gold);
+}
+
+.btn-warning:hover {
+  background-color: var(--jukebox-gold-bg);
+  color: var(--jukebox-black);
+}
+
 /* ======================================================
    1. GLOBAL RESET & PAGE SETUP
 ====================================================== */
@@ -5,14 +259,16 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
   font-family: system-ui, sans-serif;
-  background-color: #fff;
-  overflow: hidden; /* Locks scroll during intro video */
+  background-color: var(--jukebox-red);
+  overflow: hidden;
+  /* Locks scroll during intro video */
 }
 
 
@@ -22,7 +278,7 @@ html, body {
 #stage {
   position: fixed;
   inset: 0;
-  background: #000;
+  background: var(--dk-background);
   z-index: 1000;
   overflow: hidden;
 }
@@ -36,98 +292,117 @@ html, body {
 
 
 /* ======================================================
-   3. HERO SPLASH (Post Video Banner)
+   3. Landing Page SPLASH (Post Video Banner)
 ====================================================== */
-#hero {
+#landing {
   width: 100vw;
-  height: 25vh; /* Takes up 25% of viewport height */
+  height: 25vh;
+  /* Takes up 25% of viewport height */
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: black;
+  background: var(--dk-background);
   overflow: hidden;
   position: relative;
 }
 
-#hero img {
+.landing-section {
+  background-color: var(--jukebox-red);
+  border: 2px solid var(--jukebox-gold);
+  border-radius: 0.5rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+
+}
+
+#landing img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* Hero overlay text */
-.hero-ui {
+/* landing Page overlay text */
+.landing-ui {
   position: absolute;
   bottom: 20px;
   width: 100%;
   text-align: center;
-  color: white;
+  color: var(--jukebox-red);
   z-index: 10;
 }
 
-.hero-title {
-  font-size: 2rem;
+.landing-title {
+  font-size: 3rem;
   font-weight: bold;
-  color: #fff;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  color: var(--lt-text);
+  text-shadow: 2px 2px 6px var(--text-shadow);
   margin: 0;
   padding: 0 20px;
 }
 
+.landing-text {
+  text-align: center;
+}
 
 /* ======================================================
    4. MAIN CONTENT AREA (Visible After Video)
 ====================================================== */
 /* Main Content Area */
-#content {
+#landing-content {
 
   padding: 10px 20px;
-  background: #fff;
-  color: #111;
+  background: var(--jukebox-red);
+  color: var(--dk-background);
   min-height: 75vh;
   display: block;
 }
 
 /* Unlock scroll after video */
-body.show-hero {
+body.show-landing {
   overflow: auto;
 }
 
 /* ======================================================
    5. RADIO BUTTON NAVIGATION (Platform Selector)
 ====================================================== */
-.hero-topnav {
+.landing-topnav {
   margin-top: 20px;
   text-align: center;
 }
 
-.hero-topnav label {
+.landing-topnav label {
   margin: 0 10px;
   font-weight: 500;
   font-size: 1rem;
-  color: #222;
+  color: var(--dk-background-2);
 }
 
-.hero-topnav input[type="radio"] {
+.landing-topnav input[type="radio"] {
   margin-right: 6px;
 }
 
-.hero-buttons {
+.landing-buttons {
   text-align: center;
   margin-top: 30px;
 }
 
-.button-red {
-  background-image: linear-gradient(-180deg, #d92323, #aa1a1a); /* your red gradient */
+.landing-btn {
+  background-image: linear-gradient(-180deg, #ffe066, #e5c100);
+  /* --jukebox-gold-2: #ffe066;
+  --jukebox-gold-bg: #e5c100;
+   your gold gradient */
   border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
-  color: #ffffff;
+  box-shadow: var(--box-shadow) 0 2px 4px;
+  color: var(--color-red-button-2);
   cursor: pointer;
   display: inline-block;
   font-family: Inter, system-ui, sans-serif;
+  font-size: 16px; 
+  font-weight: 500;
   height: 42px;
   line-height: 42px;
   padding: 0 24px;
@@ -139,8 +414,8 @@ body.show-hero {
   margin: 10px;
 }
 
-.button-red:hover {
-  box-shadow: rgba(217, 35, 35, 0.6) 0 3px 10px;
+.landing-btn:hover {
+  box-shadow: var(--jukebox-gold-bg) 0 3px 10px;
   transform: translateY(-1px);
 }
 
@@ -164,8 +439,8 @@ body.show-hero {
   margin: 10px;
   padding: 12px 24px;
   font-size: 1rem;
-  background-color: #222;
-  color: #fff;
+  background-color: var(--dk-background-2);
+  color: var(--lt-backgound);
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -173,19 +448,19 @@ body.show-hero {
 }
 
 .navigation button:hover {
-  background-color: #444;
+  background-color: (var(--dk-background-hover));
 }
 
 .skip-message {
   position: absolute;
-  bottom: 40px;
+  top: 40px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 1rem;
   padding: 10px 20px;
-  background: rgba(255, 255, 255, 0.85);
-  color: #000;
-  border-radius: 6px;
+  background: var(--jukebox-red);
+  color: var(--jukebox-gold-2);
+  border-radius: 10px;
   font-weight: bold;
   z-index: 1001;
   text-align: center;
