@@ -4,14 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>DigiPortAI</title>
-    <link rel="stylesheet" href="../../../assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
 
   <body>
     <!-- VIDEO OVERLAY (COVERS PAGE WHILE PLAYING) -->
     <div id="stage" aria-label="Intro video">
       <video id="intro" autoplay muted playsinline>
-        <source src="../../../assets/video/index-intro.mp4" type="video/mp4" />
+        <source src="/assets/video/index-intro.mp4" type="video/mp4" />
       </video>
       <div class="skip-message">
         Click or press Spacebar to skip intro video
@@ -19,9 +19,9 @@
     </div>
 
     <!-- Dragon BANNER (25% HEIGHT) -->
-    <header class="dragon" id="dragon">
+    <header id="dragon">
       <img
-        src="../../../assets/images/Dai-banner.png"
+        src="/assets/images/Dai-banner.png"
         alt="DigiPortAI splash"
       />
       <div class="dragon-ui">
@@ -36,7 +36,11 @@
         <div class="dragon-buttons" id="modeButtons">
           <article class="project-card">
             <div class="project-card-actions">
-              <button class="button-red" data-mode="portfolio">
+              <button
+                type="button"
+                class="button-red"
+                data-mode="portfolio"
+              >
                 CMPA 3304
               </button>
             </div>
@@ -47,7 +51,9 @@
           </article>
           <article class="project-card">
             <div class="project-card-actions">
-              <button class="button-red" data-mode="juke">Juke Box</button>
+              <button type="button" class="button-red" data-mode="juke">
+                Juke Box
+              </button>
             </div>
             <p class="project-card-desc">
               Interactive jukebox-style music player you can use to browse and
@@ -56,7 +62,9 @@
           </article>
           <article class="project-card">
             <div class="project-card-actions">
-              <button class="button-red" data-mode="pmp">Project PMP</button>
+              <button type="button" class="button-red" data-mode="pmp">
+                Project PMP
+              </button>
             </div>
             <p class="project-card-desc">
               Project Management Professional prep hub with study materials and
@@ -65,7 +73,7 @@
           </article>
           <article class="project-card">
             <div class="project-card-actions">
-              <button class="button-red" data-mode="ghost">
+              <button type="button" class="button-red" data-mode="ghost">
                 JASYTI's Ghost Kitchen
               </button>
             </div>
@@ -76,7 +84,7 @@
           </article>
           <article class="project-card">
             <div class="project-card-actions">
-              <button class="button-red" data-mode="hr">
+              <button type="button" class="button-red" data-mode="hr">
                 JASYTI's HR Portal Application
               </button>
             </div>
@@ -87,7 +95,7 @@
           </article>
           <article class="project-card">
             <div class="project-card-actions">
-              <button class="button-red" data-mode="lcgf">
+              <button type="button" class="button-red" data-mode="lcgf">
                 Jasytis LCGF Meal Planner
               </button>
             </div>
@@ -98,7 +106,7 @@
           </article>
           <article class="project-card">
             <div class="project-card-actions">
-              <button class="button-red" data-mode="mmhp">
+              <button type="button" class="button-red" data-mode="mmhp">
                 MMHP Event Calendar
               </button>
             </div>
@@ -110,7 +118,7 @@
           </article>
           <article class="project-card">
             <div class="project-card-actions">
-              <button class="button-red" data-mode="ksw">
+              <button type="button" class="button-red" data-mode="ksw">
                 KSW Student Dashboard
               </button>
             </div>
@@ -121,7 +129,7 @@
           </article>
           <article class="project-card">
             <div class="project-card-actions">
-              <button class="button-red" data-mode="song">
+              <button type="button" class="button-red" data-mode="song">
                 This is Your Song
               </button>
             </div>
@@ -139,18 +147,19 @@
           Welcome to the Digital Artificial Intelligence Integrated Solutions
           Portal
         </h2>
-        <h3>Use the buttons above to explore my current published projects .</h3>
+        <h3>
+          Use the buttons above to explore my current published projects.
+        </h3>
       </div>
     </main>
 
     <footer class="splash-footer">
-      <p>© 2025 John E. Barkle IV — All Rights Reserved</p>
+      <p>© 2026 John E. Barkle IV — All Rights Reserved</p>
     </footer>
     <!-- JS to Remove Video and Handle Navigation -->
     <script>
       const vid = document.getElementById("intro");
       const stage = document.getElementById("stage");
-      const skipMessage = document.querySelector(".skip-message");
 
       function showDragon() {
         stage.remove();
