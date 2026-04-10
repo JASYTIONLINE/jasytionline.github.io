@@ -1,0 +1,3040 @@
+{
+    "front": "What is VXLAN (Virtual Extensible LAN)?",
+    "back": "VXLAN is a network virtualization technology that provides a scalable, VLAN-like infrastructure by overcoming traditional VLAN limitations, especially in large cloud and data center environments."
+  },
+  {
+    "front": "What limitation of traditional VLANs does VXLAN solve?",
+    "back": "Traditional VLANs use a 12-bit VLAN ID, limiting networks to 4,096 VLANs. VXLAN uses a 24-bit identifier, allowing over 16 million logical networks."
+  },
+  {
+    "front": "How many possible network segments does VXLAN support?",
+    "back": "VXLAN supports 16,777,216 segments because it uses a 24-bit VXLAN Network Identifier (VNI)."
+  },
+  {
+    "front": "What is the size of a traditional VLAN ID and how many VLANs does it allow?",
+    "back": "A traditional VLAN ID is 12 bits, allowing a maximum of 4,096 VLANs."
+  },
+  {
+    "front": "What RFC defines VXLAN?",
+    "back": "VXLAN is defined in RFC 7348."
+  },
+  {
+    "front": "Which companies were involved in the development of VXLAN?",
+    "back": "VXLAN was developed through a joint effort by Cisco, VMware, and other networking vendors."
+  },
+  {
+    "front": "How does VXLAN enable communication across multiple data centers?",
+    "back": "VXLAN encapsulates Layer 2 MAC frames inside UDP packets, allowing Layer 2 networks to be extended across Layer 3 routed networks between data centers."
+  },
+  {
+    "front": "What type of encapsulation does VXLAN use?",
+    "back": "VXLAN uses MAC-in-UDP encapsulation, carrying Layer 2 frames over Layer 3 IP networks."
+  },
+  {
+    "front": "Which transport protocol does VXLAN use?",
+    "back": "VXLAN uses UDP as its transport protocol."
+  },
+  {
+    "front": "What UDP port is used by VXLAN?",
+    "back": "VXLAN uses UDP port 4789."
+  },
+  {
+    "front": "What is a VTEP in VXLAN?",
+    "back": "A VTEP (VXLAN Tunnel Endpoint) is a device, typically a router or switch, that encapsulates and decapsulates VXLAN traffic."
+  },
+  {
+    "front": "Why is VXLAN often described as a Layer 2.5 technology?",
+    "back": "VXLAN carries Layer 2 traffic but operates over Layer 3 networks, placing it conceptually between OSI Layer 2 and Layer 3."
+  },
+  {
+    "front": "How does VXLAN improve scalability in virtualized environments?",
+    "back": "VXLAN reduces MAC address table pressure on switches by using overlay networking and supports massive numbers of virtual machines across large infrastructures."
+  },
+  {
+    "front": "Why is VXLAN important for cloud and multi-tenant environments?",
+    "back": "VXLAN enables large-scale segmentation and isolation, making it ideal for multi-tenant cloud environments where millions of isolated networks may be required."
+  },
+  {
+    "front": "What performance advantage does VXLAN gain by operating over Layer 3?",
+    "back": "VXLAN benefits from efficient Layer 3 routing, avoiding Layer 2 issues like spanning tree loops and broadcast storms."
+  },
+  {
+    "front": "What is the core principle of Zero Trust Architecture (ZTA)?",
+    "back": "Never trust, always verify, and assume breach."
+  },
+  {
+    "front": "What is meant by 'assume breach' in Zero Trust Architecture?",
+    "back": "It means treating all users and systems as if they could be compromised, requiring constant verification and monitoring."
+  },
+  {
+    "front": "How does Zero Trust Architecture handle internal network traffic?",
+    "back": "It inspects east-to-west (internal) traffic as closely as north-to-south (external) traffic, requiring ongoing authentication and authorization."
+  },
+  {
+    "front": "What is modern authentication in the context of Zero Trust?",
+    "back": "It includes multi-factor authentication (MFA) and verifies device identity, location, and behavioral patterns before granting access."
+  },
+  {
+    "front": "What does dynamic authentication mean in Zero Trust?",
+    "back": "Dynamic authentication adapts to anomalies like impossible travel or unusual login times and adjusts access accordingly."
+  },
+  {
+    "front": "What is adaptive risk assessment in Zero Trust Architecture?",
+    "back": "It monitors behavior for signs of compromise and dynamically adjusts access permissions or blocks access as needed."
+  },
+  {
+    "front": "What is RBAC in Zero Trust security?",
+    "back": "RBAC (Role-Based Access Control) assigns permissions based on the user's job role."
+  },
+  {
+    "front": "What is ABAC and how does it differ from RBAC?",
+    "back": "ABAC (Attribute-Based Access Control) grants access based on multiple attributes like location, device, time, and role, offering more granularity than RBAC."
+  },
+  {
+    "front": "What is Just-In-Time (JIT) access in Zero Trust?",
+    "back": "JIT access provides elevated permissions only when needed and revokes them immediately afterward to reduce risk."
+  },
+  {
+    "front": "What is the principle of least privilege?",
+    "back": "Users are granted only the access necessary to perform their jobs, minimizing exposure to sensitive systems or data."
+  },
+  {
+    "front": "What is privilege bracketing in Zero Trust?",
+    "back": "Privilege bracketing temporarily grants elevated access for a specific task and then removes it afterward."
+  },
+  {
+    "front": "Why is continuous re-evaluation important in Zero Trust?",
+    "back": "It ensures that access levels remain appropriate as roles, devices, or behavior patterns change over time."
+  },
+  {
+    "front": "How does Zero Trust Architecture affect legacy systems?",
+    "back": "Legacy systems may lack support for modern authentication or dynamic access control, making full ZTA implementation challenging."
+  },
+  {
+    "front": "What is a best practice when implementing Zero Trust Architecture?",
+    "back": "Implement it gradually, starting with high-risk areas, and always test changes in non-production environments first."
+  },
+  {
+    "front": "What is meant by layered security in Zero Trust Architecture?",
+    "back": "It involves multiple, overlapping security mechanisms to reduce the risk of compromise at any one point."
+  }
+  {
+    "front": "What does Infrastructure as Code (IaC) enable in networking and cloud environments?",
+    "back": "IaC allows programmatic control over infrastructure, enabling automated provisioning, configuration, and management of resources."
+  },
+  {
+    "front": "Why is Infrastructure as Code important for DevOps?",
+    "back": "It helps developers create consistent environments, reduces reliance on manual setup, speeds up deployment, and enables automated testing."
+  },
+  {
+    "front": "How does Infrastructure as Code reduce human error?",
+    "back": "By automating infrastructure provisioning and using version-controlled templates, it removes manual steps that can introduce configuration errors."
+  },
+  {
+    "front": "What is one major benefit of using Infrastructure as Code in cloud environments?",
+    "back": "Scalability – infrastructure can be spun up or down quickly with code to match demand, improving efficiency and cost-effectiveness."
+  },
+  {
+    "front": "What is meant by 'immutable infrastructure' in the context of IaC?",
+    "back": "It refers to consistently repeatable environments that don’t change once deployed, reducing drift and errors."
+  },
+  {
+    "front": "How does IaC support version control?",
+    "back": "Infrastructure code is stored in repositories where it can be branched, merged, and tracked like application code, ensuring consistency and collaboration."
+  },
+  {
+    "front": "What is an example of an IaC implementation tool shown in the transcript?",
+    "back": "Azure Resource Manager (ARM) templates, which use JSON to define and deploy Azure resources programmatically."
+  },
+  {
+    "front": "What advantage does saving infrastructure as code templates offer?",
+    "back": "They allow for one-click deployments, enabling fast and identical setup of environments across teams and use cases."
+  },
+  {
+    "front": "What does automated elasticity mean in cloud environments using IaC?",
+    "back": "Automatically adjusting resources up or down based on demand, optimizing performance and cost."
+  },
+  {
+    "front": "What common programming or data languages can be used with IaC?",
+    "back": "Languages like Python or JSON can be used to define infrastructure in code."
+  },
+  {
+    "front": "Why is environment matching important in DevOps workflows?",
+    "back": "It ensures that development, testing, and production environments behave identically, reducing bugs and deployment issues."
+  },
+  {
+    "front": "What is the role of automated testing in the IaC process?",
+    "back": "Automated tests run on provisioned environments to validate application behavior without manual configuration delays."
+  },
+  {
+    "front": "How does IaC enhance collaboration in development teams?",
+    "back": "Teams can share and reuse version-controlled infrastructure templates, ensuring consistent setups and reducing miscommunication."
+  }
+  {
+    "front": "What is static routing?",
+    "back": "Static routing is the manual configuration of routing paths on routers, as opposed to dynamic routing which uses protocols to discover paths automatically."
+  },
+  {
+    "front": "Why would you use static routing instead of dynamic routing?",
+    "back": "Static routing is useful for small networks, for creating backup routes, and when predictable, fixed paths are required."
+  },
+  {
+    "front": "What command is used on Cisco devices to configure a static route?",
+    "back": "`ip route <destination-network> <subnet-mask> <next-hop-ip>`"
+  },
+  {
+    "front": "What is the purpose of the 'next hop' IP address in a static route?",
+    "back": "It tells the router which neighboring device to send packets to in order to reach the destination network."
+  },
+  {
+    "front": "What does the 'S' in a routing table entry stand for?",
+    "back": "'S' indicates a static route."
+  },
+  {
+    "front": "In the static routing demonstration, why did the first ping attempt fail?",
+    "back": "The first ping failed due to ARP resolution; the address mapping had not yet been completed."
+  },
+  {
+    "front": "Why is configuring both directions in static routing important?",
+    "back": "Because communication requires both devices to know how to reach each other—routing must be configured on both ends for full connectivity."
+  },
+  {
+    "front": "What is Cisco Packet Tracer used for?",
+    "back": "It is a free network simulation tool for practicing configuration, including routing, on Cisco devices."
+  },
+  {
+    "front": "How does static routing benefit small networks?",
+    "back": "It's simple, efficient, and doesn't require the overhead of dynamic protocols in small environments."
+  },
+  {
+    "front": "Do other vendors use similar static routing configuration as Cisco?",
+    "back": "Yes, most vendors use a similar format. For example, some might use 'route' instead of 'ip route', but the structure is largely the same."
+  },
+  {
+    "front": "What does OSPF stand for?",
+    "back": "OSPF stands for Open Shortest Path First."
+  },
+  {
+    "front": "Is OSPF an interior or exterior gateway protocol?",
+    "back": "OSPF is an Interior Gateway Protocol (IGP), used for routing within a single organization or autonomous system."
+  },
+  {
+    "front": "What metric does OSPF use to determine the best path?",
+    "back": "OSPF uses cost, which is typically based on bandwidth, to determine the best path through a network."
+  },
+  {
+    "front": "What algorithm does OSPF use to calculate the shortest path?",
+    "back": "OSPF uses the Shortest Path First (SPF) algorithm."
+  },
+  {
+    "front": "What are some key advantages of OSPF?",
+    "back": "OSPF supports variable length subnet masks, quick convergence, load balancing, multicast communication, hierarchical design, and authentication."
+  },
+  {
+    "front": "What is the default area used in OSPF configurations?",
+    "back": "The default area commonly used in OSPF is Area 0, also known as the backbone area."
+  },
+  {
+    "front": "What does the 'O' in a routing table represent when using OSPF?",
+    "back": "The 'O' in a routing table indicates that the route was learned through OSPF."
+  },
+  {
+    "front": "How do routers in OSPF share information?",
+    "back": "Routers send link-state advertisements (LSAs) to share the state of their links with all other OSPF routers, allowing them to build a full map of the network."
+  },
+  {
+    "front": "How is OSPF configured on a Cisco router?",
+    "back": "OSPF is configured with the commands: 'router ospf [process-id]' and 'network [ip-address] [wildcard-mask] area [area-id]'."
+  },
+  {
+    "front": "Does OSPF continue to receive updates and improvements?",
+    "back": "Yes, OSPF continues to receive RFC updates and feature enhancements to maintain stability and modern functionality."
+  },
+  {
+    "front": "What does EIGRP stand for?",
+    "back": "Enhanced Interior Gateway Routing Protocol."
+  },
+  {
+    "front": "Who originally developed EIGRP?",
+    "back": "Cisco Systems originally developed EIGRP."
+  },
+  {
+    "front": "Is EIGRP still proprietary to Cisco?",
+    "back": "No, EIGRP is now an open standard and can be implemented on non-Cisco devices."
+  },
+  {
+    "front": "What type of routing protocol is EIGRP considered to be?",
+    "back": "EIGRP is considered a hybrid routing protocol, combining features of distance-vector and link-state protocols."
+  },
+  {
+    "front": "What algorithm does EIGRP use for routing decisions?",
+    "back": "EIGRP uses the DUAL (Diffusing Update Algorithm) to calculate the best path."
+  },
+  {
+    "front": "What is a feasible successor in EIGRP?",
+    "back": "A feasible successor is a backup route that is precomputed and can be used immediately if the primary route fails."
+  },
+  {
+    "front": "What is the autonomous system number in EIGRP used for?",
+    "back": "It identifies the EIGRP routing domain and must match on all routers within the domain."
+  },
+  {
+    "front": "What code letter in the routing table indicates a route learned via EIGRP?",
+    "back": "The letter 'D' in the routing table stands for EIGRP-learned routes."
+  },
+  {
+    "front": "What are some message types used by EIGRP?",
+    "back": "EIGRP uses Hello, Acknowledgement, Update, Query, Reply, and Request messages."
+  },
+  {
+    "front": "Why might a company choose EIGRP over OSPF?",
+    "back": "EIGRP is simpler and faster to converge, making it a good option for networks that prioritize efficiency and quick failover."
+  },
+  {
+    "front": "What does BGP stand for?",
+    "back": "Border Gateway Protocol."
+  },
+  {
+    "front": "Is BGP an interior or exterior gateway protocol?",
+    "back": "BGP is an exterior gateway protocol (EGP)."
+  },
+  {
+    "front": "What is the primary purpose of BGP?",
+    "back": "BGP is used to route traffic between different autonomous systems, primarily across the internet."
+  },
+  {
+    "front": "What type of routing protocol is BGP?",
+    "back": "BGP is a path-vector routing protocol."
+  },
+  {
+    "front": "Why is BGP considered highly flexible and complex?",
+    "back": "BGP uses many attributes and policy-based controls to influence routing decisions between networks."
+  },
+  {
+    "front": "What is an autonomous system (AS) in BGP?",
+    "back": "An autonomous system is a collection of networks under a single administrative control identified by an AS number."
+  },
+  {
+    "front": "What is the difference between iBGP and eBGP?",
+    "back": "iBGP is used within the same autonomous system, while eBGP is used between different autonomous systems."
+  },
+  {
+    "front": "How do BGP neighbors differ from IGP neighbors?",
+    "back": "BGP neighbors must be manually configured, unlike IGP neighbors which are typically discovered automatically."
+  },
+  {
+    "front": "What command is used to start BGP routing on a Cisco router?",
+    "back": "The command is 'router bgp <AS-number>'."
+  },
+  {
+    "front": "What routing protocol is commonly said to 'power the internet'?",
+    "back": "Border Gateway Protocol (BGP)."
+  },
+  {
+    "front": "What is Administrative Distance in routing?",
+    "back": "Administrative Distance (AD) is a value used by routers to select the most believable source of routing information when multiple protocols provide a route to the same destination. Lower values are more trusted."
+  },
+  {
+    "front": "Which routing source has the lowest Administrative Distance?",
+    "back": "Directly connected interfaces have the lowest Administrative Distance, typically 0."
+  },
+  {
+    "front": "What is the Administrative Distance of a static route?",
+    "back": "The Administrative Distance of a static route is typically 1."
+  },
+  {
+    "front": "Between EIGRP and OSPF, which has a lower Administrative Distance by default?",
+    "back": "EIGRP has a lower Administrative Distance (90) compared to OSPF (110), making it more preferred by default."
+  },
+  {
+    "front": "What does the router use when multiple routes match a destination IP?",
+    "back": "The router uses the longest prefix match—the most specific subnet mask—to choose the best route."
+  },
+  {
+    "front": "What is meant by 'longest prefix match' in routing?",
+    "back": "It means the router selects the route with the most specific subnet mask (e.g., /32 over /24) when multiple entries match a destination."
+  },
+  {
+    "front": "If a router has multiple OSPF routes to a network, how does it choose the best path?",
+    "back": "It selects the path with the lowest cost metric, which typically reflects the highest bandwidth route."
+  },
+  {
+    "front": "What is a routing metric?",
+    "back": "A routing metric is a value used by routing protocols to determine the best path to a destination based on characteristics like bandwidth, delay, or hop count."
+  },
+  {
+    "front": "Why is understanding route selection logic important for troubleshooting?",
+    "back": "Knowing how routers choose routes (using AD, prefix length, and metrics) helps diagnose why traffic may be taking suboptimal paths."
+  },
+  {
+    "front": "What are the three ranges of private IP addresses defined by RFC 1918?",
+    "back": "10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16."
+  },
+  {
+    "front": "What is the purpose of address translation in networking?",
+    "back": "To conserve public IP address space by allowing private IPs to communicate with the Internet through translation mechanisms like NAT and PAT."
+  },
+  {
+    "front": "What does NAT stand for and what does it do?",
+    "back": "Network Address Translation; it translates private IP addresses into public IP addresses for Internet communication."
+  },
+  {
+    "front": "What is the key difference between NAT and PAT?",
+    "back": "NAT maps one private IP to one public IP, while PAT maps many private IPs to a single public IP using port numbers to differentiate sessions."
+  },
+  {
+    "front": "What command defines which IP addresses to translate in a Cisco NAT configuration?",
+    "back": "access-list 1 permit [IP address] [wildcard mask]"
+  },
+  {
+    "front": "Which command completes a PAT configuration in Cisco IOS?",
+    "back": "ip nat inside source list 1 interface [interface] overload"
+  },
+  {
+    "front": "What Cisco command sets an interface as the internal NAT interface?",
+    "back": "ip nat inside"
+  },
+  {
+    "front": "What Cisco command sets an interface as the external NAT interface?",
+    "back": "ip nat outside"
+  },
+  {
+    "front": "What is the primary security benefit of NAT?",
+    "back": "It hides internal IP addresses from the public Internet, providing basic IP obfuscation."
+  },
+  {
+    "front": "Why is NAT considered a temporary solution?",
+    "back": "Because it breaks end-to-end connectivity and complicates security; IPv6 is intended to replace it with globally unique addresses."
+  },
+  {
+    "front": "Which command displays active NAT translations on a Cisco router?",
+    "back": "show ip nat translations"
+  },
+  {
+    "front": "Which command shows NAT performance statistics on a Cisco router?",
+    "back": "show ip nat statistics"
+  },
+  {
+    "front": "How does PAT differentiate between multiple internal hosts using the same public IP?",
+    "back": "By assigning a unique port number to each session."
+  },
+  {
+    "front": "What was a primary driver behind the creation of NAT and PAT technologies?",
+    "back": "The rapid exhaustion of IPv4 address space."
+  },
+  {
+    "front": "What is the expected future of address translation with IPv6 adoption?",
+    "back": "IPv6 removes the need for NAT as every device can have a unique globally routable address."
+  },
+  {
+    "front": "What is the purpose of First Hop Redundancy Protocols (FHRPs)?",
+    "back": "FHRPs provide a mechanism to ensure continuous network availability by assigning a virtual IP address to multiple routers, so if one fails, another can take over seamlessly."
+  },
+  {
+    "front": "What problem do FHRPs solve in network configurations?",
+    "back": "They allow clients to use a single default gateway IP address while enabling multiple routers to back each other up in case of failure."
+  },
+  {
+    "front": "What does VIP stand for in networking and what is its role?",
+    "back": "VIP stands for Virtual IP; it is an IP address shared by multiple routers so clients can use one consistent default gateway."
+  },
+  {
+    "front": "What is HSRP and who developed it?",
+    "back": "HSRP stands for Hot Standby Router Protocol and was developed by Cisco in 1998 to provide default gateway redundancy."
+  },
+  {
+    "front": "Does HSRP support built-in load balancing?",
+    "back": "No, HSRP does not have built-in load balancing; it requires complex configuration to achieve load distribution."
+  },
+  {
+    "front": "What is VRRP and how is it different from HSRP?",
+    "back": "VRRP stands for Virtual Router Redundancy Protocol; it is an open standard alternative to Cisco's HSRP with similar functionality but also lacks built-in load balancing."
+  },
+  {
+    "front": "What is GLBP and what advantage does it offer over HSRP and VRRP?",
+    "back": "GLBP stands for Gateway Load Balancing Protocol; it is a Cisco protocol that includes built-in load balancing with multiple distribution methods."
+  },
+  {
+    "front": "Which FHRP allows for customized traffic distribution percentages between routers?",
+    "back": "GLBP allows administrators to set traffic distribution ratios, such as 80% to one router and 20% to another."
+  },
+  {
+    "front": "Why might a company experience frequent internet outages if not using FHRPs?",
+    "back": "Without FHRPs, if a single default gateway router fails, there is no automatic failover, leading to loss of internet connectivity."
+  },
+  {
+    "front": "Are FHRPs typically used in small companies?",
+    "back": "Smaller companies may not use FHRPs, often relying on a single gateway, while larger companies typically implement them for redundancy."
+  },
+  {
+    "front": "What is a subinterface in networking?",
+    "back": "A subinterface is a logical interface created on a physical interface, allowing it to handle traffic from multiple VLANs or IP subnets."
+  },
+  {
+    "front": "Why are subinterfaces used on routers?",
+    "back": "Subinterfaces are used when a router needs to connect to multiple networks or VLANs but has a limited number of physical interfaces."
+  },
+  {
+    "front": "What command is used to reset a Cisco interface to its default configuration?",
+    "back": "The command is `default interface <interface-name>`."
+  },
+  {
+    "front": "How do you create a subinterface on a Cisco router?",
+    "back": "Use the command `interface <physical-interface>.<subinterface-id>` (e.g., `interface g0/0.10`) in global config mode."
+  },
+  {
+    "front": "What configuration is typically required on a subinterface for VLANs?",
+    "back": "You must specify encapsulation (e.g., `encapsulation dot1Q <VLAN-ID>`) and assign an IP address."
+  },
+  {
+    "front": "Can you assign different IP addresses to subinterfaces of the same physical interface?",
+    "back": "Yes, each subinterface can have its own IP address, typically corresponding to a different VLAN or subnet."
+  },
+  {
+    "front": "Is there a limit to the number of subinterfaces on a Cisco router?",
+    "back": "While the theoretical limit is over 4 million, practical limits are based on the router’s CPU and memory, typically kept under 100."
+  },
+  {
+    "front": "How can you verify subinterface configuration on a Cisco device?",
+    "back": "Use the `show ip interface brief` command to list all configured interfaces, including subinterfaces."
+  },
+  {
+    "front": "What is the benefit of using subinterfaces instead of additional physical interfaces?",
+    "back": "Subinterfaces allow efficient use of existing hardware by supporting multiple logical networks through one physical port."
+  },
+  {
+    "front": "In what type of network configuration are subinterfaces most commonly used?",
+    "back": "Subinterfaces are often used in router-on-a-stick configurations for inter-VLAN routing."
+  },
+  {
+    "front": "What is a VLAN?",
+    "back": "A VLAN (Virtual Local Area Network) is a logical segmentation of a switch into separate broadcast domains, typically mapped to IP subnets."
+  },
+  {
+    "front": "Why are VLANs used in networking?",
+    "back": "VLANs are used to improve network efficiency, limit broadcast traffic, enhance security, and logically segment networks based on function or department."
+  },
+  {
+    "front": "How are VLANs identified on a switch?",
+    "back": "VLANs are identified by a numerical ID and can also have a descriptive name assigned by the administrator."
+  },
+  {
+    "front": "How do VLANs improve security?",
+    "back": "VLANs can isolate network segments, preventing broadcast-based malware from spreading beyond a single VLAN and enabling tailored security policies."
+  },
+  {
+    "front": "What command is used to assign a port to a VLAN on a Cisco switch?",
+    "back": "Use `switchport mode access` and `switchport access vlan <VLAN-ID>` under the interface configuration mode."
+  },
+  {
+    "front": "What is a Switched Virtual Interface (SVI)?",
+    "back": "An SVI is a virtual interface created for a VLAN on a multilayer switch, used for inter-VLAN routing and default gateway configuration."
+  },
+  {
+    "front": "What is required to enable inter-VLAN routing on a multilayer switch?",
+    "back": "You must enable IP routing on the switch with the `ip routing` command."
+  },
+  {
+    "front": "How can VLANs be verified on a Cisco switch?",
+    "back": "Use the `show vlan brief` command to view existing VLANs and port assignments."
+  },
+  {
+    "front": "What must be configured for VLANs to communicate with each other?",
+    "back": "Inter-VLAN routing must be enabled through SVIs or a router-on-a-stick configuration."
+  },
+  {
+    "front": "Can VLANs reduce broadcast traffic?",
+    "back": "Yes, VLANs limit broadcasts to the specific VLAN, preventing unnecessary traffic across the entire network."
+  },
+  {
+    "front": "What are the common interface configuration parameters for a PC?",
+    "back": "IP address, subnet mask, default gateway, and DNS server."
+  },
+  {
+    "front": "What does the `switchport access vlan` command do on a Cisco switch?",
+    "back": "It assigns a specific switch port to a designated VLAN for layer 2 traffic segmentation."
+  },
+  {
+    "front": "Why might you configure a description on a network interface?",
+    "back": "To document the interface’s purpose (e.g., 'This connects to PCA'), aiding in troubleshooting and clarity."
+  },
+  {
+    "front": "What is the function of the voice VLAN setting?",
+    "back": "It designates a separate VLAN for Voice over IP (VoIP) traffic to prioritize voice communication on the network."
+  },
+  {
+    "front": "What are the duplex mode options for a switch port?",
+    "back": "Full duplex, half duplex, and auto (auto-negotiation)."
+  },
+  {
+    "front": "What does 'auto' speed or duplex setting do on a network interface?",
+    "back": "Automatically detects and adjusts the interface speed or duplex mode based on the connected device."
+  },
+  {
+    "front": "How do you assign an IP address to a layer 3 interface on a Cisco switch?",
+    "back": "Use the `interface` command followed by `ip address <IP> <Subnet Mask>` and then `no shutdown`."
+  },
+  {
+    "front": "What should you verify when assigning a manual IP on a PC?",
+    "back": "Ensure the IP, subnet mask, default gateway, and DNS settings match the network configuration."
+  },
+  {
+    "front": "Where can you find official interface configuration commands for network devices?",
+    "back": "On the vendor's official documentation website, which is typically free and publicly accessible."
+  },
+  {
+    "front": "What Google search trick helps find vendor-specific configuration guides quickly?",
+    "back": "Use `site:<vendor_website> <model> \"<feature>\"` to limit search results to the vendor’s site."
+  },
+  {
+    "front": "What is the primary function of Spanning Tree Protocol (STP)?",
+    "back": "STP prevents loops in switched networks by blocking redundant paths."
+  },
+  {
+    "front": "What is the default time STP takes to converge in a network?",
+    "back": "Approximately 50 seconds."
+  },
+  {
+    "front": "Which protocol bundles multiple physical links into one logical link to avoid STP blocking?",
+    "back": "EtherChannel (also known as Port Channel)."
+  },
+  {
+    "front": "What is Rapid Spanning Tree Protocol (RSTP) and its standard designation?",
+    "back": "RSTP is a faster version of STP with rapid convergence, designated as 802.1w."
+  },
+  {
+    "front": "How can you make a switch the root bridge in STP?",
+    "back": "Use the command `spanning-tree vlan [vlan_id] root primary` on the desired switch."
+  },
+  {
+    "front": "Who invented the Spanning Tree Protocol?",
+    "back": "Radia Perlman."
+  },
+  {
+    "front": "What happens when a switch becomes the STP root bridge?",
+    "back": "All of its ports move to the forwarding state, and blocking decisions shift to other switches."
+  },
+  {
+    "front": "What is the effect of using RSTP over standard STP?",
+    "back": "It significantly reduces convergence time from 50 seconds to near instant."
+  },
+  {
+    "front": "What humorous way can help you remember the standard for RSTP?",
+    "back": "802.1w can be remembered as 'Wapid Spanning Tree' like Elmer Fudd's pronunciation."
+  },
+  {
+    "front": "What does STP do when it detects a potential loop?",
+    "back": "It dynamically blocks one or more ports to prevent the loop."
+  },
+  {
+    "front": "What does MTU stand for and what does it define?",
+    "back": "MTU stands for Maximum Transmission Unit; it defines the maximum size of a packet or frame that can be sent over a network."
+  },
+  {
+    "front": "What is the default MTU size for Ethernet networks?",
+    "back": "1,500 bytes."
+  },
+  {
+    "front": "What happens when a packet exceeds the MTU size?",
+    "back": "The packet is fragmented into smaller pieces that must be reassembled by the receiving device."
+  },
+  {
+    "front": "What are jumbo frames and when are they typically used?",
+    "back": "Jumbo frames are Ethernet frames that exceed the standard MTU of 1,500 bytes, typically up to 9,000 bytes, used in high-speed networks (e.g., 10 Gbps+)."
+  },
+  {
+    "front": "Why might fragmentation be a problem in networking?",
+    "back": "Fragmentation increases processing overhead and may cause packets to arrive out of order, requiring reassembly."
+  },
+  {
+    "front": "How can you check the MTU on a Cisco device?",
+    "back": "Use the command `show interface [interface_id]` to view the MTU setting."
+  },
+  {
+    "front": "Do different network types have different MTUs?",
+    "back": "Yes, different media (like wireless) often have larger MTUs than Ethernet."
+  },
+  {
+    "front": "Why was the concept of jumbo frames introduced?",
+    "back": "To accommodate larger payloads in networks using technologies like tunneling and virtualization, which add extra headers."
+  },
+  {
+    "front": "What is a typical MTU size in wireless networks?",
+    "back": "Often over 2,000 bytes, depending on the standard and configuration."
+  },
+  {
+    "front": "How does MTU affect network performance?",
+    "back": "A larger MTU allows more data to be sent at once, improving efficiency, but may increase latency; smaller MTUs reduce latency but add processing overhead."
+  },
+  {
+    "front": "What are the primary frequency bands used in wireless networking?",
+    "back": "2.4 GHz, 5 GHz, and 6 GHz."
+  },
+  {
+    "front": "Which wireless standards use the 2.4 GHz band?",
+    "back": "802.11b, 802.11g, and 802.11n."
+  },
+  {
+    "front": "Which wireless standards use the 5 GHz band?",
+    "back": "802.11a, 802.11n, 802.11ac, and 802.11ax."
+  },
+  {
+    "front": "What is a key advantage of 2.4 GHz over 5 GHz?",
+    "back": "2.4 GHz provides longer range but slower speeds; 5 GHz is faster but has shorter range."
+  },
+  {
+    "front": "What is band steering?",
+    "back": "A feature that automatically switches a device between 2.4 GHz and 5 GHz based on signal quality and distance."
+  },
+  {
+    "front": "Which wireless standard can use the 6 GHz band?",
+    "back": "802.11ax (Wi-Fi 6E)."
+  },
+  {
+    "front": "In the 2.4 GHz band, which channels are non-overlapping in the U.S.?",
+    "back": "Channels 1, 6, and 11."
+  },
+  {
+    "front": "What does 802.11h provide in wireless networks?",
+    "back": "Dynamic frequency selection and transmit power control to reduce interference."
+  },
+  {
+    "front": "What is signal-to-noise ratio (SNR) and why is it important?",
+    "back": "SNR is the difference between signal strength and noise; higher SNR means better wireless performance."
+  },
+  {
+    "front": "What naming convention is replacing the 802.11 standard labels for Wi-Fi?",
+    "back": "Simplified names like Wi-Fi 5 (802.11ac), Wi-Fi 6 (802.11ax), and Wi-Fi 7 for newer standards."
+  }
+  {
+    "front": "What does SSID stand for in wireless networking?",
+    "back": "Service Set Identifier; it is the human-readable network name for a wireless network."
+  },
+  {
+    "front": "What is a BSSID?",
+    "back": "Basic Service Set Identifier; it is the MAC address of the wireless access point."
+  },
+  {
+    "front": "What is the difference between an SSID and a BSSID?",
+    "back": "An SSID is the network name, while a BSSID is the MAC address of the access point providing the wireless service."
+  },
+  {
+    "front": "Why were BSSIDs impractical for early home wireless users?",
+    "back": "Because they required users to connect using long MAC addresses instead of easy-to-remember names."
+  },
+  {
+    "front": "What is an ESSID?",
+    "back": "Extended Service Set Identifier; a single SSID shared across multiple access points."
+  },
+  {
+    "front": "What is wireless roaming?",
+    "back": "The process where a device moves between access points using the same ESSID without losing connectivity."
+  },
+  {
+    "front": "Why do organizations use ESSIDs?",
+    "back": "To allow seamless wireless connectivity across large areas with multiple access points."
+  },
+  {
+    "front": "What security consideration should be taken when naming an SSID?",
+    "back": "Avoid names that reveal personal information, device types, or indicate weak security."
+  },
+  {
+    "front": "What does hiding an SSID do?",
+    "back": "It stops the access point from broadcasting the network name, making it less visible to casual users."
+  },
+  {
+    "front": "Does hiding an SSID fully secure a wireless network?",
+    "back": "No; it only deters unsophisticated attackers, as skilled attackers can still discover the SSID."
+  },
+  {
+    "front": "What is a drawback of disabling SSID broadcasting?",
+    "back": "New devices must have the SSID entered manually since it will not appear in available networks."
+  },
+  {
+    "front": "What tool example was used to view SSIDs and BSSIDs in the lesson?",
+    "back": "A wireless analysis tool such as NetSpot."
+  },
+
+  {
+    "front": "What is an ad hoc wireless network?",
+    "back": "A network where devices connect directly to each other without an access point, like Bluetooth or direct Wi-Fi connections."
+  },
+  {
+    "front": "What is a common use case for ad hoc wireless networks?",
+    "back": "Connecting devices like phones to speakers or screens in a temporary, direct connection without central infrastructure."
+  },
+  {
+    "front": "What is a point-to-point wireless network?",
+    "back": "A connection between two wireless nodes, often used to connect buildings via antennas."
+  },
+  {
+    "front": "What does 'point-to-point' imply in a wireless setup?",
+    "back": "That only two devices or locations are connected directly using wireless technology."
+  },
+  {
+    "front": "What is infrastructure mode in wireless networking?",
+    "back": "A mode where wireless devices connect through an access point that manages communication and security."
+  },
+  {
+    "front": "Where is infrastructure mode most commonly used?",
+    "back": "In homes and offices, where multiple devices connect to a central access point for network access."
+  },
+  {
+    "front": "What is a mesh wireless network?",
+    "back": "A network with multiple intelligent access points that can communicate and route traffic between each other without a single point of failure."
+  },
+  {
+    "front": "Where might you find mesh wireless networks in use?",
+    "back": "Large environments like cities, airports, or campuses where wide wireless coverage and redundancy are important."
+  },
+  {
+    "front": "What are some characteristics of mesh network access points?",
+    "back": "They can boost transmit power, support roaming, and work together to maintain stable connections."
+  },
+  {
+    "front": "Which wireless network type is considered the most popular?",
+    "back": "Infrastructure mode, where a central access point manages all wireless connections."
+  },
+  {
+    "front": "What does the CIA triad stand for in network security?",
+    "back": "Confidentiality, Integrity, and Availability."
+  },
+  {
+    "front": "What is the purpose of encryption in wireless communication?",
+    "back": "To ensure confidentiality, making intercepted data unreadable to unauthorized users."
+  },
+  {
+    "front": "What replaced WEP due to its security flaws?",
+    "back": "WPA (Wi-Fi Protected Access), followed quickly by WPA2."
+  },
+  {
+    "front": "What encryption protocol is used by WPA2?",
+    "back": "AES (Advanced Encryption Standard), supporting key lengths of 128 and 256 bits."
+  },
+  {
+    "front": "What is the difference between WPA2 Personal and WPA2 Enterprise?",
+    "back": "Personal uses a pre-shared key; Enterprise uses EAP (Extensible Authentication Protocol) for stronger, user-based authentication."
+  },
+  {
+    "front": "What does WPA3 improve upon compared to WPA2?",
+    "back": "It mandates 256-bit AES encryption and includes features like QR code-based access and enhanced protections for public networks."
+  },
+  {
+    "front": "Why did WPA3 adoption take longer than previous standards?",
+    "back": "Because WPA2 remained secure and effective, slowing the urgency for migration."
+  },
+  {
+    "front": "What is TKIP and why was it replaced?",
+    "back": "TKIP (Temporal Key Integrity Protocol) was used in WPA but had vulnerabilities and was replaced by AES in WPA2."
+  },
+  {
+    "front": "What type of encryption key is used in WPA2-PSK?",
+    "back": "A pre-shared key (PSK) set manually during Wi-Fi setup, requiring secure and complex passwords."
+  },
+  {
+    "front": "How does WPA3 enhance user experience during Wi-Fi onboarding?",
+    "back": "It allows secure joining via scanning a QR code, simplifying the setup process."
+  },
+  {
+    "front": "What is open authentication in wireless networks?",
+    "back": "A method where no credentials are required to join the network, offering no real security."
+  },
+  {
+    "front": "What is a pre-shared key (PSK) used for in wireless authentication?",
+    "back": "A shared password required to join the network, commonly used in home Wi-Fi setups."
+  },
+  {
+    "front": "What does EAP stand for and what is its role in authentication?",
+    "back": "Extensible Authentication Protocol; it enables flexible and secure authentication methods, including certificates and multi-factor authentication."
+  },
+  {
+    "front": "What is the difference between WPA2 Personal and WPA2 Enterprise?",
+    "back": "WPA2 Personal uses a pre-shared key; WPA2 Enterprise uses EAP and 802.1X for advanced authentication."
+  },
+  {
+    "front": "What is 802.1X used for in wireless networks?",
+    "back": "A network access control protocol used in enterprise environments to authenticate users and devices on both wired and wireless networks."
+  },
+  {
+    "front": "What is the most secure wireless authentication method commonly used today?",
+    "back": "802.1X with EAP, especially when combined with certificates and multi-factor authentication."
+  },
+  {
+    "front": "Why is certificate-based authentication considered secure?",
+    "back": "It verifies identity using digital certificates, reducing reliance on passwords and improving security."
+  },
+  {
+    "front": "What is multi-factor authentication (MFA)?",
+    "back": "An authentication method requiring two or more factors, such as something you know (PIN) and something you have (fingerprint)."
+  },
+  {
+    "front": "Why is open authentication not recommended?",
+    "back": "It allows anyone to connect to the network, posing a high security risk with no user validation."
+  },
+  {
+    "front": "What is considered the most secure network environment?",
+    "back": "An environment with no wireless access at all, such as military or highly secure government facilities."
+  },
+  {
+    "front": "What is a guest network in a wireless environment?",
+    "back": "A separate Wi-Fi network for visitors that provides internet access while keeping them isolated from the corporate network."
+  },
+  {
+    "front": "Why should guest networks be completely separate from corporate networks?",
+    "back": "To prevent guest access to internal resources and maintain network security."
+  },
+  {
+    "front": "What is a captive portal in guest Wi-Fi?",
+    "back": "A web page that appears when a user connects to a guest network, requiring actions like accepting terms, entering credentials, or logging in via social media."
+  },
+  {
+    "front": "What are common authentication options for captive portals?",
+    "back": "Open access, password protection, voucher system, and federated login (e.g., Facebook, Google)."
+  },
+  {
+    "front": "How can marketing benefit from captive portals?",
+    "back": "Captive portals can collect user information like name and email, which can be used for follow-up marketing communications."
+  },
+  {
+    "front": "Why might a captive portal be required for guest Wi-Fi?",
+    "back": "To provide legal protection for the organization and support marketing efforts."
+  },
+  {
+    "front": "What is a federated login in the context of captive portals?",
+    "back": "An authentication method that allows users to log in using existing accounts from services like Google, Facebook, or Instagram."
+  },
+  {
+    "front": "Why might a company provide both 2.4 GHz and 5 GHz bands for guest Wi-Fi?",
+    "back": "To ensure compatibility with a wider range of devices that may only support one of the two bands."
+  },
+  {
+    "front": "What is the main purpose of an omnidirectional antenna in Wi-Fi networks?",
+    "back": "To provide 360-degree coverage evenly around the access point."
+  },
+  {
+    "front": "Why might omnidirectional antennas be limited in multi-story buildings?",
+    "back": "They typically don’t provide strong coverage directly above or below the antenna."
+  },
+  {
+    "front": "What is a directional antenna used for in wireless networking?",
+    "back": "To focus signal strength in a specific direction for better range and performance."
+  },
+  {
+    "front": "Name two common types of directional antennas.",
+    "back": "Parabolic dish and Yagi antennas."
+  },
+  {
+    "front": "What type of antenna resembles a square and can be either directional or omnidirectional?",
+    "back": "Patch antenna."
+  },
+  {
+    "front": "What is a sector antenna designed to do?",
+    "back": "To focus wireless signals into a specific sector or wedge-shaped area, useful for partial coverage zones."
+  },
+  {
+    "front": "How does antenna selection relate to wireless site surveys?",
+    "back": "During site surveys, different antennas are chosen to ensure proper wireless coverage across all areas."
+  }
+  {
+    "front": "What is the primary function of a wireless access point (AP) in infrastructure mode?",
+    "back": "To connect wireless devices to a wired network and act as a traffic controller."
+  },
+  {
+    "front": "What does the term 'form factor' refer to in the context of wireless access points?",
+    "back": "The physical design, shape, and size of the access point."
+  },
+  {
+    "front": "What is an autonomous access point?",
+    "back": "An AP that can operate independently, handling all functions like authentication, bridging, and encryption on its own."
+  },
+  {
+    "front": "Why are autonomous access points commonly used in home networks?",
+    "back": "They are self-sufficient and do not require additional infrastructure, making them ideal for small, simple networks."
+  },
+  {
+    "front": "What is a lightweight access point?",
+    "back": "An AP that relies on a wireless LAN controller for most of its operations, including client management and security."
+  },
+  {
+    "front": "What is the role of a Wireless LAN Controller (WLC) in a network with lightweight APs?",
+    "back": "It manages all wireless functions for the lightweight APs, acting as the central intelligence of the wireless network."
+  },
+  {
+    "front": "What are key factors to consider when choosing between autonomous and lightweight access points?",
+    "back": "Budget, coverage area, and how critical wireless is to the organization."
+  },
+  {
+    "front": "Why is the term 'lightweight' potentially misleading when referring to APs?",
+    "back": "Because lightweight APs require a powerful centralized controller, making the overall setup more complex and capable."
+  }
+  {
+    "front": "What is the purpose of a Main Distribution Frame (MDF) in a network?",
+    "back": "It serves as the central point for network connectivity and equipment in an organization, hosting devices like servers, routers, and switches."
+  },
+  {
+    "front": "Why is physical security critical for networking equipment in an MDF?",
+    "back": "Because physical access can bypass all logical security, allowing someone to reset, damage, or steal equipment."
+  },
+  {
+    "front": "What is an Intermediate Distribution Frame (IDF)?",
+    "back": "A secondary network location used to extend connectivity from the MDF to different areas of a building or campus."
+  },
+  {
+    "front": "What is a wiring closet used for?",
+    "back": "To aggregate network wiring and provide centralized access to patch panels for connecting network devices."
+  },
+  {
+    "front": "What are patch panels?",
+    "back": "Hardware units used to organize and manage Ethernet cable connections in a wiring closet."
+  },
+  {
+    "front": "What makes fiber distribution panels different from Ethernet patch panels?",
+    "back": "Fiber panels handle fragile, high-speed fiber optic cables, requiring careful handling and gentle bends to prevent damage."
+  },
+  {
+    "front": "Why are cable management and pathways important in network installations?",
+    "back": "They ensure organization, reduce the risk of damage, and simplify troubleshooting and maintenance."
+  },
+  {
+    "front": "What is meant by 'racking and stacking' in networking?",
+    "back": "The process of physically installing equipment in server racks and connecting it for operation."
+  },
+  {
+    "front": "What are rack units (U) used for?",
+    "back": "To measure the height of equipment installed in server racks, helping plan space requirements."
+  },
+  {
+    "front": "What are some considerations when selecting server racks?",
+    "back": "Height, width, depth, ventilation, security features, and compatibility with equipment dimensions and airflow needs."
+  }
+  {
+    "front": "What is a UPS and why is it important in networking?",
+    "back": "A UPS (Uninterruptible Power Supply) provides backup power during outages, ensuring continuous operation of network equipment."
+  },
+  {
+    "front": "Why do UPS units require maintenance?",
+    "back": "Because they rely on batteries that degrade over time and need regular testing and replacement to function properly."
+  },
+  {
+    "front": "What is a PDU in the context of networking power?",
+    "back": "A Power Distribution Unit (PDU) distributes power to multiple devices in network racks, similar to a power strip but for enterprise use."
+  },
+  {
+    "front": "What other acronym does PDU stand for in networking?",
+    "back": "Protocol Data Unit, which refers to data and its associated headers during network transmission—unrelated to power."
+  },
+  {
+    "front": "What is a power load and why does it matter in networking?",
+    "back": "It is the total electrical demand of network equipment; important for planning capacity and controlling power costs."
+  },
+  {
+    "front": "How can you calculate power requirements for a data center?",
+    "back": "Use power calculators like those from Schneider Electric to estimate based on equipment type and quantity."
+  },
+  {
+    "front": "Why is voltage important in network installations?",
+    "back": "Different devices require different voltages (e.g., 110V, 208V, 220V), and incorrect voltage can damage equipment."
+  },
+  {
+    "front": "What is the typical voltage distribution in a data center?",
+    "back": "Power is pulled from the grid at 480V and distributed as 110V, 208V, or 220V depending on device requirements."
+  },
+  {
+    "front": "How does sustainability relate to networking power considerations?",
+    "back": "Organizations aim to reduce energy consumption and environmental impact through efficient, green power practices."
+  },
+  {
+    "front": "Why are cloud providers often preferred for power efficiency?",
+    "back": "They use advanced, sustainable infrastructure that reduces costs and supports green technology goals."
+  }
+  {
+    "front": "What are the three main environmental factors to consider for networking equipment?",
+    "back": "Fire, humidity, and temperature are the key environmental factors for physical IT installations."
+  },
+  {
+    "front": "Why are gaseous fire suppression systems preferred in network environments?",
+    "back": "They suppress fires without damaging sensitive electronic equipment like water-based systems would."
+  },
+  {
+    "front": "What is the typical acceptable range for relative humidity (RH) in IT environments?",
+    "back": "Typically between 40% and 60% RH, though some equipment can tolerate wider ranges."
+  },
+  {
+    "front": "How does equipment tolerance vary with humidity?",
+    "back": "Some rugged outdoor devices can tolerate 100% humidity, while others require controlled indoor conditions."
+  },
+  {
+    "front": "What is the recommended approach to temperature ranges for network hardware?",
+    "back": "Operate within the mid to lower end of the vendor’s specified range, typically around 70°F for optimal performance."
+  },
+  {
+    "front": "Which organization sets environmental standards for IT equipment?",
+    "back": "ASHRAE – American Society of Heating, Refrigerating and Air Conditioning Engineers."
+  },
+  {
+    "front": "Where can you find environmental specifications for networking equipment?",
+    "back": "In the installation and service guides provided by the manufacturer, typically under 'Server Specifications.'"
+  },
+  {
+    "front": "Why is it better to maintain a cooler environment in server rooms?",
+    "back": "Cooler temperatures extend the lifespan and improve the performance of network devices."
+  },
+  {
+    "front": "Besides temperature and humidity, what other environmental specs might be provided?",
+    "back": "Altitude tolerance and sound pressure levels can also be listed for networking equipment."
+  },
+  {
+    "front": "What does a 10–90% humidity rating on a server imply?",
+    "back": "The server can operate within that RH range, though optimal performance is usually at mid-range humidity levels."
+  }
+  [
+    {
+      "front": "What is the main difference between physical and logical network diagrams?",
+      "back": "Physical diagrams show actual hardware and connections (e.g., MAC addresses, ports), while logical diagrams show how data flows between devices abstractly."
+    },
+    {
+      "front": "What type of diagram details cabling connections in a network environment?",
+      "back": "A cable map or cabling diagram, often categorized under physical diagrams."
+    },
+    {
+      "front": "What are network diagrams often layered by?",
+      "back": "OSI model layers—commonly layers 1 through 4 (Physical, Data Link, Network, Transport)."
+    },
+    {
+      "front": "What is an asset inventory in networking?",
+      "back": "A document or spreadsheet that tracks device details such as IPs, hostnames, types, locations, and responsible personnel."
+    },
+    {
+      "front": "Why is asset inventory documentation important for departments outside of IT?",
+      "back": "Finance uses it for amortization, and security teams use it to manage and protect assets."
+    },
+    {
+      "front": "What does IPAM stand for and what is its purpose?",
+      "back": "IP Address Management; it helps track, allocate, and manage IP address assignments in a network."
+    },
+    {
+      "front": "Why is automated IPAM important?",
+      "back": "It helps prevent conflicts, supports scaling, and simplifies changes like mergers or network expansions."
+    },
+    {
+      "front": "What is SLA documentation?",
+      "back": "Service Level Agreement; it outlines service expectations, response times, and escalation procedures with providers."
+    },
+    {
+      "front": "What is a wireless survey (heat map) used for?",
+      "back": "It visually represents Wi-Fi signal strength across an area to optimize access point placement."
+    },
+    {
+      "front": "Why are wireless surveys essential for network performance?",
+      "back": "They help establish a baseline and ensure reliable wireless coverage, identifying weak or congested areas."
+    }
+    {
+      "front": "What does the PPDIOO lifecycle stand for in network design?",
+      "back": "PPDIOO stands for Prepare, Plan, Design, Implement, Operate, and Optimize. It is a lifecycle approach used in network environments to manage the entire process from concept to refinement."
+    },
+    {
+      "front": "What is the difference between 'Prepare' and 'Plan' in the PPDIOO framework?",
+      "back": "'Prepare' involves gathering initial requirements and understanding needs (e.g., speeds, number of nodes), while 'Plan' involves concrete design planning, including budgeting and documentation."
+    },
+    {
+      "front": "What typically happens in the 'Design' phase of the PPDIOO lifecycle?",
+      "back": "In the Design phase, the actual network blueprint is created. This may involve pilot or prototype programs to test performance and features before full implementation."
+    },
+    {
+      "front": "What are common tasks performed in the 'Operate' phase of a software lifecycle?",
+      "back": "Common tasks include patching, bug fixing, operating system updates, and firmware updates. These ensure the system runs securely and efficiently."
+    },
+    {
+      "front": "Why is it important to test updates before rolling them out to critical systems?",
+      "back": "Testing updates on non-critical systems first prevents unexpected downtime or failures on mission-critical systems. This is a best practice in lifecycle management."
+    },
+    {
+      "front": "What does EOL and EOS stand for in lifecycle management?",
+      "back": "EOL stands for End of Life, meaning the product is no longer sold or developed. EOS stands for End of Support, indicating the vendor will no longer provide help or updates."
+    },
+    {
+      "front": "What are key concerns during the decommissioning phase of lifecycle management?",
+      "back": "Key concerns include data integrity, security, compliance (e.g., HIPAA), and environmental impact. Devices may contain recoverable sensitive data and hazardous materials."
+    },
+    {
+      "front": "What are some proper methods for securely decommissioning hard drives?",
+      "back": "Methods include low-level formatting, physical destruction (e.g., shredding), and following compliance regulations for data and environmental safety."
+    },
+    {
+      "front": "Can companies customize the PPDIOO lifecycle framework?",
+      "back": "Yes, many companies tailor the framework to their needs, such as merging Prepare and Plan or combining Operate and Optimize, while retaining the core concept."
+    },
+    {
+      "front": "Why is decommissioning more complex for some companies than others?",
+      "back": "Complexity varies based on the type of data handled, compliance requirements, and the device itself. Sensitive data requires stricter security and legal protocols."
+    },
+    {
+      "front": "What is configuration management in networking?",
+      "back": "Configuration management involves maintaining and documenting the configurations of all network-related devices like servers, routers, switches, and firewalls to ensure consistency, security, and scalability."
+    },
+    {
+      "front": "Why is change management typically included with configuration management?",
+      "back": "Because configurations often need to evolve, change management provides a systematic process to manage these changes without causing inconsistency or 'configuration drift'."
+    },
+    {
+      "front": "What is configuration drift and why is it problematic?",
+      "back": "Configuration drift occurs when changes are made to systems without being documented or tracked, leading to outdated documentation and unpredictable network behavior."
+    },
+    {
+      "front": "What are examples of configuration types that should be stored?",
+      "back": "Examples include production configs, baseline configs for different scenarios, golden (ideal) configs, and backup configs for recovery purposes."
+    },
+    {
+      "front": "What is an immutable topology?",
+      "back": "An immutable topology is a network built from a fixed, golden configuration that does not change, or evolves only through controlled and documented processes."
+    },
+    {
+      "front": "How does version control help in configuration management?",
+      "back": "Version control helps by archiving old configurations, tagging changes, and allowing rollbacks. It tracks how configurations evolve over time."
+    },
+    {
+      "front": "How can automation enhance configuration management?",
+      "back": "Automation can update configs, detect changes, perform backups, and track changes in real time, reducing manual errors and delays."
+    },
+    {
+      "front": "What role does configuration management play in compliance and security?",
+      "back": "Proper configuration management ensures that systems meet security standards and compliance regulations by maintaining accurate and secure records."
+    },
+    {
+      "front": "Why is real-time monitoring valuable in configuration management?",
+      "back": "It ensures that changes are detected and logged immediately, preventing unauthorized or undocumented modifications from affecting the network."
+    },
+    {
+      "front": "What is the main takeaway from configuration and change management practices?",
+      "back": "Having clear, documented processes prevents configuration drift, ensures network consistency, and supports growth, compliance, and troubleshooting."
+    },
+    {
+      "front": "What does SNMP stand for and what is its purpose?",
+      "back": "SNMP stands for Simple Network Management Protocol. It is used to monitor and manage devices on a network such as servers, routers, switches, and firewalls."
+    },
+    {
+      "front": "What is an SNMP agent?",
+      "back": "An SNMP agent is software installed on a network node that collects and stores management information and responds to queries from a Network Management Station (NMS)."
+    },
+    {
+      "front": "What is the MIB in SNMP?",
+      "back": "The Management Information Base (MIB) is a database used by the SNMP agent to store values like CPU usage, temperature, and memory utilization, which can be queried by the NMS."
+    },
+    {
+      "front": "What are SNMP traps?",
+      "back": "Traps are alert messages sent from the SNMP agent to the Network Management Station to notify of certain conditions or thresholds being met, such as temperature anomalies."
+    },
+    {
+      "front": "What is a key limitation of SNMP version 2C?",
+      "back": "SNMP v2C lacks built-in security. It uses clear-text community strings (passwords), leading to the joke 'Security Not My Problem'."
+    },
+    {
+      "front": "What improvements does SNMP version 3 provide?",
+      "back": "SNMP v3 adds support for authentication and encryption, offers configurable security levels, and uses a user-based access model for improved management and control."
+    },
+    {
+      "front": "How can you identify SNMP version support on a device?",
+      "back": "By using SNMP configuration commands (e.g., 'snmp-server ?') on the device. If only 'community' is shown, it likely only supports SNMP v2C."
+    },
+    {
+      "front": "What are the read-only and read-write SNMP community strings?",
+      "back": "Read-only strings allow monitoring but no changes. Read-write strings allow full management. Both are clear-text in SNMP v2C, so read-only is preferred for security."
+    },
+    {
+      "front": "Why is it important to configure SNMP with security in mind?",
+      "back": "Because SNMP v2C transmits passwords in clear-text, misconfiguration could expose critical device information or allow unauthorized changes to network devices."
+    },
+    {
+      "front": "What does the SNMP 'warm start' indicate?",
+      "back": "A warm start indicates the SNMP agent has been initialized or restarted due to configuration changes, such as setting a new community string."
+    },
+    {
+      "front": "What is flow data in networking?",
+      "back": "Flow data refers to the analysis of communication between devices, identified by IP address, port, and protocol, to help monitor and troubleshoot network performance."
+    },
+    {
+      "front": "What are the three components used to define a network flow?",
+      "back": "IP address, port number, and protocol."
+    },
+    {
+      "front": "What is NetFlow and who developed it?",
+      "back": "NetFlow is a flow data monitoring tool developed by Cisco to analyze traffic flows through network devices like routers."
+    },
+    {
+      "front": "What is S-Flow?",
+      "back": "S-Flow is a sampling-based flow monitoring protocol that provides an overall view of network activity without capturing every packet."
+    },
+    {
+      "front": "What is IPFIX?",
+      "back": "IPFIX stands for Internet Protocol Flow Information Export and is an industry standard protocol for exporting flow information from routers and switches."
+    },
+    {
+      "front": "What is packet capture?",
+      "back": "Packet capture is the process of intercepting and logging network traffic at the packet level, often using tools like Wireshark."
+    },
+    {
+      "front": "What is promiscuous mode?",
+      "back": "Promiscuous mode is a network interface setting that allows the device to capture all packets on the network, not just those addressed to it."
+    },
+    {
+      "front": "Why is Wireshark commonly used for packet captures?",
+      "back": "Wireshark is a free, open-source tool that provides detailed packet-level analysis and saves captures in PCAP files for further inspection."
+    },
+    {
+      "front": "Why should you be cautious using Wireshark at work?",
+      "back": "Using Wireshark at work can trigger security concerns because it can expose sensitive data and is often associated with hacking activity."
+    },
+    {
+      "front": "How can packet captures help at home?",
+      "back": "At home, packet captures can help you learn networking, identify clear text passwords, and diagnose issues in your home network."
+    }
+    {
+      "front": "What are metrics in networking?",
+      "back": "Metrics are measurable parameters used to monitor, manage, optimize, and troubleshoot a network, such as CPU utilization or availability."
+    },
+    {
+      "front": "What is a baseline metric?",
+      "back": "A baseline metric represents normal operating conditions of a network, used as a reference point to detect abnormal behavior."
+    },
+    {
+      "front": "Why are baseline metrics important?",
+      "back": "They allow administrators to determine whether current network behavior is normal, degraded, or abnormal."
+    },
+    {
+      "front": "What category of metric does CPU utilization fall under?",
+      "back": "Performance."
+    },
+    {
+      "front": "What does availability measure in a network?",
+      "back": "How often a network or service is operational versus down."
+    },
+    {
+      "front": "How is reliability different from availability?",
+      "back": "Availability measures up vs down time, while reliability measures whether a service is performing as expected."
+    },
+    {
+      "front": "Why do baselines help with reliability metrics?",
+      "back": "Baselines define what normal performance looks like, making it easier to identify degraded or unreliable behavior."
+    },
+    {
+      "front": "What is a security metric?",
+      "back": "A measurement that tracks security-related events such as attack frequency, detection effectiveness, or incident response performance."
+    },
+    {
+      "front": "Why can multiple baselines exist for a single network?",
+      "back": "Because network behavior can vary by time, such as weekdays vs weekends or peak vs off-peak hours."
+    },
+    {
+      "front": "What problem occurs if metrics are viewed without baselines?",
+      "back": "Administrators cannot determine whether metric values are healthy or problematic."
+    },
+    {
+      "front": "What is AWS CloudWatch?",
+      "back": "A monitoring service that collects metrics, displays dashboards, and creates alarms for AWS resources."
+    },
+    {
+      "front": "What is the purpose of dashboards in monitoring tools?",
+      "back": "Dashboards visually display key metrics over time for easier monitoring and analysis."
+    },
+    {
+      "front": "What is an alarm in the context of metrics?",
+      "back": "An automated alert triggered when a metric exceeds or drops below defined baseline thresholds."
+    },
+    {
+      "front": "Why must alarms be carefully tuned?",
+      "back": "Poorly tuned alarms cause false alerts, leading to alert fatigue and ignored notifications."
+    },
+    {
+      "front": "How do baseline metrics reduce troubleshooting time?",
+      "back": "They quickly show whether an issue represents a deviation from normal behavior."
+    },
+    {
+      "front": "What happens when metrics exceed baseline thresholds?",
+      "back": "Alerts or alarms can notify administrators to investigate potential issues."
+    },
+    {
+      "front": "Why are metrics critical in cloud environments?",
+      "back": "Cloud platforms rely heavily on metrics for visibility, automation, scaling, and proactive management."
+    },
+    {
+      "front": "What is meant by baselining?",
+      "back": "The process of recording normal performance metrics under optimal operating conditions."
+    },
+    {
+      "front": "What risk exists if alerts are constantly triggered?",
+      "back": "Administrators may ignore alerts, missing real issues when they occur."
+    },
+    {
+      "front": "How do baseline metrics support proactive network management?",
+      "back": "They allow issues to be identified and addressed before users experience outages or performance degradation."
+    },
+    {
+      "front": "What is log aggregation in networking?",
+      "back": "Log aggregation is the process of collecting logs from various devices and systems across an IT infrastructure and centralizing them for easier analysis, monitoring, and security."
+    },
+    {
+      "front": "What are three main purposes of log aggregation?",
+      "back": "Troubleshooting, maintenance, and security."
+    },
+    {
+      "front": "What is a SIEM system?",
+      "back": "SIEM stands for Security Information and Event Management. It is a type of log aggregator focused on analyzing logs for security-related events and incidents."
+    },
+    {
+      "front": "What popular tool is used for log aggregation and SIEM?",
+      "back": "Splunk."
+    },
+    {
+      "front": "What is syslog?",
+      "back": "Syslog is a standard for message logging used by many devices, and it includes timestamped messages with severity levels and facilities."
+    },
+    {
+      "front": "What format does a typical syslog message follow?",
+      "back": "Date/time, facility name, severity level (0-7), and a plain-text message."
+    },
+    {
+      "front": "In syslog, what does a lower severity level number indicate?",
+      "back": "Higher severity or more critical events (e.g., level 0 is most severe)."
+    },
+    {
+      "front": "What is the role of parsing in log aggregation?",
+      "back": "Parsing is the process of identifying and structuring log data based on its type, allowing tools like Splunk to recognize and analyze it correctly."
+    },
+    {
+      "front": "What is log retention?",
+      "back": "Log retention refers to how long log data is stored before being archived or deleted, often based on compliance and policy requirements."
+    },
+    {
+      "front": "Why is automation important in log aggregation?",
+      "back": "Automating the collection and transfer of logs saves time and ensures consistent, timely data aggregation."
+    },
+    {
+      "front": "What are some key features of log aggregation tools?",
+      "back": "Real-time monitoring, scalability, security, efficient data processing, and alerting."
+    },
+    {
+      "front": "What does it mean for a log aggregator to be scalable?",
+      "back": "It can handle increasing volumes of log data without performance degradation."
+    },
+    {
+      "front": "How do alerting features in log aggregators help network admins?",
+      "back": "They notify admins of suspicious or critical events based on defined rules, even during off-hours."
+    },
+    {
+      "front": "What is the significance of the search functionality in tools like Splunk?",
+      "back": "It allows users to quickly query millions of logs using keywords and Boolean logic to identify specific issues or patterns."
+    },
+    {
+      "front": "How does Splunk recognize different log formats?",
+      "back": "Splunk is pre-configured to identify and parse common log types like Apache, syslog, etc., and apply appropriate templates for analysis."
+    },
+    {
+      "front": "What pricing model is often used by log aggregators like Splunk?",
+      "back": "Many charge based on the volume of data ingested (e.g., gigabytes of logs per day)."
+    },
+    {
+      "front": "What does Splunk's real-time capability enable?",
+      "back": "Immediate detection and alerting of network or security events as they happen."
+    },
+    {
+      "front": "What is an example of a log that might be prioritized in aggregation?",
+      "back": "DNS logs, firewall logs, intrusion prevention logs, or syslog messages from routers."
+    },
+    {
+      "front": "Why is log centralization critical to security?",
+      "back": "It allows for controlled access, easier analysis, and better protection against unauthorized access to sensitive data."
+    },
+    {
+      "front": "What is one risk of poorly managed log retention policies?",
+      "back": "Either storing excessive data indefinitely (wasting resources) or deleting useful logs too soon (compromising audits or investigations)."
+    },
+    {
+      "front": "What is an API in the context of networking?",
+      "back": "An API (Application Programming Interface) allows software or systems to communicate and exchange data, often used to manage or monitor network devices."
+    },
+    {
+      "front": "Why are APIs useful for network management?",
+      "back": "APIs allow administrators to easily retrieve or send information to network devices (like temperature, performance stats) using simple web-based requests, replacing more complex protocols like SNMP."
+    },
+    {
+      "front": "What is a REST API?",
+      "back": "A REST (Representational State Transfer) API is a web-based interface that uses standard HTTP methods to allow systems to interact and exchange data. Also known as a RESTful API."
+    },
+    {
+      "front": "How do businesses commonly use Google Maps APIs?",
+      "back": "They embed location services (e.g., maps with their business address) using a simple URL with a unique CID or place ID, powered by the Google Maps API."
+    },
+    {
+      "front": "What command-line tool was used in the example to fetch data from an API?",
+      "back": "Curl."
+    },
+    {
+      "front": "What example API was used to demonstrate fetching random data?",
+      "back": "The 'useless facts' API at uselessfacts.jsph.pl."
+    },
+    {
+      "front": "What are two major advantages of using APIs for networking devices?",
+      "back": "Simplicity in retrieving data and the ability to automate device management."
+    },
+    {
+      "front": "What kind of information can network APIs provide?",
+      "back": "Metrics like temperature, bandwidth usage, device status, and logs."
+    },
+    {
+      "front": "Why is security important when using APIs with network devices?",
+      "back": "Because APIs can control sensitive devices, secure authentication and encryption are essential to prevent unauthorized access."
+    },
+    {
+      "front": "How do API documentation pages assist developers and admins?",
+      "back": "They provide detailed instructions on using APIs, including endpoints, parameters, and security protocols."
+    },
+    {
+      "front": "What does the 'CID' parameter in a Google Maps API link represent?",
+      "back": "The unique business listing ID used by Google to pinpoint a specific location."
+    },
+    {
+      "front": "How can REST APIs be used with Cisco networking devices?",
+      "back": "To retrieve or configure information from devices like the Cisco Identity Services Engine through secure web calls."
+    },
+    {
+      "front": "What makes APIs more accessible than traditional network management protocols?",
+      "back": "They use familiar web protocols and are often simpler and more flexible to implement."
+    },
+    {
+      "front": "What is one benefit of using a browser or command line with REST APIs?",
+      "back": "It allows direct access to API functions without needing complex software installations."
+    },
+    {
+      "front": "What is one reason APIs are considered 'not scary' for beginners?",
+      "back": "They often involve simple URL-based queries and return readable data like JSON, making them easy to understand and use."
+    },
+    {
+      "front": "What is port mirroring in networking?",
+      "back": "Port mirroring is a technique used to copy traffic from one port on a switch to another port where a monitoring device is connected, allowing analysis of network communication."
+    },
+    {
+      "front": "Why is port mirroring used?",
+      "back": "It's used for monitoring and troubleshooting network issues by capturing and analyzing traffic between devices on a switch."
+    },
+    {
+      "front": "What kind of traffic does a monitoring device capture without port mirroring?",
+      "back": "Only broadcast traffic. Unicast traffic between two devices on a switch is not seen without port mirroring."
+    },
+    {
+      "front": "Why shouldn't port mirroring be left on permanently?",
+      "back": "Because it creates security risks by exposing traffic to anyone connected to the mirrored port and increases the switch's workload."
+    },
+    {
+      "front": "What does Cisco call port mirroring?",
+      "back": "Cisco refers to it as port spanning or SPAN (Switched Port Analyzer)."
+    },
+    {
+      "front": "What is local port mirroring?",
+      "back": "It refers to mirroring traffic from one port to another on the same switch."
+    },
+    {
+      "front": "What is remote port mirroring?",
+      "back": "It mirrors traffic across different switches using a special VLAN called a Remote SPAN VLAN."
+    },
+    {
+      "front": "What is a Remote SPAN VLAN?",
+      "back": "A dedicated VLAN used to carry mirrored traffic from one switch to another for remote monitoring."
+    },
+    {
+      "front": "What are the two main concerns with using port mirroring?",
+      "back": "Security concerns from exposed traffic and performance overhead on the switch."
+    },
+    {
+      "front": "Is port mirroring used for everyday monitoring?",
+      "back": "No, it's typically used temporarily for troubleshooting and is turned off afterward to maintain security and performance."
+    },
+    {
+      "front": "What are the two main approaches to network discovery in network monitoring tools?",
+      "back": "The two main approaches are ad hoc discovery (manual, as needed) and scheduled discovery (automated at set intervals)."
+    },
+    {
+      "front": "What is ad hoc network discovery used for?",
+      "back": "It allows manual initiation of network discovery to immediately reflect recent network changes."
+    },
+    {
+      "front": "Why is scheduled network discovery important?",
+      "back": "It ensures the network management tool periodically updates its view of the network without manual intervention."
+    },
+    {
+      "front": "What is the difference between vendor-specific and vendor-neutral network monitoring tools?",
+      "back": "Vendor-specific tools are designed to work with a particular manufacturer's hardware, while vendor-neutral tools can manage a wide range of devices from different vendors."
+    },
+    {
+      "front": "What are the five major categories of network monitoring solutions?",
+      "back": "Traffic analysis, performance monitoring, availability monitoring, configuration monitoring, and network discovery."
+    },
+    {
+      "front": "What is the goal of traffic analysis in network monitoring?",
+      "back": "To analyze network traffic types and volumes, identifying usage trends like web traffic vs. VoIP traffic."
+    },
+    {
+      "front": "What does performance monitoring in network tools help with?",
+      "back": "It helps evaluate how well the network is functioning and may include AI-based suggestions for improvement."
+    },
+    {
+      "front": "Why is availability monitoring critical in network management?",
+      "back": "It tracks how often network components are online or offline, supporting uptime metrics and service level agreements."
+    },
+    {
+      "front": "What is configuration monitoring used for?",
+      "back": "It tracks, manages, and secures changes to network device configurations, often with versioning and backups."
+    },
+    {
+      "front": "Can you try network management tools before buying?",
+      "back": "Yes, many tools offer trial versions so users can evaluate them before purchasing a full license."
+    },
+    {
+      "front": "What is the Recovery Point Objective (RPO) in disaster recovery planning?",
+      "back": "RPO defines the point in time to which data can be recovered after a disaster. It indicates how much data loss is acceptable, such as being able to restore up to 3 minutes or 3 days before the disaster occurred."
+    },
+    {
+      "front": "What does the Recovery Time Objective (RTO) measure in disaster recovery?",
+      "back": "RTO measures how long it takes to restore systems and services after a disaster has occurred. It indicates the maximum acceptable downtime for services to be operational again."
+    },
+    {
+      "front": "What is Mean Time to Repair (MTTR)?",
+      "back": "MTTR is the average time it takes to repair a failed component or system. It reflects how long a system is expected to be non-functional during a repair process."
+    },
+    {
+      "front": "What does Mean Time Between Failures (MTBF) indicate?",
+      "back": "MTBF is the average time between system or component failures. It measures reliability and helps estimate how frequently a failure might occur."
+    },
+    {
+      "front": "What is the difference between MTTR and MTBF in disaster recovery planning?",
+      "back": "MTTR tells how long it takes to fix something after a failure, while MTBF indicates how long a component typically operates before failing. Together, they help evaluate reliability and repair expectations."
+    },
+    {
+      "front": "Can companies define custom disaster recovery metrics beyond RTO, RPO, MTTR, and MTBF?",
+      "back": "Yes, companies often develop custom metrics tailored to their specific operational needs, beyond standard industry metrics like RTO, RPO, MTTR, and MTBF."
+    },
+    {
+      "front": "Why are RPO and RTO important for disaster recovery planning?",
+      "back": "RPO helps determine acceptable data loss, and RTO sets limits on acceptable downtime. Together, they guide backup strategies and recovery priorities."
+    },
+    {
+      "front": "How can MTTR be interpreted differently in some organizations?",
+      "back": "Some organizations define MTTR as 'Mean Time to Replace' rather than repair, emphasizing rapid hardware swaps with pre-staged backups instead of on-site fixes."
+    },
+    {
+      "front": "What is a cold site in disaster recovery?",
+      "back": "A cold site is a backup location with basic infrastructure but no active data or systems. It requires manual setup and has a high Recovery Time Objective (RTO). It's the least expensive DR site option."
+    },
+    {
+      "front": "What is a hot site in disaster recovery?",
+      "back": "A hot site is a fully operational backup site with real-time data synchronization. It mirrors the primary site and can take over immediately in case of a disaster. It has a very low RTO but is costly and complex to maintain."
+    },
+    {
+      "front": "What is a warm site in disaster recovery?",
+      "back": "A warm site is a partially prepared backup site. It has some hardware and data preloaded, allowing faster recovery than a cold site but slower than a hot site. It offers a balance between cost and recovery time."
+    },
+    {
+      "front": "How do cold, warm, and hot sites compare in terms of RTO and cost?",
+      "back": "Cold sites have high RTO and low cost, hot sites have low RTO and high cost, and warm sites offer moderate RTO and cost, balancing speed and affordability."
+    },
+    {
+      "front": "Why is the cloud appealing for disaster recovery?",
+      "back": "Cloud platforms like AWS, Azure, and GCP enable affordable hot site capabilities by offering scalable infrastructure, data synchronization, and DR tools without the need for physical duplicate sites."
+    },
+    {
+      "front": "Can the definitions of hot, warm, and cold sites vary between companies?",
+      "back": "Yes, organizations may use different criteria to define these site types. A 'hot site' for one company might be considered 'warm' by another. It's often a spectrum based on preparedness and resources."
+    },
+    {
+      "front": "What is the primary advantage of a warm site over a cold site?",
+      "back": "A warm site offers a shorter recovery time objective (RTO) by pre-configuring some systems and data, reducing setup time compared to a cold site."
+    },
+    {
+      "front": "What is high availability (HA) in relation to disaster recovery?",
+      "back": "High availability focuses on minimizing downtime by designing systems that can immediately continue operation when a failure occurs, often mitigating the impact of disasters before full DR is required."
+    },
+    {
+      "front": "What is an active-passive high availability design?",
+      "back": "An active-passive design uses one active system handling traffic while a passive system remains on standby and takes over only if the active system fails."
+    },
+    {
+      "front": "What is a key drawback of an active-passive HA design?",
+      "back": "The passive system is an unused resource during normal operation and may require initialization time during failover, causing brief downtime."
+    },
+    {
+      "front": "What is an active-active high availability design?",
+      "back": "An active-active design has multiple systems actively handling traffic simultaneously, allowing load balancing and immediate failover without idle resources."
+    },
+    {
+      "front": "What is a major advantage of active-active over active-passive HA?",
+      "back": "Active-active designs use all resources efficiently and provide faster failover since all systems are already operational."
+    },
+    {
+      "front": "Why might an organization choose active-passive instead of active-active?",
+      "back": "Some technologies only support active-passive, or active-active designs may be too complex or costly to implement and manage."
+    },
+    {
+      "front": "What is a tabletop exercise in disaster recovery testing?",
+      "back": "A tabletop exercise is a discussion-based simulation where key stakeholders walk through hypothetical disaster scenarios to evaluate preparedness and response plans."
+    },
+    {
+      "front": "What is the primary goal of a tabletop DR exercise?",
+      "back": "To proactively identify weaknesses, clarify responsibilities, and ensure stakeholders understand how to respond before a real disaster occurs."
+    },
+    {
+      "front": "What happens after a tabletop exercise in DR planning?",
+      "back": "Organizations perform controlled validation tests on specific components, such as failover links or backup systems, identified during the exercise."
+    },
+    {
+      "front": "Why is DR testing critical for RTO and RPO?",
+      "back": "Testing validates whether recovery time objectives (RTO) and recovery point objectives (RPO) can actually be met during real-world failures."
+    },
+    {
+      "front": "How does the cloud simplify disaster recovery testing?",
+      "back": "Cloud environments make it easier to simulate failures, test failovers, and validate DR plans without disrupting production systems."
+    },
+    {
+      "front": "Why is testing DR plans before a disaster essential?",
+      "back": "Testing ensures the organization is prepared and avoids discovering failures or gaps for the first time during an actual disaster."
+    },
+    {
+      "front": "What does DHCP stand for and what is its primary function?",
+      "back": "DHCP stands for Dynamic Host Configuration Protocol. Its primary function is to automatically assign IP addresses and other network configuration settings to devices on a network."
+    },
+    {
+      "front": "What key TCP/IP information does a device typically receive from a DHCP server?",
+      "back": "A device typically receives an IP address, subnet mask, default gateway, and DNS server addresses from a DHCP server."
+    },
+    {
+      "front": "What is the DORA process in DHCP?",
+      "back": "DORA stands for Discover, Offer, Request, Acknowledge. It's the four-step process used in DHCP to assign IP addresses."
+    },
+    {
+      "front": "What is a DHCP scope?",
+      "back": "A DHCP scope is a defined range of IP addresses that a DHCP server can assign to devices on the network."
+    },
+    {
+      "front": "What is the lease duration in DHCP?",
+      "back": "Lease duration is the amount of time a device is allowed to use an IP address assigned by DHCP before it must renew the lease."
+    },
+    {
+      "front": "How can DHCP avoid assigning IP addresses that are already statically assigned to devices?",
+      "back": "By configuring exclusions in the DHCP scope to prevent those addresses from being distributed."
+    },
+    {
+      "front": "What is a DHCP reservation?",
+      "back": "A DHCP reservation assigns a specific IP address to a device based on its MAC address, ensuring it always gets the same IP."
+    },
+    {
+      "front": "Why is a DHCP relay needed?",
+      "back": "Because DHCP uses broadcast messages, which do not cross routers. A DHCP relay forwards these requests to a DHCP server across networks."
+    },
+    {
+      "front": "What are some other names for a DHCP relay?",
+      "back": "DHCP relay is also known as a DHCP relay agent or IP helper."
+    },
+    {
+      "front": "What is SLAAC in IPv6?",
+      "back": "SLAAC stands for Stateless Address Autoconfiguration. It allows devices to self-configure IPv6 addresses without the need for a DHCP server."
+    },
+    {
+      "front": "How does SLAAC work in IPv6?",
+      "back": "The local router provides the network prefix, and the device combines it with its MAC address to create a unique IPv6 address."
+    },
+    {
+      "front": "Will DHCP still be used with IPv6?",
+      "back": "While DHCPv6 exists, SLAAC is often used instead, reducing the need for traditional DHCP in many IPv6 networks."
+    },
+    {
+      "front": "How are IPv4 and IPv6 used in modern networks?",
+      "back": "IPv4 and IPv6 coexist in modern networks, running side-by-side during a gradual migration to IPv6."
+    },
+    {
+      "front": "What does DNS stand for and what is its primary purpose?",
+      "back": "DNS stands for Domain Name Service. Its primary purpose is name resolution, translating human-readable domain names into IP addresses."
+    },
+    {
+      "front": "Why is DNS necessary for network communication?",
+      "back": "DNS is necessary because computers communicate using IP addresses, while humans prefer to use easy-to-remember domain names."
+    },
+    {
+      "front": "What is a fully qualified domain name (FQDN)?",
+      "back": "An FQDN is the complete domain name for a resource, such as www.example.com, including the host name and domain."
+    },
+    {
+      "front": "What is the hosts file and why is it important for troubleshooting?",
+      "back": "The hosts file is a local text file used for name resolution that overrides DNS. Incorrect entries can cause traffic to resolve to the wrong destination."
+    },
+    {
+      "front": "What is an A record in DNS?",
+      "back": "An A (Address) record maps a host name to an IPv4 address."
+    },
+    {
+      "front": "What is an AAAA (Quad A) record in DNS?",
+      "back": "An AAAA record maps a host name to an IPv6 address."
+    },
+    {
+      "front": "What is a CNAME record used for?",
+      "back": "A CNAME (Canonical Name) record creates an alias that points one domain name to another domain name."
+    },
+    {
+      "front": "What is an MX record in DNS?",
+      "back": "An MX (Mail Exchange) record specifies the mail servers responsible for receiving email for a domain."
+    },
+    {
+      "front": "What is a TXT record commonly used for?",
+      "back": "A TXT record stores text data, often used for domain verification, security, or ownership validation."
+    },
+    {
+      "front": "What is an NS record?",
+      "back": "An NS (Name Server) record identifies the DNS servers that are authoritative for a domain."
+    },
+    {
+      "front": "What is a PTR record?",
+      "back": "A PTR (Pointer) record is used for reverse DNS lookups, mapping an IP address to a domain name."
+    },
+    {
+      "front": "What is a forward lookup zone?",
+      "back": "A forward lookup zone resolves domain names to IP addresses using records like A and AAAA."
+    },
+    {
+      "front": "What is a reverse lookup zone?",
+      "back": "A reverse lookup zone resolves IP addresses to domain names using PTR records."
+    },
+    {
+      "front": "What is an authoritative DNS zone?",
+      "back": "An authoritative zone is the primary source of truth for DNS records for a domain."
+    },
+    {
+      "front": "What is a non-authoritative DNS zone?",
+      "back": "A non-authoritative zone contains copies of DNS records from an authoritative zone for faster global resolution."
+    },
+    {
+      "front": "What is a primary DNS zone?",
+      "back": "A primary DNS zone is a read-write copy of DNS records where changes are made."
+    },
+    {
+      "front": "What is a secondary DNS zone?",
+      "back": "A secondary DNS zone is a read-only copy of DNS records replicated from a primary zone."
+    },
+    {
+      "front": "What is a recursive DNS zone?",
+      "back": "A recursive zone queries other DNS servers on behalf of clients and caches the results."
+    },
+    {
+      "front": "What is Google Public DNS and its IP address?",
+      "back": "Google Public DNS is a recursive DNS service available at IP address 8.8.8.8."
+    },
+    {
+      "front": "What is DNSSEC?",
+      "back": "DNSSEC (Domain Name System Security Extensions) uses digital signatures to verify DNS data authenticity."
+    },
+    {
+      "front": "What is DNS over HTTPS (DoH)?",
+      "back": "DNS over HTTPS encrypts DNS queries using HTTPS to protect them from interception."
+    },
+    {
+      "front": "What is DNS over TLS (DoT)?",
+      "back": "DNS over TLS encrypts DNS queries over a dedicated TLS-encrypted connection separate from web traffic."
+    },
+    {
+      "front": "Why are time protocols important in modern networks?",
+      "back": "Time protocols ensure all devices in a network have synchronized time, which is critical for security logs, performance monitoring, and accurate event tracking."
+    },
+    {
+      "front": "What could happen if a hacker altered time settings on a network?",
+      "back": "They could hide their actions in logs by setting the time to a past year, making attacks difficult to detect."
+    },
+    {
+      "front": "What is the role of authoritative time sources in time protocols?",
+      "back": "Authoritative time sources, like atomic clocks, provide the accurate time that is distributed throughout the network via time protocols."
+    },
+    {
+      "front": "What does NTP stand for and what does it do?",
+      "back": "NTP stands for Network Time Protocol. It synchronizes the time of devices in a network with an authoritative time source."
+    },
+    {
+      "front": "What is a stratum in NTP?",
+      "back": "Stratum represents the distance from the authoritative time source. Stratum 0 is the source (e.g., atomic clock), stratum 1 is connected to it, and each hop increases the stratum number."
+    },
+    {
+      "front": "Why does NTP take time to synchronize?",
+      "back": "NTP uses a conservative approach to prevent chaos, gradually adjusting clocks to ensure stable and accurate synchronization."
+    },
+    {
+      "front": "What is NTS and why is it used?",
+      "back": "NTS stands for Network Time Security. It's an extension of NTP that adds authentication, integrity, and encryption to secure time synchronization."
+    },
+    {
+      "front": "What are the security features provided by NTS?",
+      "back": "NTS provides authentication (verifying identity of devices), integrity (preventing tampering of messages), and encryption (protecting message contents)."
+    },
+    {
+      "front": "What is PTP and how is it different from NTP?",
+      "back": "PTP stands for Precision Time Protocol. It uses a hierarchical system with a Grand Master Clock and is defined by IEEE 1588. It's typically more precise than NTP."
+    },
+    {
+      "front": "What is a Grand Master Clock in PTP?",
+      "back": "The Grand Master Clock in PTP is the authoritative time source from which all other network devices synchronize their clocks."
+    }
+    {
+      "front": "What is a VPN and when is it most commonly used?",
+      "back": "A Virtual Private Network (VPN) is used to protect communications over the public internet, especially for secure work-related data transfers."
+    },
+    {
+      "front": "What is a client-to-site VPN?",
+      "back": "A VPN connection initiated by an individual user (client) to securely connect to a company's internal network, often used remotely via software or browser."
+    },
+    {
+      "front": "What is a clientless VPN?",
+      "back": "A type of VPN that does not require special software and is accessed through a web browser for secure connection."
+    },
+    {
+      "front": "Why do companies use third-party VPN software instead of built-in OS tools?",
+      "back": "Third-party VPN software offers enhanced features, centralized management, automation, and better scalability for corporate use."
+    },
+    {
+      "front": "What is split tunneling in VPNs?",
+      "back": "A VPN configuration where only some traffic (e.g., work-related) is routed through the VPN, while other traffic (e.g., personal browsing) goes directly to the internet."
+    },
+    {
+      "front": "What are the pros and cons of split tunneling?",
+      "back": "Pros: Improves performance by reducing VPN load; Cons: Less secure since not all traffic is protected."
+    },
+    {
+      "front": "What is the most secure VPN setup?",
+      "back": "Routing all traffic through the VPN provides the most security but may reduce performance and increase costs."
+    },
+    {
+      "front": "What is a site-to-site VPN?",
+      "back": "A persistent VPN connection between two networks (e.g., office locations) managed by network devices like routers for secure data transfer."
+    },
+    {
+      "front": "How does a site-to-site VPN differ from a client-to-site VPN?",
+      "back": "Site-to-site VPN connects entire networks continuously, while client-to-site connects individual users on demand."
+    },
+    {
+      "front": "Why might VPNs impact network performance?",
+      "back": "Encrypting and routing traffic through a VPN adds overhead and can slow down data transmission slightly."
+    }
+    {
+      "front": "What is console access and how is it typically used in networking?",
+      "back": "Console access is a text-based interface used to manage network devices, often through command prompts. It's important to ensure it's secured, as methods like Telnet send data in clear text."
+    },
+    {
+      "front": "Why is Telnet considered insecure?",
+      "back": "Telnet transmits data, including credentials, in plain text, making it vulnerable to packet sniffing and interception on the network."
+    },
+    {
+      "front": "How can you secure Telnet if it's your only option?",
+      "back": "You can wrap Telnet inside a VPN tunnel to add encryption and protect the session from eavesdropping."
+    },
+    {
+      "front": "What is the secure alternative to Telnet?",
+      "back": "SSH (Secure Shell) is the secure alternative to Telnet. It encrypts all communications, including login credentials and command outputs."
+    },
+    {
+      "front": "What is a GUI and how does it help in remote access?",
+      "back": "A GUI (Graphical User Interface) allows users to interact with systems visually via web interfaces, often using HTTPS for secure connections without needing to memorize commands."
+    },
+    {
+      "front": "What does HTTPS add to web-based GUIs?",
+      "back": "HTTPS encrypts web traffic, ensuring that the communication between the user and the remote resource is secure."
+    },
+    {
+      "front": "What is a REST API in the context of remote connections?",
+      "back": "REST APIs allow applications to communicate with devices over the web, often used behind the scenes in web-based GUIs to execute functions like retrieving router temperature."
+    },
+    {
+      "front": "How do REST APIs relate to GUIs?",
+      "back": "Modern GUIs often use REST APIs behind the scenes to perform functions. For example, clicking a button in the GUI may trigger a REST API command."
+    },
+    {
+      "front": "Which command is used to initiate an SSH session from a command prompt?",
+      "back": "The command is: `ssh username@IP_address` — it then prompts for a password to establish a secure session."
+    },
+    {
+      "front": "Why is SSH preferred over Telnet in most environments?",
+      "back": "SSH provides built-in encryption, authentication, and integrity, making it much more secure for managing systems compared to Telnet."
+    }
+    {
+      "front": "What is a jump box in networking?",
+      "back": "A jump box is a secured system used as an intermediary to access protected network resources. Administrators authenticate to the jump box first, then access internal systems from there."
+    },
+    {
+      "front": "What are other common names for a jump box?",
+      "back": "Jump boxes are also commonly called bastion hosts or jump workstations."
+    },
+    {
+      "front": "Why are jump boxes used instead of logging directly into each secure resource?",
+      "back": "They centralize access control, reducing the need to manage credentials and security settings on every individual secure system."
+    },
+    {
+      "front": "What security advantage does a jump box provide for administrators?",
+      "back": "It creates a single hardened entry point with strong security controls, minimizing attack surface and simplifying authentication management."
+    },
+    {
+      "front": "How does a jump box simplify password changes?",
+      "back": "Only the jump box needs credential updates, rather than updating passwords on every secure resource individually."
+    },
+    {
+      "front": "What is the role of a jump box in cloud environments?",
+      "back": "It provides secure access to cloud resources with private IP addresses, allowing administrators to manage them safely over the public internet."
+    },
+    {
+      "front": "What is Azure Bastion?",
+      "back": "Azure Bastion is Microsoft Azure’s managed jump box service that automatically provides secure access to virtual machines without exposing them to the public internet."
+    },
+    {
+      "front": "Which protocols are commonly used to connect through Azure Bastion?",
+      "back": "HTTPS (TLS 443) is used for access, with RDP or SSH connections made from the bastion to internal virtual machines."
+    },
+    {
+      "front": "Why are private IP addresses important in jump box designs?",
+      "back": "They prevent direct internet access to internal resources, increasing security while still allowing controlled administrative access through the jump box."
+    },
+    {
+      "front": "What is a key architectural benefit of using a jump box?",
+      "back": "It enforces a single entry and exit point for administrative access, improving monitoring, auditing, and overall security control."
+    },
+    {
+      "front": "What is in-band management in networking?",
+      "back": "In-band management uses the same network and communication paths for both management traffic and customer/user traffic."
+    },
+    {
+      "front": "What are two major drawbacks of in-band management?",
+      "back": "1. Security risks due to shared paths with customer traffic. 2. Potential bandwidth contention between user and management traffic."
+    },
+    {
+      "front": "What is out-of-band (OOB) management?",
+      "back": "Out-of-band management uses a separate, dedicated communication path for managing network devices, isolated from customer traffic."
+    },
+    {
+      "front": "What is a key advantage of out-of-band management over in-band?",
+      "back": "Improved security and reliability by isolating management traffic from regular customer traffic."
+    },
+    {
+      "front": "What does the abbreviation 'OOB' stand for?",
+      "back": "Out-of-Band"
+    },
+    {
+      "front": "What is the trade-off when implementing out-of-band management?",
+      "back": "Higher cost and increased complexity due to separate hardware paths and configurations."
+    },
+    {
+      "front": "How can you visually identify an out-of-band management port on a Cisco device?",
+      "back": "It is typically labeled 'console' or 'OOB' and does not carry customer traffic."
+    },
+    {
+      "front": "Why might customer or network management traffic get starved in an in-band setup?",
+      "back": "Heavy usage by one type of traffic can consume bandwidth, leaving insufficient resources for the other."
+    },
+    {
+      "front": "What should be considered when selecting hardware for out-of-band management?",
+      "back": "Ensure the hardware includes dedicated management ports and supports OOB configurations."
+    },
+    {
+      "front": "Why is in-band management considered simpler and cheaper?",
+      "back": "It uses a single communication path and requires less hardware and configuration."
+    },
+    {
+      "question": "What are the three states of data?",
+      "answer": "Data at rest, data in transit, and data in use."
+    },
+    {
+      "question": "What is data at rest?",
+      "answer": "Data that is stored on a disk or storage medium and not actively being transmitted or processed."
+    },
+    {
+      "question": "What is data in transit?",
+      "answer": "Data that is actively moving across a network, such as emails, web traffic, or file transfers."
+    },
+    {
+      "question": "What is data in use?",
+      "answer": "Data that is actively being accessed, processed, or modified by an application or system."
+    },
+    {
+      "question": "What is the primary security method used to protect data in all states?",
+      "answer": "Encryption."
+    },
+    {
+      "question": "What is full disk encryption?",
+      "answer": "Encrypting an entire storage device so that all data on the disk is protected."
+    },
+    {
+      "question": "Why is full disk encryption important?",
+      "answer": "It prevents unauthorized access to data if a device is lost or stolen."
+    },
+    {
+      "question": "What is BitLocker?",
+      "answer": "A Windows full disk encryption tool that uses hardware features such as TPM to protect data."
+    },
+    {
+      "question": "What encryption tools are commonly used on Linux systems?",
+      "answer": "LUKS and VeraCrypt."
+    },
+    {
+      "question": "What is VeraCrypt?",
+      "answer": "A disk encryption tool used to encrypt entire drives or individual files, commonly on Linux systems."
+    },
+    {
+      "question": "What is file-level encryption?",
+      "answer": "Encrypting individual files instead of an entire disk."
+    },
+    {
+      "question": "What is OpenSSL used for?",
+      "answer": "A cryptographic tool used to encrypt and decrypt files and perform other cryptographic operations."
+    },
+    {
+      "question": "What encryption algorithm was demonstrated for file encryption?",
+      "answer": "AES-256."
+    },
+    {
+      "question": "What is the purpose of a passphrase in encryption?",
+      "answer": "It is required to decrypt encrypted data and access the original content."
+    },
+    {
+      "question": "What is salting in encryption?",
+      "answer": "Adding random data to encryption to make attacks like password cracking more difficult."
+    },
+    {
+      "question": "Why should data in transit be encrypted?",
+      "answer": "To prevent attackers from reading sensitive information while it travels across the network."
+    },
+    {
+      "question": "What are examples of insecure plaintext protocols?",
+      "answer": "HTTP, Telnet, FTP."
+    },
+    {
+      "question": "What is HTTPS?",
+      "answer": "An encrypted version of HTTP that uses certificates and TLS to secure data in transit."
+    },
+    {
+      "question": "What role do certificates play in HTTPS?",
+      "answer": "They enable authentication and encryption through trusted certificate authorities."
+    },
+    {
+      "question": "What is a certificate authority (CA)?",
+      "answer": "An organization that issues and validates digital certificates used for secure communications."
+    },
+    {
+      "question": "What is Let's Encrypt?",
+      "answer": "A free certificate authority that provides TLS certificates for encrypted communications."
+    },
+    {
+      "question": "What are secure alternatives to FTP?",
+      "answer": "SFTP and SCP."
+    },
+    {
+      "question": "What is data in use encryption?",
+      "answer": "Security methods that protect data while it is actively being processed by an application."
+    },
+    {
+      "question": "Why is data in use encryption challenging?",
+      "answer": "Because applications typically need decrypted data to process it."
+    },
+    {
+      "question": "What is an emerging approach to securing data in use?",
+      "answer": "Using specialized encryption methods that allow data to remain encrypted while being processed."
+    },
+    {
+      "question": "How can monitoring help protect data in use?",
+      "answer": "By detecting unusual access or modification patterns and generating alerts."
+    },
+    {
+      "question": "How do next-generation firewalls relate to data in use?",
+      "answer": "They decrypt traffic to inspect it for threats, then re-encrypt it before forwarding."
+    },
+    {
+      "front": "What is a digital certificate?",
+      "back": "A digital certificate is like a digital driver's license—an electronic document issued by a trusted certificate authority that verifies identity and allows secure communication."
+    },
+    {
+      "front": "What role does a digital signature play in a digital certificate?",
+      "back": "A digital signature verifies the authenticity of a certificate by ensuring it was issued by a trusted authority and hasn't been tampered with."
+    },
+    {
+      "front": "What is the main purpose of a certificate authority (CA)?",
+      "back": "A certificate authority issues digital certificates and acts as a trusted root in a public key infrastructure (PKI)."
+    },
+    {
+      "front": "What is the function of a private key in a digital certificate?",
+      "back": "The private key is securely stored on the user's device and is used to decrypt information or generate a digital signature."
+    },
+    {
+      "front": "What is the function of a public key in a digital certificate?",
+      "back": "The public key is included in the certificate and is used by others to verify signatures or encrypt data for the certificate holder."
+    },
+    {
+      "front": "What does x.509 refer to in the context of certificates?",
+      "back": "X.509 is a standard defined by the IETF for the format of public key certificates used in PKI."
+    },
+    {
+      "front": "What is PKCS #7 typically used for?",
+      "back": "PKCS #7 is used for secure email, code signing, and digital signatures. Its file extensions include .P7B and .P7C."
+    },
+    {
+      "front": "What are the file extensions used by S/MIME secure email certificates?",
+      "back": ".P7M is used for digitally signed and encrypted emails, while .P7S is used for digitally signed only messages."
+    },
+    {
+      "front": "What is the difference between .P7S and .P7M files?",
+      "back": ".P7S is for digitally signed messages only, while .P7M is for messages that are both digitally signed and encrypted."
+    },
+    {
+      "front": "What is PKCS #12 used for?",
+      "back": "PKCS #12 is used for secure authentication and exporting private keys and certificate chains. File extensions include .PFX and .P12."
+    },
+    {
+      "front": "What is a PEM file?",
+      "back": "A PEM file is a human-readable certificate format that may include multiple certificates, private keys, or chains. Extensions include .PEM, .CRT, .KEY, and .CA-BUNDLE."
+    },
+    {
+      "front": "What is a DER file?",
+      "back": "A DER file is a binary (machine-readable) version of a certificate that includes only one certificate per file."
+    },
+    {
+      "front": "How is a PEM file different from a DER file?",
+      "back": "PEM is human-readable and can include multiple certificates, while DER is binary and includes only one certificate."
+    },
+    {
+      "front": "What is PGP and how does it differ from x.509 certificates?",
+      "back": "PGP can be used without a trusted certificate authority and uses a web-of-trust model, while x.509 certificates require a trusted CA."
+    },
+    {
+      "front": "What is a self-signed certificate?",
+      "back": "A self-signed certificate is created and signed by the same entity. It is only trusted by the device that created it and not by external systems."
+    },
+    {
+      "front": "What is the significance of digital signatures in software installation?",
+      "back": "Digital signatures validate the software publisher and verify that the code has not been modified or tampered with."
+    },
+    {
+      "front": "What is the purpose of the User Account Control (UAC) prompt in Windows during software installation?",
+      "back": "The UAC prompt shows the verified publisher and uses the certificate signature to confirm the software source and integrity."
+    },
+    {
+      "front": "What is the difference between signing and encrypting in digital communications?",
+      "back": "Signing validates the identity and integrity of a message, while encrypting ensures only the intended recipient can read the content."
+    },
+    {
+      "front": "What is the use of a certificate chain?",
+      "back": "A certificate chain includes intermediate and root certificates, validating the path of trust from the user’s certificate to a trusted root authority."
+    },
+    {
+      "front": "What does a digital signature ensure about a message or file?",
+      "back": "It ensures the authenticity of the sender and the integrity of the content, proving it hasn’t been altered."
+    },
+      
+    {
+      "front": "What does IAM stand for?",
+      "back": "IAM stands for Identity and Access Management."
+    },
+    {
+      "front": "What is the primary function of IAM?",
+      "back": "IAM centrally manages identities and controls access to organizational resources."
+    },
+    {
+      "front": "What types of entities can IAM manage?",
+      "back": "IAM can manage users, service accounts, and other non-person entities."
+    },
+    {
+      "front": "What does the identity part of IAM handle?",
+      "back": "It handles creating, managing, and authenticating identities throughout their lifecycle."
+    },
+    {
+      "front": "What is authentication in the context of IAM?",
+      "back": "Authentication is the process of proving an identity is who it claims to be."
+    },
+    {
+      "front": "What is authorization in IAM?",
+      "back": "Authorization determines what resources an authenticated identity is allowed to access."
+    },
+    {
+      "front": "What is validation in IAM?",
+      "back": "Validation confirms that provided credentials are correct before granting access."
+    },
+    {
+      "front": "Can IAM components be integrated into a single platform?",
+      "back": "Yes, identity, authentication, and authorization can all be managed on a single server like a domain controller."
+    },
+    {
+      "front": "What is an example of an on-prem IAM solution?",
+      "back": "Active Directory Domain Services (AD DS) is a classic on-premises IAM solution."
+    },
+    {
+      "front": "What is the IAM lifecycle?",
+      "back": "It is the full process from account provisioning through management to deprovisioning."
+    },
+    {
+      "front": "How does TACACS+ differ in IAM architecture?",
+      "back": "TACACS+ decouples identity, authentication, and authorization across separate systems."
+    },
+    {
+      "front": "What is Privileged Access Management (PAM)?",
+      "back": "PAM is a subset of IAM focused on managing accounts with elevated or administrative privileges."
+    },
+    {
+      "front": "How is PAM related to IAM?",
+      "back": "PAM is nested under IAM and focuses specifically on privileged accounts within the broader identity framework."
+    },
+    {
+      "front": "What is authentication?",
+      "back": "Authentication is the process of validating an identity by proving that a user, system, or application is who it claims to be."
+    },
+    {
+      "front": "What is an authentication factor?",
+      "back": "An authentication factor is a piece of evidence used to prove an identity during authentication."
+    },
+    {
+      "front": "Why are authentication factors important?",
+      "back": "They increase the confidence that the authenticating entity is truly who it claims to be."
+    },
+    {
+      "front": "What are the three universally accepted authentication factors?",
+      "back": "Something you know, something you have, and something you are."
+    },
+    {
+      "front": "What is 'something you know' authentication?",
+      "back": "It is a knowledge-based factor such as a password, PIN, or security question."
+    },
+    {
+      "front": "What are common examples of 'something you know'?",
+      "back": "Passwords, PINs, and answers to security questions."
+    },
+    {
+      "front": "Why is a Windows Hello PIN considered secure?",
+      "back": "Because it is cryptographically tied to the device hardware and stored in the TPM, making it unusable on other devices."
+    },
+    {
+      "front": "What is 'something you have' authentication?",
+      "back": "It is a possession-based factor that requires a physical or digital item the user owns."
+    },
+    {
+      "front": "What are common examples of 'something you have'?",
+      "back": "Smart cards, key fobs, hardware tokens, and authenticator apps."
+    },
+    {
+      "front": "How do authenticator apps function as an authentication factor?",
+      "back": "They generate time-based or push-based authentication codes tied to a specific device."
+    },
+    {
+      "front": "Why can a compliant device be considered an authentication factor?",
+      "back": "Because access may be granted based on the device’s ownership and compliance status."
+    },
+    {
+      "front": "What is 'something you are' authentication?",
+      "back": "It is biometric-based authentication that uses unique physical characteristics."
+    },
+    {
+      "front": "What are common examples of biometric authentication?",
+      "back": "Fingerprints, facial recognition, retina scans, and hand geometry."
+    },
+    {
+      "front": "Why are hardware tokens like YubiKeys considered highly secure?",
+      "back": "They can combine possession, biometric, and cryptographic factors into a single device."
+    },
+    {
+      "front": "What additional authentication factor is known as 'something you do'?",
+      "back": "It is behavior-based authentication such as pattern drawing, keystroke dynamics, or solving puzzles."
+    },
+    {
+      "front": "What is an example of 'something you do' used in authentication?",
+      "back": "Pattern recognition on mobile devices or CAPTCHA-style challenges."
+    },
+    {
+      "front": "What is 'somewhere you are' authentication?",
+      "back": "It is location-based authentication using geolocation or trusted network information."
+    },
+    {
+      "front": "How is geolocation used in authentication?",
+      "back": "Access is granted or restricted based on the user’s physical or network location."
+    },
+    {
+      "front": "What is conditional access in authentication?",
+      "back": "A policy-based approach that evaluates factors like location, device, and risk before granting access."
+    },
+    {
+      "front": "Why are multiple authentication factors used together?",
+      "back": "Using multiple factors (MFA) significantly increases security by reducing the risk of credential compromise."
+    },
+    {
+      "front": "What is multifactor authentication (MFA)?",
+      "back": "MFA is an authentication method that requires two or more different authentication factors."
+    },
+    {
+      "front": "Why is MFA considered a strong security control?",
+      "back": "Because compromising multiple independent factors is much harder for attackers than compromising just one."
+    },
+    {
+      "front": "What is Single Sign-On (SSO)?",
+      "back": "SSO is a system that allows users to log in once with a single set of credentials and access multiple systems or applications without being prompted to log in again."
+    },
+    {
+      "front": "What are some examples of platforms that use SSO?",
+      "back": "Examples include Office 365, Google G Suite, and applications where you can log in using accounts like Google or Facebook."
+    },
+    {
+      "front": "What is the benefit of using Single Sign-On for users?",
+      "back": "It simplifies access by reducing the number of passwords a user must remember and helps prevent password fatigue, increasing productivity and user experience."
+    },
+    {
+      "front": "How does SSO help improve security?",
+      "back": "By reducing password reuse and the need to write down credentials, and by enabling centralized control of access with additional layers like MFA and tokenization."
+    },
+    {
+      "front": "Does Single Sign-On increase or decrease security risk?",
+      "back": "It can increase security if combined with other layers like MFA, but it also poses risk because a compromised set of credentials can grant access to multiple systems."
+    },
+    {
+      "front": "What is Identity Federation?",
+      "back": "Identity Federation is the sharing of identity information between trusted systems, allowing users to access external systems using credentials from their own organization or a third-party provider."
+    },
+    {
+      "front": "What is an Identity Provider (IdP)?",
+      "back": "An Identity Provider is the entity that stores and verifies identities. It authenticates users and provides identity information to service providers during login."
+    },
+    {
+      "front": "What is SAML used for?",
+      "back": "SAML (Security Assertion Markup Language) is used to exchange authentication and authorization data between parties, often in SSO scenarios."
+    },
+    {
+      "front": "What is OAuth?",
+      "back": "OAuth is an authorization framework that allows third-party applications to grant limited access to user resources without exposing their credentials."
+    },
+    {
+      "front": "What is OpenID Connect?",
+      "back": "OpenID Connect is an authentication layer built on top of OAuth 2.0 that verifies the user's identity and provides basic profile information."
+    },
+    {
+      "front": "What role does Kerberos play in SSO?",
+      "back": "Kerberos is an authentication protocol used in Active Directory environments that enables SSO by issuing tickets for access to various resources after initial login."
+    },
+    {
+      "front": "How does Kerberos SSO work?",
+      "back": "After login, the system receives a Ticket Granting Ticket (TGT). When accessing a resource, the TGT is exchanged for a session ticket, which grants access without re-authenticating."
+    },
+    {
+      "front": "What is a service provider in SSO and federation?",
+      "back": "A service provider is an application or system that accepts identity assertions from an Identity Provider to allow access based on trust relationships."
+    },
+    {
+      "front": "Why is trust important in federated identity?",
+      "back": "Trust allows a service provider to accept identity assertions from an identity provider, enabling secure access without re-authenticating or storing user credentials directly."
+    },
+    {
+      "front": "How do developers benefit from implementing SSO?",
+      "back": "SSO reduces the need for custom authentication handling, simplifying development and reducing security risks associated with managing multiple login systems."
+    },
+    {
+      "front": "What does LDAP stand for?",
+      "back": "LDAP stands for Lightweight Directory Access Protocol."
+    },
+    {
+      "front": "What is LDAP used for?",
+      "back": "LDAP is used as a network-based database protocol for querying and modifying directory services like user information, resources, and attributes. It's commonly used in systems like Active Directory."
+    },
+    {
+      "front": "Is Active Directory the same as LDAP?",
+      "back": "No, Active Directory is not the same as LDAP. Active Directory uses LDAP as a protocol to query and manage its directory services, but they are not interchangeable."
+    },
+    {
+      "front": "How does LDAP relate to a phone book?",
+      "back": "LDAP functions like a phone book for a network, storing user and resource data with attributes like name, email, location, etc., that can be queried centrally."
+    },
+    {
+      "front": "What is OpenLDAP?",
+      "back": "OpenLDAP is a free, open-source implementation of LDAP that can be installed on Linux servers for directory service management and experimentation."
+    },
+    {
+      "front": "What can LDAP store for authentication purposes?",
+      "back": "LDAP can store user attributes including passwords, which can be used for centralized authentication."
+    },
+    {
+      "front": "What are the six steps of LDAP authentication?",
+      "back": "The six steps are: 1. Connection Establishment, 2. Binding, 3. Server Validation, 4. Search (optional), 5. Authentication Response, and 6. Session Establishment."
+    },
+    {
+      "front": "What happens during the Connection Establishment step in LDAP?",
+      "back": "The client initiates a connection with the LDAP server using port 389 (or 636 for SSL)."
+    },
+    {
+      "front": "What is the Binding step in LDAP authentication?",
+      "back": "Binding is when the client sends a bind request containing the user's DN and password. It can be anonymous, simple, or use other methods like SASL."
+    },
+    {
+      "front": "What occurs during Server Validation in LDAP?",
+      "back": "The LDAP server checks the provided credentials. If correct, it sends a success message; otherwise, it returns an error."
+    },
+    {
+      "front": "Is the Search step always part of LDAP authentication?",
+      "back": "No, the Search step is optional. It retrieves additional information like user attributes or group memberships if needed."
+    },
+    {
+      "front": "What is the Authentication Response in LDAP?",
+      "back": "If the credentials are valid, the server sends a confirmation to the client, granting access to authorized resources."
+    },
+    {
+      "front": "What happens in the Session Establishment step in LDAP?",
+      "back": "After successful authentication, the user or client establishes a session to access the authorized resources."
+    },
+    {
+      "front": "Why is centralized authentication like LDAP beneficial for administrators?",
+      "back": "It simplifies management, allows centralized login policies, improves monitoring, and enhances control over authentication processes."
+    },
+    {
+      "front": "What ports are commonly used for LDAP?",
+      "back": "Port 389 is used for standard LDAP, and port 636 is used for LDAP over SSL."
+    },
+    {
+      "front": "Why is it important to follow the LDAP authentication steps in order?",
+      "back": "Each step builds upon the previous one, and incorrect sequencing can lead to failed authentication or system errors."
+    },
+    {
+      "front": "What does TACACS+ stand for?",
+      "back": "TACACS+ stands for Terminal Access Controller Access-Control System Plus."
+    },
+    {
+      "front": "What is TACACS+ used for?",
+      "back": "TACACS+ is used for centralized Authentication, Authorization, and Accounting (AAA), particularly for network device administration."
+    },
+    {
+      "front": "What are the AAA functions that TACACS+ provides?",
+      "back": "Authentication (verifying identity), Authorization (determining access rights), and Accounting (tracking and logging user activity)."
+    },
+    {
+      "front": "Why is TACACS+ beneficial for managing network devices?",
+      "back": "It centralizes user authentication, reducing administrative overhead and enhancing security by avoiding inconsistent credentials across devices."
+    },
+    {
+      "front": "How does TACACS+ differ from RADIUS in terms of protocol?",
+      "back": "TACACS+ uses TCP (connection-oriented) while RADIUS uses UDP (connectionless)."
+    },
+    {
+      "front": "Does TACACS+ support encryption?",
+      "back": "Yes, TACACS+ supports encryption, including encrypting the entire payload, which enhances security."
+    },
+    {
+      "front": "Is TACACS+ open source or proprietary?",
+      "back": "TACACS+ is the open version widely supported by Cisco devices; however, Cisco also has a closed-source proprietary variant."
+    },
+    {
+      "front": "Why is TACACS+ preferred over RADIUS for device administration?",
+      "back": "TACACS+ offers stronger encryption, separates AAA functions, and uses TCP for reliable communication."
+    },
+    {
+      "front": "What makes TACACS+ more secure than RADIUS?",
+      "back": "TACACS+ encrypts the entire payload and uses TCP, reducing the chance of interception or data loss."
+    },
+    {
+      "front": "Which protocol is more robust in terms of session management: RADIUS or TACACS+?",
+      "back": "TACACS+ is more robust because it uses TCP, ensuring reliable and orderly delivery of authentication data."
+    },
+    {
+      "front": "What is geofencing in the context of network security?",
+      "back": "Geofencing is the practice of restricting access to a system or device based on its geographical location, creating a logical 'fence' where access is allowed only within a defined area."
+    },
+    {
+      "front": "How does geofencing improve security?",
+      "back": "It prevents unauthorized access by ensuring that login attempts can only be made from specific, approved geographic locations."
+    },
+    {
+      "front": "Can geofencing be applied to both devices and user accounts?",
+      "back": "Yes, geofencing can restrict access either by device location or by user account access from specific geographic regions."
+    },
+    {
+      "front": "What is time-based authentication?",
+      "back": "Time-based authentication is a security method where login codes are only valid for a short duration, requiring users to authenticate within that time frame."
+    },
+    {
+      "front": "What does TOTP stand for and how is it used?",
+      "back": "TOTP stands for Time-based One-Time Password. It is a frequently changing code used for multi-factor authentication, typically valid for about 30 seconds."
+    },
+    {
+      "front": "Why is using an authenticator app more secure than SMS or email for 2FA?",
+      "back": "Authenticator apps are more secure because they don't rely on potentially compromised communication channels like SMS or email, and instead generate codes locally on the device."
+    },
+    {
+      "front": "What are some common authenticator apps used for time-based authentication?",
+      "back": "Popular authenticator apps include Microsoft Authenticator, Google Authenticator, Authy, Duo Mobile, and LastPass Authenticator."
+    },
+    {
+      "front": "How do authenticator apps work?",
+      "back": "They generate time-based one-time passwords (TOTPs) by using a shared secret and synchronized time, providing a unique code that changes every 30 seconds."
+    },
+    {
+      "front": "What is the purpose of a hardware key like a YubiKey?",
+      "back": "A hardware key provides a physical method of authentication, offering high security without relying on time-based codes or network communication."
+    },
+    {
+      "front": "Why is it important to enable multi-factor authentication (MFA)?",
+      "back": "MFA significantly increases account security by requiring additional verification beyond just a password, reducing the risk of unauthorized access."
+    },
+    {
+      "front": "What is the difference between authentication and authorization?",
+      "back": "Authentication verifies who you are, while authorization determines what you are allowed to do after your identity is verified."
+    },
+    {
+      "front": "Can an authenticated user still be unauthorized?",
+      "back": "Yes, a user can be authenticated but not authorized to access specific resources depending on their permissions."
+    },
+    {
+      "front": "What is Discretionary Access Control (DAC)?",
+      "back": "DAC is a model where the resource owner determines who can access their resources and what actions they can perform."
+    },
+    {
+      "front": "What is an Access Control List (ACL)?",
+      "back": "An ACL is a list that identifies which users or groups are allowed to access or modify a resource and what permissions they have."
+    },
+    {
+      "front": "What is Mandatory Access Control (MAC)?",
+      "back": "MAC is a strict access model where access decisions are based on labels and classifications assigned to both users and data, commonly used in military environments."
+    },
+    {
+      "front": "How does MAC determine access?",
+      "back": "MAC requires both user clearance levels and data sensitivity labels to match for access to be granted."
+    },
+    {
+      "front": "What is Role-Based Access Control (RBAC)?",
+      "back": "RBAC assigns permissions to roles rather than individuals, and users gain permissions by being assigned to roles."
+    },
+    {
+      "front": "Why is RBAC considered efficient?",
+      "back": "RBAC simplifies permission management by assigning permissions to roles instead of individual users, making administration scalable and less error-prone."
+    },
+    {
+      "front": "What is Rule-Based Access Control?",
+      "back": "Rule-Based Access Control applies rules set by administrators, often using conditions like protocol or port, to determine whether access is allowed, commonly seen in firewalls."
+    },
+    {
+      "front": "What is Attribute-Based Access Control (ABAC)?",
+      "back": "ABAC grants access based on attributes such as user location, device, role, and time, allowing dynamic and context-aware access control."
+    },
+    {
+      "front": "Where is Attribute-Based Access Control commonly used?",
+      "back": "ABAC is often used in cloud environments, such as Azure’s conditional access, where access decisions are based on user and device attributes."
+    },
+    {
+      "front": "Why is Attribute-Based Access Control useful?",
+      "back": "It allows fine-grained access decisions by evaluating multiple dynamic factors like location, device type, or job function at the time of access."
+    },
+      {
+        "question": "Why is physical security important in IT infrastructure?",
+        "answer": "Physical security is crucial because if someone gains physical access to a system, they can bypass digital security measures. As the saying goes, 'If I can touch your computer, it's not your computer anymore.'"
+      },
+      {
+        "question": "What are common physical security mechanisms?",
+        "answer": "Common mechanisms include video surveillance, security guards, signs, bollards, secure access vestibules (mantraps), fencing, motion sensors, access badges, safes, and locks."
+      },
+      {
+        "question": "What is the function of video surveillance in physical security?",
+        "answer": "Video surveillance provides real-time monitoring and post-incident analysis, and serves as a deterrent against unauthorized actions."
+      },
+      {
+        "question": "What role do signs play in physical security?",
+        "answer": "Signs serve as deterrents by warning individuals of restricted areas or surveillance, enhancing the effectiveness of other security measures."
+      },
+      {
+        "question": "What are bollards and their purpose?",
+        "answer": "Bollards are concrete or metal barriers placed outside buildings to prevent vehicular attacks on physical infrastructure."
+      },
+      {
+        "question": "What is a secure access vestibule (mantrap)?",
+        "answer": "A secure access vestibule is a small room with two doors where one must close before the other opens, used to prevent tailgating and ensure individual authentication."
+      },
+      {
+        "question": "What is the purpose of fencing in physical security?",
+        "answer": "Fencing establishes clear physical boundaries, helping deter unauthorized access and defining property lines."
+      },
+      {
+        "question": "What are access badges and how do they function?",
+        "answer": "Access badges, including smart cards and RFID fobs, control entry to secured areas by verifying identity and tracking personnel movement."
+      },
+      {
+        "question": "Why are safes considered part of physical security?",
+        "answer": "Safes protect sensitive hardware or documents from theft or tampering by securing them behind locks."
+      },
+      {
+        "question": "What types of locks are used in physical security?",
+        "answer": "Types include traditional key locks, pin locks, smart card locks, and biometric locks."
+      },
+      {
+        "question": "What are the benefits of proper lighting for physical security?",
+        "answer": "Lighting increases visibility, reduces hiding places, and supports surveillance effectiveness by eliminating shadows."
+      },
+      {
+        "question": "What is the purpose of motion sensors in physical security?",
+        "answer": "Motion sensors detect unauthorized movement and environmental changes to trigger alerts or responses."
+      },
+      {
+        "question": "What are the types of motion sensors and their use cases?",
+        "answer": "Types include: Infrared (for low-light conditions), Pressure (detects changes in floor pressure), Microwave (works in varied conditions), and Ultrasonic (best for small indoor spaces)."
+      }
+    
+      {
+        "front": "What is the definition of risk in cybersecurity?",
+        "back": "Risk is the likelihood that something bad will happen, coupled with the potential impact of that event."
+      },
+      {
+        "front": "What is the difference between qualitative and quantitative risk assessments?",
+        "back": "Qualitative risk assessment is judgment-based and subjective, while quantitative is based on numerical data and statistical analysis."
+      },
+      {
+        "front": "What are the steps in a qualitative risk assessment?",
+        "back": "Identify the risk, classify it, control it, and monitor it."
+      },
+      {
+        "front": "What is a vulnerability in cybersecurity?",
+        "back": "A vulnerability is a specific weakness that affects a specific system, such as unpatched software."
+      },
+      {
+        "front": "What tools are used to identify vulnerabilities in systems?",
+        "back": "Vulnerability scanners like Nessus, OpenVAS, Nikto, Invicti, and Burp Suite."
+      },
+      {
+        "front": "What is CWE?",
+        "back": "CWE (Common Weakness Enumeration) is a list of common software and hardware weakness types maintained by MITRE."
+      },
+      {
+        "front": "What is OWASP Top 10?",
+        "back": "OWASP Top 10 is a list of the most common types of web application vulnerabilities."
+      },
+      {
+        "front": "What is a CVE?",
+        "back": "CVE (Common Vulnerabilities and Exposures) is a list of specific known vulnerabilities affecting software or hardware systems."
+      },
+      {
+        "front": "What is the difference between a vulnerability and a threat?",
+        "back": "A vulnerability is a weakness in a system; a threat is an actor or condition that may exploit that vulnerability."
+      },
+      {
+        "front": "What is an insider threat?",
+        "back": "An insider threat is someone within an organization who has authorized access and may intentionally or unintentionally cause harm."
+      },
+      {
+        "front": "What is a script kiddie?",
+        "back": "A script kiddie is an inexperienced hacker who uses existing tools or scripts without fully understanding how they work."
+      },
+      {
+        "front": "What is a state-sponsored attacker?",
+        "back": "A state-sponsored attacker is a threat actor backed by a government, often involved in cyber warfare."
+      },
+      {
+        "front": "What is an APT (Advanced Persistent Threat)?",
+        "back": "An APT is a highly sophisticated and persistent threat actor or group, sometimes state-sponsored, targeting systems over extended periods."
+      },
+      {
+        "front": "What distinguishes a state-sponsored group from an APT?",
+        "back": "A state-sponsored group is directly funded by a government; an APT may be state-sponsored but not always."
+      },
+      {
+        "front": "What is a rubber hose attack?",
+        "back": "A rubber hose attack is a physical coercion technique to extract information, such as passwords, from someone under threat or duress."
+      },
+      {
+        "front": "Why is it important to distinguish between risks, vulnerabilities, and threats?",
+        "back": "Because using the correct terminology helps in accurately assessing and addressing security issues."
+      },
+        {
+          "front": "What are the two main purposes of deception technologies like honeypots?",
+          "back": "To lure attackers away from real organizational assets and to monitor attacker techniques to improve security posture."
+        },
+        {
+          "front": "What is a honeypot?",
+          "back": "A honeypot is a decoy system designed to attract attackers away from legitimate systems and observe their behavior."
+        },
+        {
+          "front": "Where are honeypots typically placed within a network?",
+          "back": "They are often placed in a DMZ (demilitarized zone) to appear publicly accessible while protecting internal networks."
+        },
+        {
+          "front": "What is the difference between a honeypot and a honey net?",
+          "back": "A honeypot is a single decoy system, while a honey net is a network of honeypots simulating a production environment."
+        },
+        {
+          "front": "What is a honey file?",
+          "back": "A honey file is a decoy file placed within a honeypot or network that appears to contain sensitive information to attract attackers."
+        },
+        {
+          "front": "What is a honey token?",
+          "back": "A honey token is a piece of data, like an API key or login credential, planted to lure attackers and monitor their actions if used."
+        },
+        {
+          "front": "How can honey files and honey tokens help detect attackers?",
+          "back": "If an attacker interacts with these decoys, it alerts defenders to unauthorized activity and potential breaches."
+        },
+        {
+          "front": "What analogy was used to explain how attackers interact with honey technologies?",
+          "back": "The episode used an Aladdin cave analogy—attackers are tempted by decoys and monitored if they 'touch' the wrong item."
+        }
+        {
+          "front": "What is the CIA Triad in cybersecurity?",
+          "back": "The CIA Triad refers to the three core principles of cybersecurity: Confidentiality, Integrity, and Availability."
+        },
+        {
+          "front": "What does confidentiality mean in cybersecurity?",
+          "back": "Confidentiality ensures that sensitive data is only accessible to authorized individuals."
+        },
+        {
+          "front": "What is the goal of integrity in cybersecurity?",
+          "back": "Integrity ensures that data remains accurate and unaltered during storage or transmission."
+        },
+        {
+          "front": "What does availability refer to in the CIA Triad?",
+          "back": "Availability ensures that authorized users have access to information and systems when needed."
+        },
+        {
+          "front": "How does non-repudiation support security?",
+          "back": "Non-repudiation ensures that a person cannot deny the authenticity of their signature on a message or the sending of a message itself."
+        },
+        {
+          "front": "What is accountability in cybersecurity?",
+          "back": "Accountability refers to the ability to trace actions to their source to hold users responsible for their behavior."
+        },
+        {
+          "front": "What does authenticity mean in the context of cybersecurity?",
+          "back": "Authenticity ensures that communication or data is genuine and from a trusted source."
+        },
+        {
+          "front": "What methods help ensure confidentiality?",
+          "back": "Encryption, access control, and secure communication channels are key methods to ensure confidentiality."
+        },
+        {
+          "front": "What are some ways to maintain data integrity?",
+          "back": "Hashing, digital signatures, and integrity checks are common ways to maintain data integrity."
+        },
+        {
+          "front": "What techniques help maintain availability?",
+          "back": "Redundancy, load balancing, and regular data backups help ensure system and data availability."
+        },
+        {
+              "front": "What is data locality?",
+              "back": "Data locality refers to where data is stored or processed geographically, which is important for compliance and security auditing."
+            },
+            {
+              "front": "Why is data locality important for audits?",
+              "back": "Because storing or processing data outside of legal boundaries without proper safeguards can lead to non-compliance with regulations."
+            },
+            {
+              "front": "What is the purpose of auditing in cybersecurity?",
+              "back": "Auditing ensures an organization is following its own standards, legal regulations, and protecting data properly."
+            },
+            {
+              "front": "What is PCI DSS?",
+              "back": "The Payment Card Industry Data Security Standard (PCI DSS) is a set of security standards for organizations that handle credit card data."
+            },
+            {
+              "front": "Is PCI DSS enforced by law?",
+              "back": "No, it's an industry-agreed standard. Organizations must comply to process payments but it's not government-mandated."
+            },
+            {
+              "front": "Why is PCI DSS important for IT professionals?",
+              "back": "Understanding PCI DSS can open lucrative career paths as compliance experts are valuable to organizations handling payments."
+            },
+            {
+              "front": "What is GDPR?",
+              "back": "The General Data Protection Regulation (GDPR) is a European Union law that governs data protection and privacy for individuals in the EU."
+            },
+            {
+              "front": "Can GDPR affect non-EU companies?",
+              "back": "Yes, any company handling data of EU residents must comply with GDPR, even if they are not based in the EU."
+            },
+            {
+              "front": "What are the penalties for violating GDPR?",
+              "back": "Fines can reach up to €20 million or 4% of a company's global annual turnover, whichever is higher."
+            },
+            {
+              "front": "How does California's consumer privacy law relate to GDPR?",
+              "back": "California's Consumer Privacy Act is similar to GDPR and applies to companies handling data of California residents, regardless of where the company is based."
+            },
+            {
+              "front": "Why might a company block EU users from their site?",
+              "back": "To avoid GDPR compliance obligations while preparing systems to meet the requirements."
+            },
+            {
+              "front": "What should companies do to ensure compliance with data regulations?",
+              "back": "They should understand applicable laws and frameworks, perform regular audits, and maintain documentation to demonstrate compliance."
+            },                       {
+              "front": "What is the Internet of Things (IoT)?",
+              "back": "The Internet of Things refers to connecting devices that were not traditionally internet‑connected to the network, enabling automation and communication."
+            },
+            {
+              "front": "Why is IPv6 important for IoT?",
+              "back": "IPv6 provides a vastly larger address space, allowing many more devices, like IoT sensors and components, to have unique IP addresses."
+            },
+            {
+              "front": "What is a common security concern with IoT devices?",
+              "back": "Many IoT devices are low‑cost with minimal security features, often lacking secure coding, hardware security, and long‑term support."
+            },
+            {
+              "front": "What is an embedded system in the context of IoT?",
+              "back": "An embedded system is a simplified, often single‑purpose operating system inside an IoT device that performs a specific task, like reading a sensor and transmitting data."
+            },
+            {
+              "front": "How is HTTPS commonly used with IoT devices?",
+              "back": "HTTPS is used to encrypt data transmitted from IoT devices to cloud services, protecting the data in transit."
+            },
+            {
+              "front": "What does OT stand for in relation to IoT and SCADA?",
+              "back": "OT stands for Operational Technology, which includes industrial control systems and IoT used in operational environments like factories and infrastructure."
+            },
+            {
+              "front": "What does SCADA stand for?",
+              "back": "SCADA stands for Supervisory Control and Data Acquisition, a type of operational control system used to monitor and manage industrial processes."
+            },
+            {
+              "front": "Why are SCADA and other OT systems security sensitive?",
+              "back": "Because they often control critical infrastructure and were designed for isolated environments, lacking modern security features when connected to networks."
+            },
+            {
+              "front": "What security issue arises from connecting OT and IoT devices to the internet?",
+              "back": "Connecting these devices can expose insecure interfaces, default credentials, and lack of encryption, making them vulnerable to attacks."
+            },
+            {
+              "front": "Why is high availability a concern for OT and IoT systems?",
+              "back": "High availability is critical because disruptions or denial‑of‑service attacks can halt essential operations in industrial and infrastructure environments."
+            },
+            {
+              "front": "What is an example of a real‑world risk to OT infrastructure?",
+              "back": "Attacks on power grids or critical infrastructure, such as transformers, can disrupt services and have large‑scale impacts."
+            },
+             {
+                "front": "What is a physical access threat in wired networks?",
+                "back": "A physical access threat occurs when an unauthorized person gains physical access to network devices or ports, allowing for tampering, device replacement, or data interception."
+              },
+              {
+                "front": "What is VLAN hopping?",
+                "back": "VLAN hopping is an attack where a malicious actor manipulates switch configurations to send packets across VLANs they shouldn’t access, typically through double-tagging."
+              },
+              {
+                "front": "What is ARP poisoning and how does it work?",
+                "back": "ARP poisoning is an attack where incorrect MAC address mappings are inserted into a device’s ARP table, allowing the attacker to intercept, modify, or reroute traffic."
+              },
+              {
+                "front": "What is EtterCap used for?",
+                "back": "EtterCap is a network security tool used for ARP poisoning and spoofing attacks to perform man-in-the-middle operations on a network."
+              },
+              {
+                "front": "What are rogue devices and why are they dangerous?",
+                "back": "Rogue devices are unauthorized network devices such as switches or access points brought in by users or attackers, potentially creating security vulnerabilities and network disruptions."
+              },
+              {
+                "front": "Why is a flat network considered a security risk?",
+                "back": "Flat networks allow unrestricted access to all devices once breached, increasing the risk of lateral movement and data exposure. Segmentation is recommended to mitigate this."
+              },
+              {
+                "front": "What are the common threats to wireless networks?",
+                "back": "Wireless threats include weak or no encryption, default credentials, disassociation attacks, rogue access points, and evil twin attacks, where malicious APs mimic legitimate ones."
+              },
+              {
+                "front": "What is an evil twin attack?",
+                "back": "An evil twin attack involves setting up a rogue wireless access point with the same SSID as a legitimate one, tricking users into connecting and capturing their data."
+              },
+              {
+                "front": "What are the key Bluetooth threats?",
+                "back": "Bluetooth threats include Bluejacking (unsolicited messages), Bluesnarfing (unauthorized data access), Bluebugging (device takeover), BlueBorn (vulnerability exploit), and Car Whispering (eavesdropping or injecting audio)."
+              },
+              {
+                "front": "Why is encryption important on wireless networks?",
+                "back": "Encryption protects wireless traffic from interception and tampering. WPA2 or WPA3 are recommended over older or open standards for securing Wi-Fi communications."
+              }
+                {
+                  "front": "What are common indicators of a DDoS (Distributed Denial of Service) attack?",
+                  "back": "High network bandwidth utilization, inability to access network services, saturated or overloaded network traffic, and potential firewall or IDS/IPS failure (fail open behavior)."
+                },
+                {
+                  "front": "What is an indicator of a DNS attack?",
+                  "back": "Unrecognized DNS servers, changes to host files or resolve.conf, unexpected DNS redirections, spoofed domain IPs, poisoned DNS cache entries, and abnormal DNS lookup results."
+                },
+                {
+                  "front": "How can you detect DNS spoofing or poisoning?",
+                  "back": "Check for unfamiliar DNS entries, inspect the hosts file, verify DNS server IPs, use commands like 'ipconfig /displaydns', and look for domain-to-IP mismatches."
+                },
+                {
+                  "front": "What are signs of a wireless network attack?",
+                  "back": "Slow or unstable wireless performance, unknown devices on the network, changes to router SSID or password, unexpected DNS or DHCP settings, and modified firewall rules."
+                },
+                {
+                  "front": "What is a rogue AP and an evil twin?",
+                  "back": "A rogue AP is an unauthorized access point on the network. An evil twin is a rogue AP mimicking a legitimate one to trick users into connecting and capturing their data."
+                },
+                {
+                  "front": "What might indicate a deauthentication or disassociation attack?",
+                  "back": "Unexpected prompts to reconnect to Wi-Fi or reauthenticate, dropped wireless connections, and frequent session interruptions."
+                },
+                {
+                  "front": "What are indicators of an on-path (Man-in-the-Middle) attack?",
+                  "back": "SSL/TLS certificate errors or mismatches, unexpected login prompts, session drops, altered email responses, and unsolicited 2FA/SMS verifications."
+                },
+                {
+                  "front": "What is a credential replay attack?",
+                  "back": "An attacker uses captured or stolen credentials to replay login requests and impersonate a user, often resulting in unusual login activity or account changes."
+                },
+                {
+                  "front": "How can you detect a credential replay attack?",
+                  "back": "Look for suspicious login notifications, unexpected geolocations, device types, IP addresses, account lockouts, or changes to PII or backup accounts."
+                },
+                {
+                  "front": "How can malicious code be detected on a network?",
+                  "back": "Use packet inspection tools like Wireshark to monitor for command and control (C2) traffic, access to malicious domains, or signs of data exfiltration."
+                }
+                {
+                  "front": "What is phishing in the context of social engineering?",
+                  "back": "Phishing is a social engineering tactic that involves sending fake emails or messages to trick recipients into revealing sensitive information or downloading malicious attachments."
+                },
+                {
+                  "front": "What are common signs of a phishing email?",
+                  "back": "Signs include urgent language, requests for personal info, poor grammar, unfamiliar sender addresses, and offers that seem too good to be true."
+                },
+                {
+                  "front": "What is spear phishing?",
+                  "back": "Spear phishing targets a specific individual or organization with tailored messages designed to make the attack more convincing."
+                },
+                {
+                  "front": "What is whaling in cybersecurity?",
+                  "back": "Whaling is a form of phishing aimed at high-level executives like CEOs or CFOs, exploiting their authority and access privileges."
+                },
+                {
+                  "front": "What is dumpster diving in cybersecurity?",
+                  "back": "Dumpster diving is a physical method of gathering information by searching through trash for sensitive documents like notes, passwords, or invoices."
+                },
+                {
+                  "front": "What is shoulder surfing?",
+                  "back": "Shoulder surfing involves watching someone’s screen or keyboard inputs to steal sensitive information like passwords or personal data."
+                },
+                {
+                  "front": "What is tailgating in security?",
+                  "back": "Tailgating occurs when an unauthorized person follows an authorized individual into a restricted area without proper credentials."
+                },
+                {
+                  "front": "What is malware?",
+                  "back": "Malware, short for malicious software, is designed to harm, exploit, or gain unauthorized access to a system or network."
+                },
+                {
+                  "front": "What are common objectives of malware?",
+                  "back": "Malware may grant unauthorized access, destroy data, encrypt files for ransom, or steal sensitive information."
+                },
+                {
+                  "front": "What is a worm in malware terminology?",
+                  "back": "A worm is a self-replicating type of malware that spreads across networks by exploiting vulnerabilities, without needing user interaction."
+                },
+                {
+                  "front": "What was EternalBlue and why is it significant?",
+                  "back": "EternalBlue was a Windows exploit leaked from the NSA that allowed attackers to remotely execute code, later used in major attacks like WannaCry and NotPetya."
+                },
+                {
+                  "front": "How is malware often delivered via social engineering?",
+                  "back": "Social engineering methods like phishing trick users into downloading or running malware through fake links, attachments, or deceptive messages."
+                },
+                {
+                  "front": "Why is ransomware a popular form of malware?",
+                  "back": "Ransomware encrypts victims' files and demands payment (often in cryptocurrency) for decryption, making it profitable for attackers."
+                },
+                {
+                  "front": "What is the role of cybersecurity insurance in malware attacks?",
+                  "back": "Cybersecurity insurance can help cover the financial costs of malware incidents, including negotiating ransom payments with attackers."
+                },
+                {
+                  "front": "How do attackers exploit human behavior in social engineering?",
+                  "back": "Attackers rely on trust, fear, urgency, or helpfulness to trick victims into giving access or sensitive information."
+                },
+                
