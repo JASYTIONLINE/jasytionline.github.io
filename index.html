@@ -34,15 +34,91 @@
       <!-- Custom Button Navigation -->
       <section class="dragon-grid">
         <div class="dragon-buttons" id="modeButtons">
-          <button class="button-red" data-mode="portfolio">CMPA 3304</button>
-          <button class="button-red" data-mode="juke">Juke Box</button>
-          <button class="button-red" data-mode="pmp">Project PMP</button>
-          <button class="button-red" data-mode="ghost">
-            JASYTI's Ghost Kitchen
-          </button>
-          <button class="button-red" data-mode="hr">
-            JASYTI's HR Portal Application
-          </button>
+          <article class="project-card">
+            <div class="project-card-actions">
+              <button class="button-red" data-mode="portfolio">
+                CMPA 3304
+              </button>
+            </div>
+            <p class="project-card-desc">
+              Academic portfolio for CMPA 3304 showcasing projects, skills, and
+              coursework in a structured web presentation.
+            </p>
+          </article>
+          <article class="project-card">
+            <div class="project-card-actions">
+              <button class="button-red" data-mode="juke">Juke Box</button>
+            </div>
+            <p class="project-card-desc">
+              Interactive jukebox-style music player you can use to browse and
+              play tracks in the browser.
+            </p>
+          </article>
+          <article class="project-card">
+            <div class="project-card-actions">
+              <button class="button-red" data-mode="pmp">Project PMP</button>
+            </div>
+            <p class="project-card-desc">
+              Project Management Professional prep hub with study materials and
+              tools focused on passing the PMP exam.
+            </p>
+          </article>
+          <article class="project-card">
+            <div class="project-card-actions">
+              <button class="button-red" data-mode="ghost">
+                JASYTI's Ghost Kitchen
+              </button>
+            </div>
+            <p class="project-card-desc">
+              Full-stack ghost kitchen concept site for exploring menus, ordering
+              flows, and the digital storefront experience.
+            </p>
+          </article>
+          <article class="project-card">
+            <div class="project-card-actions">
+              <button class="button-red" data-mode="hr">
+                JASYTI's HR Portal Application
+              </button>
+            </div>
+            <p class="project-card-desc">
+              HR portal prototype for employee-facing tasks such as profiles,
+              requests, and common human-resources workflows.
+            </p>
+          </article>
+          <article class="project-card">
+            <div class="project-card-actions">
+              <button class="button-red" data-mode="lcgf">
+                Jasytis LCGF Meal Planner
+              </button>
+            </div>
+            <p class="project-card-desc">
+              Recipe and meal-planning app for building menus, managing recipes,
+              and organizing what to cook week to week.
+            </p>
+          </article>
+          <article class="project-card">
+            <div class="project-card-actions">
+              <button class="button-red" data-mode="mmhp">
+                MMHP Event Calendar
+              </button>
+            </div>
+            <p class="project-card-desc">
+              McAllen Mobile Park community hub for recurring activities, featured
+              events, and a shared calendar so residents can see what is happening
+              in one place.
+            </p>
+          </article>
+          <article class="project-card">
+            <div class="project-card-actions">
+              <button class="button-red" data-mode="ksw">
+                KSW Student Dashboard
+              </button>
+            </div>
+            <p class="project-card-desc">
+              Brownsville Kuk Sool Won school site with program information and a
+              student dashboard for martial arts students and families.
+            </p>
+          </article>
         </div>
       </section>
       <!-- Section content -->
@@ -66,7 +142,7 @@
 
       function showDragon() {
         stage.remove();
-        document.body.classList.add("show-Dragon");
+        document.body.classList.add("show-dragon");
       }
 
       // Auto-hide video when it ends
@@ -111,11 +187,35 @@
             ghost:
               "https://jasytionline.github.io/r61-fullstack/web-sites/jasytis-ghost-kitchen/",
             hr: "https://r63-hr-portal-app-jjr2.vercel.app/",
+            lcgf:
+              "https://r63-recipe-with-gen-590wkhg6d-jasytionlines-projects.vercel.app/recipes",
+            mmhp: "https://jasytionline.github.io/mmpeventcalendar/",
+            ksw: "https://jasytionline.github.io/r73-ksw-dashboard/",
           };
           const url = map[mode];
           if (url) window.open(url, "_blank", "noopener");
         });
       }
+
+      document.querySelectorAll("a[href]").forEach((a) => {
+        const href = (a.getAttribute("href") || "").trim();
+        if (!href || href.startsWith("#")) return;
+        const lower = href.toLowerCase();
+        if (
+          lower.startsWith("javascript:") ||
+          lower.startsWith("mailto:") ||
+          lower.startsWith("tel:")
+        ) {
+          return;
+        }
+        a.target = "_blank";
+        const relParts = new Set(
+          (a.getAttribute("rel") || "").split(/\s+/).filter(Boolean)
+        );
+        relParts.add("noopener");
+        relParts.add("noreferrer");
+        a.rel = [...relParts].join(" ");
+      });
     </script>
   </body>
 </html>

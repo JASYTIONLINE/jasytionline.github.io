@@ -35,6 +35,11 @@
   /*text*/
   --color-text-dk: var(--color-lt);
   --color-text-lt: var(--color-dk);
+  --color-text: var(--color-text-dk);
+  --color-white: #ffffff;
+  --color-red: var(--color-tertiary);
+  --color-green: var(--color-quaternary);
+  --color-bg-offset: var(--color-dk-offset);
 
   /* link system */
   --color-link: #06f988;
@@ -95,6 +100,7 @@ body {
   color: var(--color-text-dk);
   background-color: var(--color-dk);
   overflow-x: hidden;
+  padding-bottom: 80px;
 }
 
 img,
@@ -320,12 +326,6 @@ a[href^="#"]:focus-visible {
   margin-bottom: 50px;
   flex: 1;
 }
-.discussion {
-  margin-top: 0;
-  margin-left: 260px;
-  padding-top: 0;
-  flex: 1;
-}
 
 /* Footer fixed at viewport bottom, aligned with main column */
 .footer {
@@ -342,7 +342,7 @@ a[href^="#"]:focus-visible {
   background-color: var(--color-dk);
   border-top: var(--border-soft);
   color: var(--color-primary-ghost);
-  text-align: Right;
+  text-align: right;
   box-shadow: var(--shadow-sm);
 }
 
@@ -370,10 +370,6 @@ a[href^="#"]:focus-visible {
   padding-left: 1rem;
   padding-right: 1rem;
   box-shadow: var(--shadow-sm);
-}
-
-body {
-  padding-bottom: 80px;
 }
 
 /* =============================================================================
@@ -414,10 +410,12 @@ body {
 
 .discussion {
   max-width: 1000px;
-  margin-left: 0;
+  margin-top: 0;
+  margin-left: 260px;
   margin-bottom: 50px;
   background-color: #111827;
   padding: var(--space-6);
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
@@ -517,15 +515,6 @@ body {
   pointer-events: none;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 48px;
-}
-
 .button-section {
   padding: 32px;
   background-color: var(--color-lt-offset);
@@ -619,9 +608,14 @@ body {
    layout without changing visual hierarchy or brand logic.
    ============================================================================= */
 .container {
-  max-width: var(--container-max);
+  max-width: var(--content-max);
+  width: 100%;
   margin-inline: auto;
   padding-inline: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-8);
 }
 
 .section {
@@ -687,7 +681,8 @@ body {
 
   .main-content,
   .hero,
-  .footer {
+  .footer,
+  .discussion {
     margin-left: 0;
     left: 0;
   }
@@ -706,34 +701,6 @@ body {
     padding: var(--space-4);
   }
 }
-/*
- * This block was previously experimental and shouldn't be active.
- * It had syntax errors that broke formatting.
- * If you need it later, re-enable safely.
- */
-
-/* html, body {
-
-/* ======================================================
-   1. GLOBAL RESET & PAGE SETUP
- {
-  box-sizing: border-box;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  font-family: system-ui, sans-serif;
-  background-color: #fff;
-  overflow: hidden; /* Locks scroll during intro video 
-}
-
-*/
-/* ======================================================
-   2. INTRO VIDEO STAGE
-====================================================== */
 
 #stage {
   position: fixed;
@@ -860,13 +827,106 @@ body.show-dragon {
 }
 
 .dragon-buttons {
+  display: grid;
+  /* Phones / narrow tablets: fluid columns */
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: var(--space-5);
+  max-width: var(--container-max);
+  margin: var(--space-6) auto 0;
+  padding: 0 var(--space-4);
   text-align: center;
-  margin-top: 30px;
+}
+
+.project-card {
+  background-color: var(--color-dk-offset);
+  color: #fff;
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+  box-shadow: var(--shadow-sm);
+  border: var(--border-soft);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  text-align: center;
+}
+
+.project-card-desc {
+  margin: 0;
+  color: #fff;
+  max-width: 36rem;
+  font-size: 0.95rem;
+  line-height: var(--lh-base);
+}
+
+.project-card-actions {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.project-card .button-red {
+  margin: 0;
+}
+
+/* Laptops (~15" / 1366–1920 CSS px): four cards per row, compact actions */
+@media (min-width: 900px) {
+  .dragon-buttons {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: var(--space-3);
+  }
+
+  .project-card {
+    padding: var(--space-4);
+    gap: var(--space-3);
+  }
+
+  .project-card-desc {
+    font-size: 0.875rem;
+  }
+
+  .project-card-actions {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .project-card .button-red {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-height: 34px;
+    line-height: 1.25;
+    padding: var(--space-2) var(--space-3);
+    font-size: 0.78rem;
+    white-space: normal;
+    box-sizing: border-box;
+  }
+}
+
+/* Large / wide monitors: same four-across layout, a bit more room for type and taps */
+@media (min-width: 1600px) {
+  .dragon-buttons {
+    gap: var(--space-5);
+  }
+
+  .project-card {
+    padding: var(--space-5);
+    gap: var(--space-4);
+  }
+
+  .project-card-desc {
+    font-size: 0.95rem;
+  }
+
+  .project-card .button-red {
+    min-height: 40px;
+    font-size: 0.85rem;
+    padding: var(--space-2) var(--space-4);
+  }
 }
 
 .button-red {
   background-image: linear-gradient(-180deg, #d92323, #aa1a1a);
-  /* your red gradient */
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
   color: #ffffff;
@@ -887,45 +947,4 @@ body.show-dragon {
 .button-red:hover {
   box-shadow: rgba(217, 35, 35, 0.6) 0 3px 10px;
   transform: translateY(-1px);
-}
-
-/* ======================================================
-   6. EXTRA COMPONENTS
-====================================================== */
-
-/* Navigation buttons for other actions */
-.navigation {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.navigation button {
-  margin: 10px;
-  padding: 12px 24px;
-  font-size: 1rem;
-  background-color: #222;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.navigation button:hover {
-  background-color: #444;
-}
-
-.skip-message {
-  position: absolute;
-  bottom: 40px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 1rem;
-  padding: 10px 20px;
-  background: rgba(255, 255, 255, 0.85);
-  color: #000;
-  border-radius: 6px;
-  font-weight: bold;
-  z-index: 1001;
-  text-align: center;
 }
