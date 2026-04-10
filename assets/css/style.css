@@ -869,6 +869,19 @@ body.show-dragon {
   margin: 0;
 }
 
+.project-card--soon .button-red:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  filter: grayscale(0.2);
+  box-shadow: none;
+  transform: none;
+}
+
+.project-card--soon .button-red:disabled:hover {
+  transform: none;
+  box-shadow: none;
+}
+
 /* Laptops (~15" / 1366–1920 CSS px): four cards per row, compact actions */
 @media (min-width: 900px) {
   .dragon-buttons {
@@ -944,7 +957,7 @@ body.show-dragon {
   margin: 10px;
 }
 
-.button-red:hover {
+.button-red:hover:not(:disabled) {
   box-shadow: rgba(217, 35, 35, 0.6) 0 3px 10px;
   transform: translateY(-1px);
 }
