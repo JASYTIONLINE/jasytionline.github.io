@@ -618,6 +618,23 @@ a[href^="#"]:focus-visible {
   gap: var(--space-8);
 }
 
+/* Portal welcome: room for one-line h2 until the viewport gets narrow */
+#content > .container {
+  max-width: min(100% - 2rem, 80rem);
+}
+
+#content > .container h2 {
+  text-align: center;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+@media (max-width: 1180px) {
+  #content > .container h2 {
+    white-space: normal;
+  }
+}
+
 .section {
   max-width: var(--content-max);
   margin: 0 auto;
