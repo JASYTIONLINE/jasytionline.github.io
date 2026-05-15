@@ -893,7 +893,7 @@ body.show-dragon {
   text-align: center;
 }
 
-/* Live row: MMHP → CMDP → KSW (narrow: stack; wide: three columns) */
+/* Live row: MMHP → CMDP → KSW → YouTube (narrow: wrap; wide: four columns) */
 .dragon-buttons--live {
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
 }
@@ -963,10 +963,10 @@ body.show-dragon {
     box-sizing: border-box;
   }
 
-  /* After generic four-column grid: keep Live row at three-across */
+  /* After generic four-column grid: Live row spans four-across */
   .dragon-buttons.dragon-buttons--live {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    max-width: min(100%, 72rem);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    max-width: min(100%, 96rem);
     margin-inline: auto;
   }
 }
