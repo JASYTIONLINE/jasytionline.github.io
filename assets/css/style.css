@@ -893,7 +893,7 @@ body.show-dragon {
   text-align: center;
 }
 
-/* Live row: MMHP → CMDP → KSW → YouTube (narrow: wrap; wide: four columns) */
+/* Live row: MMHP → CMDP → KSW → Network+ → YouTube (narrow: wrap; wide: five columns) */
 .dragon-buttons--live {
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
 }
@@ -963,11 +963,17 @@ body.show-dragon {
     box-sizing: border-box;
   }
 
-  /* After generic four-column grid: Live row spans four-across */
+  /* Live row: wrap on medium screens; single row of five on wide viewports */
   .dragon-buttons.dragon-buttons--live {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    max-width: min(100%, 96rem);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+    max-width: min(100%, 120rem);
     margin-inline: auto;
+  }
+}
+
+@media (min-width: 1300px) {
+  .dragon-buttons.dragon-buttons--live {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }
 
