@@ -1,0 +1,7 @@
+{
+  "name": "jasytionline.github.io",
+  "private": true,
+  "scripts": {
+    "sync:digiportai": "node scripts/sync-digiportai-page.js"
+  }
+}
